@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "hordemod:block/backpack/backpack_nyx"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "horde-backpack:leather_backpack"
+    },
+    "title": "Your First Backpack",
+    "description": "It's not the best but it's yours",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/dirt.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "horde-backpack:leather_backpack"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

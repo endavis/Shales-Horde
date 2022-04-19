@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "horde-backpack:diamond_backpack"
+    },
+    "title": "",
+    "description": "",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "horde-backpack:gold_backpack",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "horde-backpack:diamond_backpack"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

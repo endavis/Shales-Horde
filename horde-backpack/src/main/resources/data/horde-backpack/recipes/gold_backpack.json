@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#B#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "B": {
+      "item": "horde-backpack:iron_backpack"
+    }
+  },
+  "result": {
+    "item": "horde-backpack:gold_backpack",
+    "count": 1
+  }
+}

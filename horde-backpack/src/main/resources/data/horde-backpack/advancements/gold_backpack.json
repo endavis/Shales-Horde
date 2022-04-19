@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "horde-backpack:gold_backpack"
+    },
+    "title": "Shiny?!",
+    "description": "Holdin' golden",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "horde-backpack:iron_backpack",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "horde-backpack:gold_backpack"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

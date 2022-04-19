@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "horde-backpack:iron_backpack"
+    },
+    "title": "Upgraded Storage",
+    "description": "Extra pockets!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "horde-backpack:leather_backpack",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "horde-backpack:iron_backpack"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

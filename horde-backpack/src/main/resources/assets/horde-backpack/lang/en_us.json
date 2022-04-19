@@ -1,0 +1,9 @@
+{
+  "itemGroup.horde-backpack.bag": "Bold Hold",
+
+  "item.horde-backpack.leather_backpack": "Leather Backpack",
+  "item.horde-backpack.iron_backpack": "Iron Backpack",
+  "item.horde-backpack.gold_backpack": "Gold Backpack",
+  "item.horde-backpack.diamond_backpack": "Diamond Backpack",
+  "item.horde-backpack.netherite_backpack": "Netherite Backpack"
+}

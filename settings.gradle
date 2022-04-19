@@ -1,0 +1,14 @@
+pluginManagement {
+    repositories {
+        maven {
+            name = 'Fabric'
+            url = 'https://maven.fabricmc.net/'
+        }
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = "shales_horde"
+
+include 'horde-backpack'
+//include 'horde-main'
