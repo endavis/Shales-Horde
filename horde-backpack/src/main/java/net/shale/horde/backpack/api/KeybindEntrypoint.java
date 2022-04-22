@@ -19,6 +19,7 @@ import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Pair;
 import net.shale.horde.backpack.Backpack;
+import net.shale.horde.backpack.item.BackpackItem;
 import org.lwjgl.glfw.GLFW;
 
 import java.util.List;
@@ -53,9 +54,9 @@ public class KeybindEntrypoint {
         if (component.isPresent()) {
             List<Pair<SlotReference, ItemStack>> allEquipped = component.get().getAllEquipped();
             for (Pair<SlotReference, ItemStack> entry : allEquipped) {
-                if (entry.getRight().getItem() instanceof net.shale.horde.backpack.item.Backpack) {
+                if (entry.getRight().getItem() instanceof BackpackItem) {
                     ItemStack BagItem = entry.getRight();
-                    ((net.shale.horde.backpack.item.Backpack) BagItem.getItem()).OpenCustomBackpack(player, BagItem);
+                    ((BackpackItem) BagItem.getItem()).OpenCustomBackpack(player, BagItem);
                     return;
                 }
             }

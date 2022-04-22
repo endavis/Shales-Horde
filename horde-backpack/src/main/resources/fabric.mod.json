@@ -17,6 +17,9 @@
       "net.shale.horde.backpack.Backpack"
     ]
   },
+  "mixins": [
+    "horde-backpack.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",

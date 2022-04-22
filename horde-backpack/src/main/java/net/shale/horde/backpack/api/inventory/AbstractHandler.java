@@ -16,7 +16,7 @@ import net.minecraft.screen.slot.Slot;
 import net.minecraft.screen.slot.SlotActionType;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.math.MathHelper;
-import net.shale.horde.backpack.item.Backpack;
+import net.shale.horde.backpack.item.BackpackItem;
 import ninjaphenix.container_library.CommonMain;
 import ninjaphenix.container_library.Utils;
 
@@ -129,7 +129,7 @@ public class AbstractHandler extends ScreenHandler {
         if (slotId >= 0) { // slotId < 0 are used for networking internals
             ItemStack stack = getSlot(slotId).getStack();
 
-            if (stack.getItem() instanceof Backpack) {
+            if (stack.getItem() instanceof BackpackItem) {
                 // Prevent moving bags around
                 return;
             }

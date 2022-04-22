@@ -12,10 +12,10 @@ import net.shale.horde.backpack.api.OpenableBlockEntityProviderCustom;
 import net.shale.horde.backpack.entity.BackpackEntity;
 
 //public class Backpack extends Item implements OpenableBlockEntityProviderCustom {
-public class Backpack extends TrinketItem implements OpenableBlockEntityProviderCustom {
+public class BackpackItem extends TrinketItem implements OpenableBlockEntityProviderCustom {
     private final int inventorySize;
 
-    public Backpack(Settings settings, int inventorySize) {
+    public BackpackItem(Settings settings, int inventorySize) {
         super(settings);
         this.inventorySize = inventorySize;
     }
