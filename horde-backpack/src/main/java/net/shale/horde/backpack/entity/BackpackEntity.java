@@ -13,6 +13,7 @@ import net.shale.horde.backpack.api.ImplementedInventory;
 import ninjaphenix.container_library.api.v2.OpenableBlockEntityV2;
 
 public class BackpackEntity extends EntityBase implements OpenableBlockEntityV2, ImplementedInventory {
+    public static final String NBT_TAG = "Items";
     private final ItemStack stack;
     private final int inventorySize;
     private DefaultedList<ItemStack> inventory;
@@ -22,7 +23,7 @@ public class BackpackEntity extends EntityBase implements OpenableBlockEntityV2,
         this.stack = stack;
         this.inventorySize = inventorySize;
         this.inventory = DefaultedList.ofSize(inventorySize, ItemStack.EMPTY);
-        NbtCompound tag = stack.getSubNbt("Items");
+        NbtCompound tag = stack.getSubNbt(NBT_TAG);
         if (tag != null) {
             Inventories.readNbt(tag, inventory);
         }
