@@ -3,13 +3,13 @@ package net.shale.horde.resourcecrops.blocks.vanilla;
 import net.minecraft.block.CropBlock;
 import net.minecraft.item.ItemConvertible;
 
-public class T0_fire_crop extends CropBlock {
-    public T0_fire_crop(Settings settings) {
+public class T4_obsidian_crop extends CropBlock {
+    public T4_obsidian_crop(Settings settings) {
         super(settings);
     }
 
     @Override
     protected ItemConvertible getSeedsItem() {
-        return T0__crops.CROP_FIRE;
+        return T4__crops.CROP_OBSIDIAN;
     }
 }
