@@ -30,7 +30,7 @@ public class Backpack implements ModInitializer {
         Registry.register(Registry.ITEM, id("iron_backpack"), new BackpackItem(ItemSettings, 54));
         Registry.register(Registry.ITEM, id("gold_backpack"), new BackpackItem(ItemSettings, 81));
         Registry.register(Registry.ITEM, id("diamond_backpack"), new BackpackItem(ItemSettings, 108));
-        Registry.register(Registry.ITEM, id("netherite_backpack"), new BackpackItem(ItemSettings, 162));
+        Registry.register(Registry.ITEM, id("netherite_backpack"), new BackpackItem(ItemSettings, 135));
 
         KeybindEntrypoint.onInitialize();
     }
