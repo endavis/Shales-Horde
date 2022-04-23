@@ -12,8 +12,6 @@ public class ores {
             .group(ItemGroup.MATERIALS)));
     public static final Item RAW_DRAGONSTONE_OVERWORLD = registerItem("raw_dragonstone_overworld", new Item(new FabricItemSettings()
             .group(ItemGroup.MATERIALS)));
-    public static final Item RAW_DRAGONSTONE_DEEPSLATE = registerItem("raw_dragonstone_deepslate", new Item(new FabricItemSettings()
-            .group(ItemGroup.MATERIALS)));
     public static final Item DRAGONSTONE_NETHER = registerItem("dragonstone_nether", new Item(new FabricItemSettings()
             .group(ItemGroup.MATERIALS)));
     public static final Item RAW_DRAGONSTONE_NETHER = registerItem("raw_dragonstone_nether", new Item(new FabricItemSettings()
