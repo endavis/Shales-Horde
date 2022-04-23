@@ -1,4 +1,4 @@
-package net.shale.horde.resourcecrops.blocks.vanilla;
+package net.shale.horde.resourcecrops.items.vanilla;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
@@ -8,6 +8,9 @@ import net.minecraft.util.registry.Registry;
 import net.shale.horde.resourcecrops.Main;
 
 public class T0__essence {
+    public static final Item ESSENCE_RHODONITE = registerItem("vanilla/essence_rhodonite", new Item(new FabricItemSettings()
+            .group(ItemGroup.MISC
+            )));
     public static final Item ESSENCE_AIR = registerItem("vanilla/essence_air", new Item(new FabricItemSettings()
             .group(ItemGroup.FOOD
             )));

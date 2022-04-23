@@ -11,33 +11,27 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.resourcecrops.Main;
 
-public class T0__crops {
-    public static final Block CROP_RHODONITE = registerBlockWithoutBlockItem("vanilla/crop_rhodonite",
-            new T0_rhodonite_crop(FabricBlockSettings
+public class T6__crops {
+    public static final Block CROP_DRAGON_EGG = registerBlockWithoutBlockItem("vanilla/crop_dragon_egg",
+            new T6_dragon_egg_crop(FabricBlockSettings
                     .copy(Blocks.WHEAT)
                     .nonOpaque()
                     .noCollision()
             ));
-    public static final Block CROP_AIR = registerBlockWithoutBlockItem("vanilla/crop_air",
-            new T0_air_crop(FabricBlockSettings
+    public static final Block CROP_NETHER_STAR = registerBlockWithoutBlockItem("vanilla/crop_nether_star",
+            new T6_nether_star_crop(FabricBlockSettings
                     .copy(Blocks.WHEAT)
                     .nonOpaque()
                     .noCollision()
             ));
-    public static final Block CROP_EARTH = registerBlockWithoutBlockItem("vanilla/crop_earth",
-            new T0_earth_crop(FabricBlockSettings
+    public static final Block CROP_NETHERITE = registerBlockWithoutBlockItem("vanilla/crop_netherite",
+            new T6_netherite_crop(FabricBlockSettings
                     .copy(Blocks.WHEAT)
                     .nonOpaque()
                     .noCollision()
             ));
-    public static final Block CROP_FIRE = registerBlockWithoutBlockItem("vanilla/crop_fire",
-            new T0_fire_crop(FabricBlockSettings
-                    .copy(Blocks.WHEAT)
-                    .nonOpaque()
-                    .noCollision()
-            ));
-    public static final Block CROP_WATER = registerBlockWithoutBlockItem("vanilla/crop_water",
-            new T0_water_crop(FabricBlockSettings
+    public static final Block CROP_SHULKER = registerBlockWithoutBlockItem("vanilla/crop_shulker",
+            new T6_shulker_crop(FabricBlockSettings
                     .copy(Blocks.WHEAT)
                     .nonOpaque()
                     .noCollision()

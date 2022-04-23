@@ -1,4 +1,4 @@
-package net.shale.horde.resourcecrops.blocks.vanilla;
+package net.shale.horde.resourcecrops.items.vanilla;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;

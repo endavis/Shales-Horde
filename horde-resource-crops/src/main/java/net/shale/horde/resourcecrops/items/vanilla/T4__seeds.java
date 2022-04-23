@@ -1,4 +1,4 @@
-package net.shale.horde.resourcecrops.blocks.vanilla;
+package net.shale.horde.resourcecrops.items.vanilla;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
@@ -14,7 +14,7 @@ public class T4__seeds {
     public static final Item SEED_EMERALD = registerItem("vanilla/seed_emerald", new Item(new FabricItemSettings()
             .group(ItemGroup.FOOD
             )));
-    public static final Item SEED_ENDERMAN = registerItem("vanilla/seed_emerald", new Item(new FabricItemSettings()
+    public static final Item SEED_ENDERMAN = registerItem("vanilla/seed_enderman", new Item(new FabricItemSettings()
             .group(ItemGroup.FOOD
             )));
     public static final Item SEED_EXPERIENCE = registerItem("vanilla/seed_experience", new Item(new FabricItemSettings()

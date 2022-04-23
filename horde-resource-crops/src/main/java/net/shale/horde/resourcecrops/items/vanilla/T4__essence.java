@@ -1,4 +1,4 @@
-package net.shale.horde.resourcecrops.blocks.vanilla;
+package net.shale.horde.resourcecrops.items.vanilla;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
@@ -14,7 +14,7 @@ public class T4__essence {
     public static final Item ESSENCE_EMERALD = registerItem("vanilla/essence_emerald", new Item(new FabricItemSettings()
             .group(ItemGroup.FOOD
             )));
-    public static final Item ESSENCE_ENDERMAN = registerItem("vanilla/essence_emerald", new Item(new FabricItemSettings()
+    public static final Item ESSENCE_ENDERMAN = registerItem("vanilla/essence_enderman", new Item(new FabricItemSettings()
             .group(ItemGroup.FOOD
             )));
     public static final Item ESSENCE_EXPERIENCE = registerItem("vanilla/essence_experience", new Item(new FabricItemSettings()
@@ -35,7 +35,7 @@ public class T4__essence {
     public static final Item ESSENCE_REDSTONE = registerItem("vanilla/essence_redstone", new Item(new FabricItemSettings()
             .group(ItemGroup.FOOD
             )));
-    
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), item);
     }

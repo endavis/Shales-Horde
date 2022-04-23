@@ -1,4 +1,4 @@
-package net.shale.horde.resourcecrops.blocks.vanilla;
+package net.shale.horde.resourcecrops.items.vanilla;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
@@ -7,17 +7,17 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.resourcecrops.Main;
 
-public class T0__seeds {
-    public static final Item SEED_AIR = registerItem("vanilla/seed_air", new Item(new FabricItemSettings()
+public class T6__essence {
+    public static final Item ESSENCE_DRAGON_EGG = registerItem("vanilla/essence_dragon_egg", new Item(new FabricItemSettings()
             .group(ItemGroup.FOOD
             )));
-    public static final Item SEED_EARTH = registerItem("vanilla/seed_earth", new Item(new FabricItemSettings()
+    public static final Item ESSENCE_NETHER_STAR = registerItem("vanilla/essence_nether_star", new Item(new FabricItemSettings()
             .group(ItemGroup.FOOD
             )));
-    public static final Item SEED_FIRE = registerItem("vanilla/seed_fire", new Item(new FabricItemSettings()
+    public static final Item ESSENCE_NETHERITE = registerItem("vanilla/essence_netherite", new Item(new FabricItemSettings()
             .group(ItemGroup.FOOD
             )));
-    public static final Item SEED_WATER = registerItem("vanilla/seed_water", new Item(new FabricItemSettings()
+    public static final Item ESSENCE_SHULKER = registerItem("vanilla/essence_shulker", new Item(new FabricItemSettings()
             .group(ItemGroup.FOOD
             )));
 

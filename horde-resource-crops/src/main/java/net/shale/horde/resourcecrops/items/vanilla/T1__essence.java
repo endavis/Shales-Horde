@@ -1,4 +1,4 @@
-package net.shale.horde.resourcecrops.blocks.vanilla;
+package net.shale.horde.resourcecrops.items.vanilla;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
@@ -7,17 +7,17 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.resourcecrops.Main;
 
-public class T1__seeds {
-    public static final Item SEED_DIRT = registerItem("vanilla/seed_dirt", new Item(new FabricItemSettings()
+public class T1__essence {
+    public static final Item ESSENCE_DIRT = registerItem("vanilla/essence_dirt", new Item(new FabricItemSettings()
             .group(ItemGroup.FOOD
             )));
-    public static final Item SEED_ICE = registerItem("vanilla/seed_ice", new Item(new FabricItemSettings()
+    public static final Item ESSENCE_ICE = registerItem("vanilla/essence_ice", new Item(new FabricItemSettings()
             .group(ItemGroup.FOOD
             )));
-    public static final Item SEED_STONE = registerItem("vanilla/seed_stone", new Item(new FabricItemSettings()
+    public static final Item ESSENCE_STONE = registerItem("vanilla/essence_stone", new Item(new FabricItemSettings()
             .group(ItemGroup.FOOD
             )));
-    public static final Item SEED_WOOD = registerItem("vanilla/seed_wood", new Item(new FabricItemSettings()
+    public static final Item ESSENCE_WOOD = registerItem("vanilla/essence_wood", new Item(new FabricItemSettings()
             .group(ItemGroup.FOOD
             )));
 
