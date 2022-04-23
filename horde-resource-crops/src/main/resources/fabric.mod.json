@@ -11,10 +11,10 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "net.shale.horde.resourcecrops.Client"
+      "net.shale.horde.resource.crops.Client"
     ],
     "main": [
-      "net.shale.horde.resourcecrops.Main"
+      "net.shale.horde.resource.crops.Main"
     ]
   },
   "depends": {

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "hordemod:item/vanilla/essence/essence_redstone"
+  }
+}
