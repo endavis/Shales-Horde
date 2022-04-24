@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "hordemod:item/vanilla/essence/essence_squid"
+    "layer0": "horde-resource-crops:item/vanilla/essence_squid"
   }
 }
