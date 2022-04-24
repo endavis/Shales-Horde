@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "hordemod:item/vanilla/seeds/seed_coral"
+    "layer0": "horde-resource-crops:item/vanilla/seed_coral"
   }
 }
