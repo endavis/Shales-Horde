@@ -8,9 +8,9 @@ import net.minecraft.util.registry.Registry;
 import net.shale.horde.resource.crops.Main;
 
 public class T0__essence {
-    public static final Item ESSENCE_RHODONITE = registerItem("vanilla/essence_rhodonite", new Item(new FabricItemSettings()
-            .group(ItemGroup.MISC
-            )));
+    //    public static final Item ESSENCE_RHODONITE = registerItem("vanilla/essence_rhodonite", new Item(new FabricItemSettings()
+//            .group(ItemGroup.MISC
+//            )));
     public static final Item ESSENCE_AIR = registerItem("vanilla/essence_air", new Item(new FabricItemSettings()
             .group(ItemGroup.FOOD
             )));

@@ -8,21 +8,21 @@ import net.minecraft.util.registry.Registry;
 import net.shale.horde.resource.crops.Main;
 
 public class gemstones {
-    public static final Item CATALYST = registerItem("other/catalyst", new Item(new FabricItemSettings()
+    public static final Item CATALYST = registerItem("gemstones/catalyst", new Item(new FabricItemSettings()
             .group(ItemGroup.MISC)));
-    public static final Item TIER0 = registerItem("other/bloodstone", new Item(new FabricItemSettings()
+    public static final Item TIER0 = registerItem("gemstones/bloodstone", new Item(new FabricItemSettings()
             .group(ItemGroup.MISC)));
-    public static final Item TIER1 = registerItem("other/rhodonite", new Item(new FabricItemSettings()
+    public static final Item TIER1 = registerItem("gemstones/rhodonite", new Item(new FabricItemSettings()
             .group(ItemGroup.MISC)));
-    public static final Item TIER2 = registerItem("other/aventurine", new Item(new FabricItemSettings()
+    public static final Item TIER2 = registerItem("gemstones/aventurine", new Item(new FabricItemSettings()
             .group(ItemGroup.MISC)));
-    public static final Item TIER3 = registerItem("other/aragonite", new Item(new FabricItemSettings()
+    public static final Item TIER3 = registerItem("gemstones/aragonite", new Item(new FabricItemSettings()
             .group(ItemGroup.MISC)));
-    public static final Item TIER4 = registerItem("other/spinel", new Item(new FabricItemSettings()
+    public static final Item TIER4 = registerItem("gemstones/spinel", new Item(new FabricItemSettings()
             .group(ItemGroup.MISC)));
-    public static final Item TIER5 = registerItem("other/larimar", new Item(new FabricItemSettings()
+    public static final Item TIER5 = registerItem("gemstones/larimar", new Item(new FabricItemSettings()
             .group(ItemGroup.MISC)));
-    public static final Item TIER6 = registerItem("other/chaorite", new Item(new FabricItemSettings()
+    public static final Item TIER6 = registerItem("gemstones/chaorite", new Item(new FabricItemSettings()
             .group(ItemGroup.MISC)));
 
     private static Item registerItem(String name, Item item) {
