@@ -2,8 +2,9 @@ package net.shale.horde.resource.crops;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
+import net.shale.horde.resource.crops.block.ores.blocks_ores;
 import net.shale.horde.resource.crops.block.vanilla.*;
-import net.shale.horde.resource.crops.item.ores;
+import net.shale.horde.resource.crops.item.items_ores;
 import net.shale.horde.resource.crops.item.other.gemstones;
 import net.shale.horde.resource.crops.item.other.shards;
 import net.shale.horde.resource.crops.item.vanilla.*;
@@ -20,7 +21,8 @@ public class Main implements ModInitializer {
         mixes.registerModItems();
         gemstones.registerModItems();
         shards.registerModItems();
-        ores.registerModItems();
+        items_ores.registerModItems();
+        blocks_ores.registerBlock();
         T0__essence.registerModItems();
         T0__seeds.registerModItems();
         T0__crops.registerModBlocks();
