@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "horde-resource-crops:block/ores/dragonstone_deepslate"
+    "all": "horde-resource-crops:block/ores/dragonstone_deepslate_ore"
   }
 }

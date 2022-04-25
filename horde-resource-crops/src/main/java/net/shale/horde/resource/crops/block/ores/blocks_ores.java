@@ -12,7 +12,7 @@ import net.minecraft.util.registry.Registry;
 import net.shale.horde.resource.crops.Main;
 
 public class blocks_ores {
-    public static final Block DRAGONSTONE_OVERWORLD_ORE = registerBlock("ores/dragonstone_ore",
+    public static final Block DRAGONSTONE_OVERWORLD_ORE = registerBlock("ores/dragonstone_overworld_ore",
             new Block(FabricBlockSettings.of(Material.STONE)
                     .strength(4.0f)
                     .requiresTool()
