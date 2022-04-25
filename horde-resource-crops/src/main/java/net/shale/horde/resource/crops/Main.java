@@ -2,8 +2,8 @@ package net.shale.horde.resource.crops;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
+import net.shale.horde.resource.crops.block.crops.vanilla.*;
 import net.shale.horde.resource.crops.block.ores.blocks_ores;
-import net.shale.horde.resource.crops.block.vanilla.*;
 import net.shale.horde.resource.crops.item.items_ores;
 import net.shale.horde.resource.crops.item.other.gemstones;
 import net.shale.horde.resource.crops.item.other.shards;

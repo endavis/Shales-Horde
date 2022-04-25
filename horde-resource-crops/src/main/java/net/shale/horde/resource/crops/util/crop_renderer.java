@@ -2,7 +2,7 @@ package net.shale.horde.resource.crops.util;
 
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;
-import net.shale.horde.resource.crops.block.vanilla.*;
+import net.shale.horde.resource.crops.block.crops.vanilla.*;
 
 public class crop_renderer {
     public static void setRenderLayers() {

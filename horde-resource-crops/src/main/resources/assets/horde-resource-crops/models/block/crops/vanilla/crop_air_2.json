@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "horde-resource-crops:block/crops/vanilla/crop_air_2"
+  }
+}

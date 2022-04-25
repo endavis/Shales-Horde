@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "horde-resource-crops:block/crops/crop_3"
+  }
+}
