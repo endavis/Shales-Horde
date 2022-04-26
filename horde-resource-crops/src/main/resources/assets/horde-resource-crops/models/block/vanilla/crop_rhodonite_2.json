@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cross",
   "textures": {
-    "cross": "horde-resource-crops:block/crop_0"
+    "cross": "horde-resource-crops:block/crop_rhodonite_2"
   }
 }

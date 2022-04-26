@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "horde-resource-crops:block/crops/vanilla/crop_wither_skeleton_2"
-  }
-}
