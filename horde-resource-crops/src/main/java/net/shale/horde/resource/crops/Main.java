@@ -33,5 +33,9 @@ public class Main implements ModInitializer {
         T3__seeds.registerModItems();
         T4__crops.registerBlock();
         T4__seeds.registerModItems();
+        T5__crops.registerBlock();
+        T5__seeds.registerModItems();
+        T6__crops.registerBlock();
+        T6__seeds.registerModItems();
     }
 }

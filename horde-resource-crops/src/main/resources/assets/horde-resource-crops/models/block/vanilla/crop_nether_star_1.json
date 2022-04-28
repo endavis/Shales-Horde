@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "horde-resource-crops:block/vanilla/crop_nether_star_1"
+  }
+}

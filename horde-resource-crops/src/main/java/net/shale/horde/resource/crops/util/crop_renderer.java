@@ -45,5 +45,18 @@ public class crop_renderer {
         BlockRenderLayerMap.INSTANCE.putBlock(T4__crops.CROP_OBSIDIAN, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(T4__crops.CROP_PRISMARINE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(T4__crops.CROP_REDSTONE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(T5__crops.CROP_BlAZE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(T5__crops.CROP_DIAMOND, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(T5__crops.CROP_END, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(T5__crops.CROP_GHAST, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(T5__crops.CROP_GLOWSTONE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(T5__crops.CROP_NETHER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(T5__crops.CROP_NETHER_QUARTZ, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(T5__crops.CROP_WITHER_SKELETON, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(T6__crops.CROP_DRAGON_EGG, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(T6__crops.CROP_NETHER_STAR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(T6__crops.CROP_NETHERITE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(T6__crops.CROP_SHULKER, RenderLayer.getCutout());
+
     }
 }
