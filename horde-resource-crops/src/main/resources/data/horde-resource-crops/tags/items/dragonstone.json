@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "horde-resource-crops:ores/dragonstone_overworld_ore",
+    "horde-resource-crops:ores/dragonstone_deepslate_ore",
+    "horde-resource-crops:ores/dragonstone_nether_ore",
+    "horde-resource-crops:ores/dragonstone_end_ore",
+    "horde-resource-crops:ores/raw_dragonstone_overworld",
+    "horde-resource-crops:ores/raw_dragonstone_nether",
+    "horde-resource-crops:ores/raw_dragonstone_end",
+    "horde-resource-crops:ores/dragonstone_overworld",
+    "horde-resource-crops:ores/dragonstone_nether",
+    "horde-resource-crops:ores/dragonstone_end"
+  ]
+}
