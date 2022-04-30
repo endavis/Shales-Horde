@@ -34,6 +34,28 @@ public class blocks_ores {
                     .requiresTool()
             ));
 
+    public static final Block RHODONITE_OVERWORLD_ORE = registerBlock("ores/rhodonite_overworld_ore",
+            new Block(FabricBlockSettings.of(Material.STONE)
+                    .strength(4.0f)
+                    .requiresTool()
+            ));
+
+    public static final Block RHODONITE_DEEPSLATE_ORE = registerBlock("ores/rhodonite_deepslate_ore",
+            new Block(FabricBlockSettings.of(Material.STONE)
+                    .strength(4.0f)
+                    .requiresTool()
+            ));
+    public static final Block RHODONITE_NETHER_ORE = registerBlock("ores/rhodonite_nether_ore",
+            new Block(FabricBlockSettings.of(Material.STONE)
+                    .strength(4.0f)
+                    .requiresTool()
+            ));
+    public static final Block RHODONITE_END_ORE = registerBlock("ores/rhodonite_end_ore",
+            new Block(FabricBlockSettings.of(Material.STONE)
+                    .strength(4.0f)
+                    .requiresTool()
+            ));
+
     private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registry.BLOCK, new Identifier(Main.ID, name), block);
     }
