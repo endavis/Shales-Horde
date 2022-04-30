@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "horde-resource-crops:vanilla/seed_dirt",
+    "horde-resource-crops:vanilla/seed_ice",
+    "horde-resource-crops:vanilla/seed_stone",
+    "horde-resource-crops:vanilla/seed_wood"
+  ]
+}

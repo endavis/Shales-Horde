@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "horde-resource-crops:vanilla/seed_air",
+    "horde-resource-crops:vanilla/seed_earth",
+    "horde-resource-crops:vanilla/seed_fire",
+    "horde-resource-crops:vanilla/seed_water"
+  ]
+}

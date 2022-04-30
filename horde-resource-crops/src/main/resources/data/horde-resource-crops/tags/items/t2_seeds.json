@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "horde-resource-crops:vanilla/seed_amethyst",
+    "horde-resource-crops:vanilla/seed_chicken",
+    "horde-resource-crops:vanilla/seed_coal",
+    "horde-resource-crops:vanilla/seed_copper",
+    "horde-resource-crops:vanilla/seed_cow",
+    "horde-resource-crops:vanilla/seed_fish",
+    "horde-resource-crops:vanilla/seed_iron",
+    "horde-resource-crops:vanilla/seed_pig"
+  ]
+}

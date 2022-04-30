@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "horde-resource-crops:vanilla/seed_dragon_egg",
+    "horde-resource-crops:vanilla/seed_nether_star",
+    "horde-resource-crops:vanilla/seed_netherite",
+    "horde-resource-crops:vanilla/seed_shulker"
+  ]
+}

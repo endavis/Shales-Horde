@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TIT",
+    "ICI",
+    "TIT"
+  ],
+  "key": {
+    "C": {
+      "item": "horde-resource-crops:vanilla/seed_rhodonite"
+    },
+    "T": {
+      "item": "horde-resource-crops:gemstones/aventurine"
+    },
+    "I": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:vanilla/seed_copper",
+    "count": 1
+  }
+}
