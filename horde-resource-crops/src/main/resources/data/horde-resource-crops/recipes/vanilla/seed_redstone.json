@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TIT",
+    "ICI",
+    "TIT"
+  ],
+  "key": {
+    "C": {
+      "item": "horde-resource-crops:vanilla/seed_rhodonite"
+    },
+    "T": {
+      "item": "horde-resource-crops:gemstones/spinel"
+    },
+    "I": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:vanilla/seed_redstone",
+    "count": 1
+  }
+}

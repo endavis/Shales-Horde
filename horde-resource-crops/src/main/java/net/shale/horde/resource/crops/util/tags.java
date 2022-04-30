@@ -50,6 +50,8 @@ public class tags {
                 createCommonTag("coral");
         public static final TagKey<Item> HONEY =
                 createCommonTag("honey");
+        public static final TagKey<Item> PRISMARINE =
+                createCommonTag("prismarine");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(Registry.ITEM_KEY, new Identifier(Main.ID, name));

@@ -12,13 +12,11 @@ public class mixes {
             .group(ItemGroup.BREWING)));
     public static final Item MIX_COW = registerItem("vanilla/mix_cow", new Item(new FabricItemSettings()
             .group(ItemGroup.BREWING)));
-    public static final Item MIX_DYE = registerItem("vanilla/mix_dye", new Item(new FabricItemSettings()
+    public static final Item MIX_ENDERMAN = registerItem("vanilla/mix_enderman", new Item(new FabricItemSettings()
             .group(ItemGroup.BREWING)));
     public static final Item MIX_FISH = registerItem("vanilla/mix_fish", new Item(new FabricItemSettings()
             .group(ItemGroup.BREWING)));
     public static final Item MIX_PIG = registerItem("vanilla/mix_pig", new Item(new FabricItemSettings()
-            .group(ItemGroup.BREWING)));
-    public static final Item MIX_CORAL = registerItem("vanilla/mix_coral", new Item(new FabricItemSettings()
             .group(ItemGroup.BREWING)));
     public static final Item MIX_CREEPER = registerItem("vanilla/mix_creeper", new Item(new FabricItemSettings()
             .group(ItemGroup.BREWING)));
@@ -35,6 +33,16 @@ public class mixes {
     public static final Item MIX_TURTLE = registerItem("vanilla/mix_turtle", new Item(new FabricItemSettings()
             .group(ItemGroup.BREWING)));
     public static final Item MIX_ZOMBIE = registerItem("vanilla/mix_zombie", new Item(new FabricItemSettings()
+            .group(ItemGroup.BREWING)));
+    public static final Item MIX_NATURE = registerItem("vanilla/mix_nature", new Item(new FabricItemSettings()
+            .group(ItemGroup.BREWING)));
+    public static final Item MIX_BLAZE = registerItem("vanilla/mix_blaze", new Item(new FabricItemSettings()
+            .group(ItemGroup.BREWING)));
+    public static final Item MIX_GHAST = registerItem("vanilla/mix_ghast", new Item(new FabricItemSettings()
+            .group(ItemGroup.BREWING)));
+    public static final Item MIX_WITHER_SKELETON = registerItem("vanilla/mix_wither_skeleton", new Item(new FabricItemSettings()
+            .group(ItemGroup.BREWING)));
+    public static final Item MIX_SHULKER = registerItem("vanilla/mix_shulker", new Item(new FabricItemSettings()
             .group(ItemGroup.BREWING)));
 
     private static Item registerItem(String name, Item item) {
