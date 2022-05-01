@@ -52,6 +52,8 @@ public class tags {
                 createCommonTag("honey");
         public static final TagKey<Item> PRISMARINE =
                 createCommonTag("prismarine");
+        public static final TagKey<Item> SEEDS =
+                createCommonTag("seeds");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(Registry.ITEM_KEY, new Identifier(Main.ID, name));

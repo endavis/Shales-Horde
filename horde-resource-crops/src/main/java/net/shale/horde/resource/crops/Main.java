@@ -25,17 +25,24 @@ public class Main implements ModInitializer {
         blocks_ores.registerBlock();
         T0__crops.registerBlock();
         T0__seeds.registerModItems();
+        T0__essence.registerModItems();
         T1__crops.registerBlock();
         T1__seeds.registerModItems();
+        T1__essence.registerModItems();
         T2__crops.registerBlock();
         T2__seeds.registerModItems();
+        T2__essence.registerModItems();
         T3__crops.registerBlock();
         T3__seeds.registerModItems();
+        T3__essence.registerModItems();
         T4__crops.registerBlock();
         T4__seeds.registerModItems();
+        T4__essence.registerModItems();
         T5__crops.registerBlock();
         T5__seeds.registerModItems();
+        T5__essence.registerModItems();
         T6__crops.registerBlock();
         T6__seeds.registerModItems();
+        T6__essence.registerModItems();
     }
 }
