@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "horde-resource-crops:ores/dragonstone_overworld_ore",
+              "name": "horde-resource-crops:ores/dragonstone_deepslate_ore",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",

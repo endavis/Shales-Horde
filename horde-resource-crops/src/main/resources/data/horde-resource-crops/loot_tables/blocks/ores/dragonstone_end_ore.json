@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "horde-resource-crops:ores/dragonstone_overworld_ore",
+              "name": "horde-resource-crops:ores/dragonstone_end_ore",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -29,7 +29,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "horde-resource-crops:ores/raw_dragonstone_overworld",
+              "name": "horde-resource-crops:ores/raw_dragonstone_end",
               "functions": [
                 {
                   "function": "minecraft:apply_bonus",
