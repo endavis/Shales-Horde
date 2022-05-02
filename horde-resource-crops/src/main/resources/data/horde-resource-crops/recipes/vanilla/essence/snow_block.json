@@ -1,0 +1,17 @@
+{
+  "type": "horde-resource-crops:fixed",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:vanilla/essence_ice"
+    }
+  },
+  "result": {
+    "item": "minecraft:snow_block",
+    "count": 24
+  }
+}

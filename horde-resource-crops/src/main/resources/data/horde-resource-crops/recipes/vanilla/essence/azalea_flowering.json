@@ -1,0 +1,20 @@
+{
+  "type": "horde-resource-crops:fixed",
+  "pattern": [
+    "NNN",
+    " # ",
+    "   "
+  ],
+  "key": {
+    "N": {
+      "item": "horde-resource-crops:vanilla/essence_nature"
+    },
+    "#": {
+      "item": "horde-resource-crops:vanilla/essence_wood"
+    }
+  },
+  "result": {
+    "item": "minecraft:flowering_azalea",
+    "count": 4
+  }
+}

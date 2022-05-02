@@ -17,6 +17,9 @@
       "net.shale.horde.resource.crops.Main"
     ]
   },
+  "mixins": [
+    "horde-resource-crops.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",

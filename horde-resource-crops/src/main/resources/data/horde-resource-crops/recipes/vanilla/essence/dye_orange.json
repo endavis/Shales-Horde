@@ -1,0 +1,17 @@
+{
+  "type": "horde-resource-crops:fixed",
+  "pattern": [
+    "   ",
+    "###",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:vanilla/essence_dye"
+    }
+  },
+  "result": {
+    "item": "minecraft:orange_dye",
+    "count": 6
+  }
+}

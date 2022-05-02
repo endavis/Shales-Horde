@@ -1,0 +1,17 @@
+{
+  "type": "horde-resource-crops:fixed",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:vanilla/essence_prismarine"
+    }
+  },
+  "result": {
+    "item": "minecraft:prismarine_shard",
+    "count": 8
+  }
+}

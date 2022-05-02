@@ -1,0 +1,17 @@
+{
+  "type": "horde-resource-crops:fixed",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:vanilla/essence_copper"
+    }
+  },
+  "result": {
+    "item": "minecraft:copper_ingot",
+    "count": 6
+  }
+}

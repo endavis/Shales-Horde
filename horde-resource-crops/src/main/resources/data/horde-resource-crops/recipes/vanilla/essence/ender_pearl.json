@@ -1,0 +1,17 @@
+{
+  "type": "horde-resource-crops:fixed",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:vanilla/essence_enderman"
+    }
+  },
+  "result": {
+    "item": "minecraft:ender_pearl",
+    "count": 4
+  }
+}

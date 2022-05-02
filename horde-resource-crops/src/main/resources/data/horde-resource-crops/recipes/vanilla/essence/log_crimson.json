@@ -1,0 +1,20 @@
+{
+  "type": "horde-resource-crops:fixed",
+  "pattern": [
+    "#  ",
+    "N  ",
+    "#  "
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:vanilla/essence_wood"
+    },
+    "N": {
+      "item": "horde-resource-crops:vanilla/essence_nether"
+    }
+  },
+  "result": {
+    "item": "minecraft:crimson_stem",
+    "count": 16
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "horde-resource-crops:fixed",
+  "pattern": [
+    "   ",
+    "###",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:vanilla/essence_wood"
+    }
+  },
+  "result": {
+    "item": "minecraft:spruce_log",
+    "count": 16
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "horde-resource-crops:fixed",
+  "pattern": [
+    "#C",
+    "C#"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:vanilla/essence_water"
+    },
+    "C": {
+      "item": "horde-resource-crops:vanilla/essence_dirt"
+    }
+  },
+  "result": {
+    "item": "minecraft:clay_ball",
+    "count": 24
+  }
+}

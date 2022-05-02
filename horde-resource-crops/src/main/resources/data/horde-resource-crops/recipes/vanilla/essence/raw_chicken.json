@@ -1,0 +1,17 @@
+{
+  "type": "horde-resource-crops:fixed",
+  "pattern": [
+    "###",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:vanilla/essence_chicken"
+    }
+  },
+  "result": {
+    "item": "minecraft:chicken",
+    "count": 6
+  }
+}

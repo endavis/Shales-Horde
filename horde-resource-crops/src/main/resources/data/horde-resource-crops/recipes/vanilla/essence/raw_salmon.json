@@ -1,0 +1,17 @@
+{
+  "type": "horde-resource-crops:fixed",
+  "pattern": [
+    "   ",
+    "###",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:vanilla/essence_fish"
+    }
+  },
+  "result": {
+    "item": "minecraft:salmon",
+    "count": 6
+  }
+}

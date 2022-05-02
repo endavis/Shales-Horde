@@ -8,6 +8,8 @@ import net.minecraft.util.registry.Registry;
 import net.shale.horde.resource.crops.Main;
 
 public class T1__essence {
+    public static final Item ESSENCE_DEEPSLATE = registerItem("vanilla/essence_deepslate", new Item(new FabricItemSettings()
+            .group(ItemGroup.MISC)));
     public static final Item ESSENCE_DIRT = registerItem("vanilla/essence_dirt", new Item(new FabricItemSettings()
             .group(ItemGroup.MISC)));
     public static final Item ESSENCE_ICE = registerItem("vanilla/essence_ice", new Item(new FabricItemSettings()

@@ -15,7 +15,6 @@ public class blocks_ores {
     public static final Block DRAGONSTONE_OVERWORLD_ORE = registerBlock("ores/dragonstone_overworld_ore",
             new Block(FabricBlockSettings.of(Material.STONE)
                     .strength(4.0f)
-                    .requiresTool()
             ));
 
     public static final Block DRAGONSTONE_DEEPSLATE_ORE = registerBlock("ores/dragonstone_deepslate_ore",

@@ -1,0 +1,17 @@
+{
+  "type": "horde-resource-crops:fixed",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:vanilla/essence_lapis"
+    }
+  },
+  "result": {
+    "item": "minecraft:lapis_lazuli",
+    "count": 12
+  }
+}

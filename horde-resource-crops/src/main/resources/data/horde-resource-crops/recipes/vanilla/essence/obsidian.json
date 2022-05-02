@@ -1,0 +1,17 @@
+{
+  "type": "horde-resource-crops:fixed",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:vanilla/essence_obsidian"
+    }
+  },
+  "result": {
+    "item": "minecraft:obsidian",
+    "count": 8
+  }
+}

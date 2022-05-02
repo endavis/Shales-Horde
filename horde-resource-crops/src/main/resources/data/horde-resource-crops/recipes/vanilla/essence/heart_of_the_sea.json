@@ -1,0 +1,26 @@
+{
+  "type": "horde-resource-crops:fixed",
+  "pattern": [
+    "IDP",
+    "DND",
+    "PDI"
+  ],
+  "key": {
+    "I": {
+      "item": "horde-resource-crops:vanilla/essence_squid"
+    },
+    "D": {
+      "item": "horde-resource-crops:vanilla/essence_diamond"
+    },
+    "P": {
+      "item": "horde-resource-crops:vanilla/essence_prismarine"
+    },
+    "N": {
+      "item": "minecraft:nautilus_shell"
+    }
+  },
+  "result": {
+    "item": "minecraft:heart_of_the_sea",
+    "count": 1
+  }
+}

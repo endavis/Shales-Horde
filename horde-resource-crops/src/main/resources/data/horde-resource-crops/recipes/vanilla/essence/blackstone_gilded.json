@@ -1,0 +1,23 @@
+{
+  "type": "horde-resource-crops:fixed",
+  "pattern": [
+    "#G#",
+    "#C#",
+    "#G#"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:vanilla/essence_nether"
+    },
+    "C": {
+      "item": "horde-resource-crops:vanilla/essence_stone"
+    },
+    "G": {
+      "item": "horde-resource-crops:vanilla/essence_gold"
+    }
+  },
+  "result": {
+    "item": "minecraft:gilded_blackstone",
+    "count": 24
+  }
+}

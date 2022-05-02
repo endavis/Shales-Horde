@@ -1,0 +1,17 @@
+{
+  "type": "horde-resource-crops:fixed",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:vanilla/essence_blaze"
+    }
+  },
+  "result": {
+    "item": "minecraft:blaze_rod",
+    "count": 6
+  }
+}

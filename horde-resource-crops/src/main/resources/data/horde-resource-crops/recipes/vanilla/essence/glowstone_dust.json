@@ -1,0 +1,17 @@
+{
+  "type": "horde-resource-crops:fixed",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:vanilla/essence_glowstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:glowstone_dust",
+    "count": 12
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "horde-resource-crops:fixed",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:vanilla/essence_dragon_egg"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:shards/shard_dragon_egg",
+    "count": 1
+  }
+}

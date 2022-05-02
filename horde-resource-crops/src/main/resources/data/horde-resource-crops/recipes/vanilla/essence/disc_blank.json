@@ -1,0 +1,23 @@
+{
+  "type": "horde-resource-crops:fixed",
+  "pattern": [
+    "CSC",
+    "S#S",
+    "CSC"
+  ],
+  "key": {
+    "S": {
+      "item": "horde-resource-crops:vanilla/essence_skeleton"
+    },
+    "C": {
+      "item": "horde-resource-crops:vanilla/essence_creeper"
+    },
+    "#": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:items/blank_disc",
+    "count": 1
+  }
+}

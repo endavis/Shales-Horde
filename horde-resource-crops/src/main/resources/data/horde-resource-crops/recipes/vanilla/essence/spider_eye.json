@@ -1,0 +1,17 @@
+{
+  "type": "horde-resource-crops:fixed",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:vanilla/essence_spider"
+    }
+  },
+  "result": {
+    "item": "minecraft:spider_eye",
+    "count": 4
+  }
+}
