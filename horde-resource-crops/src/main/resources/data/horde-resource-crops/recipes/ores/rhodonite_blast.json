@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "horde-resource-crops:rhodonite"
+  },
+  "result": "horde-resource-crops:gemstones/rhodonite",
+  "experience": 0.1,
+  "cookingtime": 100
+}

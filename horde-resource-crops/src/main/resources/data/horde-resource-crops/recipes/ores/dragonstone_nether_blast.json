@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "horde-resource-crops:dragonstone_nether"
+  },
+  "result": "horde-resource-crops:ores/dragonstone_nether",
+  "experience": 0.1,
+  "cookingtime": 100
+}

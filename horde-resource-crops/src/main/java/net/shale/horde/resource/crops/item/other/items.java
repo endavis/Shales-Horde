@@ -8,7 +8,9 @@ import net.shale.horde.resource.crops.Main;
 import net.shale.horde.resource.crops.item.item_group;
 
 public class items {
-    public static final Item BLANK_DISC = registerItem("items/blank_disc", new Item(new FabricItemSettings()
+    public static final Item BLANK_DISC = registerItem("other/blank_disc", new Item(new FabricItemSettings()
+            .group(item_group.MISC)));
+    public static final Item WITHERED_BONE = registerItem("other/withered_bone", new Item(new FabricItemSettings()
             .group(item_group.MISC)));
 
     private static Item registerItem(String name, Item item) {

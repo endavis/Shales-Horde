@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "horde-resource-crops:ores/dragonstone_overworld_ore",
-    "horde-resource-crops:ores/dragonstone_deepslate_ore",
-    "horde-resource-crops:ores/dragonstone_nether_ore",
-    "horde-resource-crops:ores/dragonstone_end_ore"
-  ]
-}

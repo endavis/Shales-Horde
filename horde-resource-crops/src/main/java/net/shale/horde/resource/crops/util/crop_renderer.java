@@ -11,6 +11,7 @@ public class crop_renderer {
         BlockRenderLayerMap.INSTANCE.putBlock(T0__crops.CROP_EARTH, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(T0__crops.CROP_FIRE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(T0__crops.CROP_WATER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(T1__crops.CROP_DEEPSLATE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(T1__crops.CROP_DIRT, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(T1__crops.CROP_ICE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(T1__crops.CROP_STONE, RenderLayer.getCutout());

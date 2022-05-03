@@ -12,6 +12,9 @@ import net.minecraft.util.registry.Registry;
 import net.shale.horde.resource.crops.Main;
 
 public class T1__crops {
+    public static final Block CROP_DEEPSLATE = registerBlockWithoutBlockItem("vanilla/crop_deepslate",
+            new T1_deepslate_crop(FabricBlockSettings.copy(Blocks.WHEAT)
+            ));
     public static final Block CROP_DIRT = registerBlockWithoutBlockItem("vanilla/crop_dirt",
             new T1_dirt_crop(FabricBlockSettings.copy(Blocks.WHEAT)
             ));

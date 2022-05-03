@@ -38,14 +38,14 @@ public class tags {
                 createTag("t6_seeds");
         public static final TagKey<Item> GEMSTONES =
                 createTag("gemstones");
-        public static final TagKey<Item> DRAGONSTONE =
-                createTag("dragonstone");
-        public static final TagKey<Item> DRAGONSTONE_RAW =
-                createTag("dragonstone_raw");
-        public static final TagKey<Item> DRAGONSTONE_GEM =
-                createTag("dragonstone_gems");
-        public static final TagKey<Item> DRAGONSTONE_ORE =
-                createTag("dragonstone_ore");
+        public static final TagKey<Item> DRAGONSTONE_OVERWORLD =
+                createTag("dragonstone_overworld");
+        public static final TagKey<Item> DRAGONSTONE_NETHER =
+                createTag("dragonstone_nether");
+        public static final TagKey<Item> DRAGONSTONE_END =
+                createTag("dragonstone_end");
+        public static final TagKey<Item> RHODONITE =
+                createTag("rhodonite");
         public static final TagKey<Item> CORAL =
                 createCommonTag("coral");
         public static final TagKey<Item> HONEY =
@@ -54,6 +54,18 @@ public class tags {
                 createCommonTag("prismarine");
         public static final TagKey<Item> SEEDS =
                 createCommonTag("seeds");
+        public static final TagKey<Item> ESSENCE_FISH =
+                createCommonTag("essence_fish");
+        public static final TagKey<Item> ESSENCE_COW =
+                createCommonTag("essence_cow");
+        public static final TagKey<Item> ESSENCE_CHICKEN =
+                createCommonTag("essence_chicken");
+        public static final TagKey<Item> ESSENCE_RABBIT =
+                createCommonTag("essence_rabbit");
+        public static final TagKey<Item> ESSENCE_SHEEP =
+                createCommonTag("essence_sheep");
+        public static final TagKey<Item> ESSENCE_SPIDER =
+                createCommonTag("essence_spider");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(Registry.ITEM_KEY, new Identifier(Main.ID, name));

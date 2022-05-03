@@ -10,6 +10,10 @@ import net.shale.horde.resource.crops.block.vanilla.T1__crops;
 import net.shale.horde.resource.crops.item.item_group;
 
 public class T1__seeds {
+    public static final Item SEED_DEEPSLATE = registerItem("vanilla/seed_deepslate", new
+            AliasedBlockItem(T1__crops.CROP_DEEPSLATE,
+            new FabricItemSettings()
+                    .group(item_group.SEEDS)));
     public static final Item SEED_DIRT = registerItem("vanilla/seed_dirt", new
             AliasedBlockItem(T1__crops.CROP_DIRT,
             new FabricItemSettings()
