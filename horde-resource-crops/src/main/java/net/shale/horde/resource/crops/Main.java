@@ -1,6 +1,12 @@
 package net.shale.horde.resource.crops;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.entity.event.v1.ServerEntityCombatEvents;
+import net.minecraft.entity.ItemEntity;
+import net.minecraft.entity.mob.PathAwareEntity;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.Identifier;
 import net.shale.horde.resource.crops.Recipe.RecipeManager;
 import net.shale.horde.resource.crops.block.ores.blocks_ores;
@@ -10,6 +16,8 @@ import net.shale.horde.resource.crops.item.other.gemstones;
 import net.shale.horde.resource.crops.item.other.items;
 import net.shale.horde.resource.crops.item.other.shards;
 import net.shale.horde.resource.crops.item.vanilla.*;
+import net.shale.horde.resource.crops.util.modified_loot_tables;
+import net.shale.horde.resource.crops.worldgen.*;
 
 public class Main implements ModInitializer {
     public static final String ID = "horde-resource-crops";
@@ -20,6 +28,17 @@ public class Main implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        ServerEntityCombatEvents.AFTER_KILLED_OTHER_ENTITY.register((world, entity, killedEntity) -> {
+            if (killedEntity instanceof PathAwareEntity && Math.random() < 0.5) {
+                world.spawnEntity(new ItemEntity(world, killedEntity.getX(), killedEntity.getY(), killedEntity.getZ(), new ItemStack(gemstones.TIER0)));
+            }
+
+            if (entity instanceof ServerPlayerEntity) {
+                ServerPlayerEntity player = (ServerPlayerEntity) entity;
+                Item item = player.getMainHandStack().getItem();
+            }
+        });
+        modified_loot_tables.modifyLootTables();
         RecipeManager.registerRecipeSerializers();
         items.registerModItems();
         mixes.registerModItems();
@@ -48,5 +67,16 @@ public class Main implements ModInitializer {
         T6__crops.registerBlock();
         T6__seeds.registerModItems();
         T6__essence.registerModItems();
+
+        // Register world gen items
+        rhodonite_overworld_ore.registerWorldGeneration();
+        rhodonite_deepslate_ore.registerWorldGeneration();
+        rhodonite_nether_ore.registerWorldGeneration();
+        rhodonite_end_ore.registerWorldGeneration();
+        
+        dragonstone_overworld_ore.registerWorldGeneration();
+        dragonstone_deepslate_ore.registerWorldGeneration();
+        dragonstone_nether_ore.registerWorldGeneration();
+        dragonstone_end_ore.registerWorldGeneration();
     }
 }
