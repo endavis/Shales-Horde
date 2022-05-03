@@ -73,10 +73,12 @@ public class Main implements ModInitializer {
         rhodonite_deepslate_ore.registerWorldGeneration();
         rhodonite_nether_ore.registerWorldGeneration();
         rhodonite_end_ore.registerWorldGeneration();
-        
+
         dragonstone_overworld_ore.registerWorldGeneration();
         dragonstone_deepslate_ore.registerWorldGeneration();
         dragonstone_nether_ore.registerWorldGeneration();
         dragonstone_end_ore.registerWorldGeneration();
+
+        bismith_blackstone_ore.registerWorldGeneration();
     }
 }

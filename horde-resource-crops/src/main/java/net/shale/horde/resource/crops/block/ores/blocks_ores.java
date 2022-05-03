@@ -55,6 +55,11 @@ public class blocks_ores {
                     .strength(4.0f)
                     .requiresTool()
             ));
+    public static final Block BISMITH = registerBlock("ores/bismith",
+            new Block(FabricBlockSettings.of(Material.STONE)
+                    .strength(4.0f)
+                    .requiresTool()
+            ));
 
     private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registry.BLOCK, new Identifier(Main.ID, name), block);
