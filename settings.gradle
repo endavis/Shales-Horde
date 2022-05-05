@@ -10,6 +10,7 @@ pluginManagement {
 
 rootProject.name = "shales_horde"
 
+include 'horde-api'
 include 'horde-backpack'
 //include 'horde-main'
 include 'horde-resource-crops'

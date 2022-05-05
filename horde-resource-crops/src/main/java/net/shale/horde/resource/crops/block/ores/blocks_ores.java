@@ -55,7 +55,12 @@ public class blocks_ores {
                     .strength(4.0f)
                     .requiresTool()
             ));
-    public static final Block BISMITH = registerBlock("ores/bismith",
+    public static final Block BISMUTH_BASALT = registerBlock("ores/bismuth_basalt",
+            new Block(FabricBlockSettings.of(Material.STONE)
+                    .strength(4.0f)
+                    .requiresTool()
+            ));
+    public static final Block BISMUTH_BLACKSTONE = registerBlock("ores/bismuth_blackstone",
             new Block(FabricBlockSettings.of(Material.STONE)
                     .strength(4.0f)
                     .requiresTool()

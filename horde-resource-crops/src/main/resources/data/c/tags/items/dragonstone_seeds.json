@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "horde-resource-crops:vanilla/seed_dragonstone_overworld",
+    "horde-resource-crops:vanilla/seed_dragonstone_nether",
+    "horde-resource-crops:vanilla/seed_dragonstone_end"
+  ]
+}

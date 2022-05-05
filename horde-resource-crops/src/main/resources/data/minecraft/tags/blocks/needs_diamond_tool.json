@@ -1,5 +1,7 @@
 {
   "replace": false,
   "values": [
+    "horde-resource-crops:ores/bismuth_blackstone",
+    "horde-resource-crops:ores/bismuth_basalt"
   ]
 }
