@@ -46,6 +46,10 @@ public class tags {
                 createTag("dragonstone_end");
         public static final TagKey<Item> RHODONITE =
                 createTag("rhodonite");
+        public static final TagKey<Item> DRAGONSTONE =
+                createCommonTag("dragonstone");
+        public static final TagKey<Item> CATALYSTS =
+                createCommonTag("catalysts");
         public static final TagKey<Item> CORAL =
                 createCommonTag("coral");
         public static final TagKey<Item> HONEY =
@@ -66,6 +70,8 @@ public class tags {
                 createCommonTag("essence_sheep");
         public static final TagKey<Item> ESSENCE_SPIDER =
                 createCommonTag("essence_spider");
+        public static final TagKey<Item> DRAGONSTONE_SEEDS =
+                createCommonTag("dragonstone_seeds");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(Registry.ITEM_KEY, new Identifier(Main.ID, name));

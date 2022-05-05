@@ -22,15 +22,15 @@ import net.shale.horde.resource.crops.block.ores.blocks_ores;
 
 import java.util.Arrays;
 
-public class bismith_blackstone_ore {
-    private static final ConfiguredFeature<?, ?> NETHER_BISMITH_ORE_CONFIGURED_FEATURE = new ConfiguredFeature
+public class bismuth_basalt_ore {
+    private static final ConfiguredFeature<?, ?> BASALT_BISMUTH_ORE_CONFIGURED_FEATURE = new ConfiguredFeature
             (Feature.ORE, new OreFeatureConfig(
-                    new BlockMatchRuleTest(Blocks.BLACKSTONE),
-                    blocks_ores.BISMITH.getDefaultState(),
+                    new BlockMatchRuleTest(Blocks.BASALT),
+                    blocks_ores.BISMUTH_BASALT.getDefaultState(),
                     9)); // vein size
 
-    public static PlacedFeature NETHER_BISMITH_ORE_PLACED_FEATURE = new PlacedFeature(
-            RegistryEntry.of(NETHER_BISMITH_ORE_CONFIGURED_FEATURE),
+    public static PlacedFeature BASALT_BISMUTH_ORE_PLACED_FEATURE = new PlacedFeature(
+            RegistryEntry.of(BASALT_BISMUTH_ORE_CONFIGURED_FEATURE),
             Arrays.asList(
                     CountPlacementModifier.of(20), // number of veins per chunk
                     SquarePlacementModifier.of(), // spreading horizontally
@@ -38,10 +38,10 @@ public class bismith_blackstone_ore {
             )); // height
 
     public static void registerWorldGeneration() {
-        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, Main.id("bismith_nether_ore"), NETHER_BISMITH_ORE_CONFIGURED_FEATURE);
-        Registry.register(BuiltinRegistries.PLACED_FEATURE, Main.id("bismith_nether_ore"), NETHER_BISMITH_ORE_PLACED_FEATURE);
+        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, Main.id("bismuth_basalt_ore"), BASALT_BISMUTH_ORE_CONFIGURED_FEATURE);
+        Registry.register(BuiltinRegistries.PLACED_FEATURE, Main.id("bismuth_basalt_ore"), BASALT_BISMUTH_ORE_PLACED_FEATURE);
         BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(), GenerationStep.Feature.UNDERGROUND_ORES,
-                RegistryKey.of(Registry.PLACED_FEATURE_KEY, Main.id("bismith_nether_ore")));
+                RegistryKey.of(Registry.PLACED_FEATURE_KEY, Main.id("bismuth_basalt_ore")));
     }
 }
 

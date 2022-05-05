@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#A#",
+    "ADA",
+    "#A#"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:gemstones/rhodonite"
+    },
+    "A": {
+      "tag": "c:dragonstone"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:gemstones/rhodonite_catalyst",
+    "count": 1
+  }
+}

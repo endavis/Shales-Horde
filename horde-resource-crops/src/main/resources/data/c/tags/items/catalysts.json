@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "horde-resource-crops:gemstones/rhodonite_catalyst",
+    "horde-resource-crops:gemstones/larimar_catalyst"
+  ]
+}

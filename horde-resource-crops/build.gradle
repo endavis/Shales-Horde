@@ -1,5 +1,1 @@
 archivesBaseName = "horde-resource-crops"
-
-repositories {}
-
-dependencies {}

@@ -22,12 +22,15 @@ import net.shale.horde.resource.crops.worldgen.*;
 public class Main implements ModInitializer {
     public static final String ID = "horde-resource-crops";
 
+
     public static Identifier id(String path) {
         return new Identifier(ID, path);
     }
 
     @Override
     public void onInitialize() {
+        
+
         ServerEntityCombatEvents.AFTER_KILLED_OTHER_ENTITY.register((world, entity, killedEntity) -> {
             if (killedEntity instanceof PathAwareEntity && Math.random() < 0.5) {
                 world.spawnEntity(new ItemEntity(world, killedEntity.getX(), killedEntity.getY(), killedEntity.getZ(), new ItemStack(gemstones.TIER0)));
@@ -79,6 +82,7 @@ public class Main implements ModInitializer {
         dragonstone_nether_ore.registerWorldGeneration();
         dragonstone_end_ore.registerWorldGeneration();
 
-        bismith_blackstone_ore.registerWorldGeneration();
+        busmith_blackstone_ore.registerWorldGeneration();
+        bismuth_basalt_ore.registerWorldGeneration();
     }
 }
