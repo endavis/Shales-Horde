@@ -13,10 +13,11 @@ public class gemstones {
             .group(item_group.MISC)));
     public static final Item LARIMAR_CATALYST = registerItem("gemstones/larimar_catalyst", new Item(new FabricItemSettings()
             .group(item_group.MISC)));
-    public static final Item RHODONITE_CATALYST = registerItem("gemstones/rhodonite_catalyst", new CatalystItem(new FabricItemSettings()
-            .group(item_group.MISC)));
     public static final Item TIER1_GEM = registerItem("gemstones/rhodonite_diamond", new Item(new FabricItemSettings()
             .group(item_group.MISC)));
+    public static final Item RHODONITE_CATALYST =
+            registerItem("gemstones/rhodonite_catalyst",
+                    new CatalystItem());
     public static final Item TIER5_GEM = registerItem("gemstones/larimar_diamond", new Item(new FabricItemSettings()
             .group(item_group.MISC)));
     public static final Item TIER0 = registerItem("gemstones/bloodstone", new Item(new FabricItemSettings()

@@ -17,7 +17,7 @@ import net.shale.horde.resource.crops.mixin.ShapedRecipeMix;
 
 import java.util.Map;
 
-public class FixedRecipe extends ShapedRecipe {
+public class FixedRecipe extends DamageableRecipe {
     public FixedRecipe(Identifier id, String group, int width, int height, DefaultedList<Ingredient> input, ItemStack output) {
         super(id, group, width, height, input, output);
     }

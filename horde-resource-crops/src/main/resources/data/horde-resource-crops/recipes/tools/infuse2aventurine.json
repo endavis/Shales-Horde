@@ -1,5 +1,5 @@
 {
-  "type": "horde-resource-crops:catalyst",
+  "type": "horde-resource-crops:fixed",
   "pattern": [
     " # ",
     "#W#",
