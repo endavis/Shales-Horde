@@ -33,12 +33,12 @@ public abstract class EntityBase implements Nameable, Inventory, NamedScreenHand
 
     }
 
-    protected void writeNbt(NbtCompound nbt) {
+    protected NbtCompound writeNbt(NbtCompound nbt) {
         this.lock.writeNbt(nbt);
         if (this.customName != null) {
             nbt.putString("CustomName", Text.Serializer.toJson(this.customName));
         }
-
+        return nbt;
     }
 
     @Override

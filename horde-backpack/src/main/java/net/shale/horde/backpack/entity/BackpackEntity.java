@@ -32,6 +32,19 @@ public class BackpackEntity extends EntityBase implements OpenableBlockEntityV2,
     }
 
     @Override
+    public void readNbt(NbtCompound nbt) {
+        super.readNbt(nbt);
+        Inventories.readNbt(nbt, this.inventory);
+    }
+
+    @Override
+    public NbtCompound writeNbt(NbtCompound nbt) {
+        super.writeNbt(nbt);
+        Inventories.writeNbt(nbt, this.inventory);
+        return nbt;
+    }
+
+    @Override
     public boolean canBeUsedBy(ServerPlayerEntity player) {
         return true;
     }
