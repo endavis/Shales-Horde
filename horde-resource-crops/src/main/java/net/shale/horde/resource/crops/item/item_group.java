@@ -11,11 +11,11 @@ import net.shale.horde.resource.crops.item.vanilla.T2__essence;
 import net.shale.horde.resource.crops.item.vanilla.T2__seeds;
 
 public class item_group {
-    public static final ItemGroup ORES = FabricItemGroupBuilder.build(new Identifier(Main.ID, "ores"),
+    public static final ItemGroup ORES = FabricItemGroupBuilder.build(new Identifier(Main.ID, "ore"),
             () -> new ItemStack(blocks_ores.DRAGONSTONE_DEEPSLATE_ORE));
     public static final ItemGroup ESSENCE = FabricItemGroupBuilder.build(new Identifier(Main.ID, "essence"),
             () -> new ItemStack(T2__essence.ESSENCE_AMETHYST));
-    public static final ItemGroup SEEDS = FabricItemGroupBuilder.build(new Identifier(Main.ID, "seeds"),
+    public static final ItemGroup SEEDS = FabricItemGroupBuilder.build(new Identifier(Main.ID, "seed"),
             () -> new ItemStack(T2__seeds.SEED_AMETHYST.asItem()));
     public static final ItemGroup MISC = FabricItemGroupBuilder.build(new Identifier(Main.ID, "misc"),
             () -> new ItemStack(gemstones.TIER1));
