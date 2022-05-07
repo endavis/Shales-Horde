@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#W#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:ores/dragonstone_overworld"
+    },
+    "W": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:gemstones/dragonstone_overworld_diamond",
+    "count": 1
+  }
+}

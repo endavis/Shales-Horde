@@ -36,6 +36,10 @@ public class tags {
                 createTag("t5_seeds");
         public static final TagKey<Item> T6_SEEDS =
                 createTag("t6_seeds");
+        public static final TagKey<Item> DRAGONSTONE_DIAMOND =
+                createTag("dragonstone_diamond");
+        public static final TagKey<Item> T0_DIAMOND =
+                createTag("t0_diamond");
         public static final TagKey<Item> GEMSTONES =
                 createTag("gemstones");
         public static final TagKey<Item> DRAGONSTONE_OVERWORLD =

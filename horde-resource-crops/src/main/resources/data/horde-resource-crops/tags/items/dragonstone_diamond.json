@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "horde-resource-crops:gemstones/dragonstone_overworld_diamond",
+    "horde-resource-crops:gemstones/dragonstone_nether_diamond",
+    "horde-resource-crops:gemstones/dragonstone_end_diamond"
+  ]
+}
