@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "horde-resource-crops:gemstones/spinel"
+    }
+  ],
+  "result": {
+    "item": "horde-resource-crops:gemstones/aragonite",
+    "count": 4
+  }
+}
