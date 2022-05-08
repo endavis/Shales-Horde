@@ -1,5 +1,6 @@
 {
   "replace": false,
   "values": [
+    "horde-resource-crops:vanilla/crop_air"
   ]
 }
