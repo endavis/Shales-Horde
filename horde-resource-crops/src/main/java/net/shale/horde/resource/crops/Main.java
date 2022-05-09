@@ -29,7 +29,7 @@ public class Main implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        
+
 
         ServerEntityCombatEvents.AFTER_KILLED_OTHER_ENTITY.register((world, entity, killedEntity) -> {
             if (killedEntity instanceof PathAwareEntity && Math.random() < 0.5) {
@@ -49,6 +49,7 @@ public class Main implements ModInitializer {
         shards.registerModItems();
         items_ores.registerModItems();
         blocks_ores.registerBlock();
+        //blocks_misc.registerBlock();
         T0__crops.registerBlock();
         T0__seeds.registerModItems();
         T0__essence.registerModItems();

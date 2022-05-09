@@ -1,9 +1,6 @@
 package net.shale.horde.resource.crops.block.vanilla;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.CropBlock;
-import net.minecraft.block.ShapeContext;
+import net.minecraft.block.*;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.state.StateManager;
@@ -16,7 +13,7 @@ import net.minecraft.world.World;
 
 import java.util.Random;
 
-public abstract class crop_block extends CropBlock {
+public abstract class crop_block extends CropBlock implements Fertilizable {
     public static final IntProperty AGE = Properties.AGE_7;
     private static final VoxelShape[] AGE_TO_SHAPE = new VoxelShape[]{
             Block.createCuboidShape(0.0D, 0.0D, 0.0D, 16.0D, 2.0D, 16.0D),
@@ -32,6 +29,9 @@ public abstract class crop_block extends CropBlock {
         super(settings);
     }
 
+    public boolean isFertilizable(BlockView world, BlockPos pos, BlockState state, boolean isClient) {
+        return !this.isMature(state);
+    }
 
     @Override
     public IntProperty getAgeProperty() {
@@ -56,7 +56,9 @@ public abstract class crop_block extends CropBlock {
 
     @Override
     protected int getGrowthAmount(World world) {
-        return super.getGrowthAmount(world) / 7;
+        int i = super.getGrowthAmount(world) / 7;
+        if (i == 0) i = 1;
+        return i;
     }
 
     @Override
