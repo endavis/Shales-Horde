@@ -1,4 +1,4 @@
-package net.shale.horde.resource.crops.block.vanilla;
+package net.shale.horde.resource.crops.block.custom;
 
 import net.minecraft.block.*;
 import net.minecraft.item.ItemConvertible;
