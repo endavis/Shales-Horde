@@ -5,6 +5,7 @@ import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.resource.crops.Main;
+import net.shale.horde.resource.crops.item.custom.tier.crafting;
 
 public class items_ores {
     public static final Item RAW_DRAGONSTONE_OVERWORLD = registerItem("ores/raw_dragonstone_overworld", new Item(new FabricItemSettings()
@@ -17,13 +18,13 @@ public class items_ores {
             .group(item_group.ORES)));
     public static final Item RAW_BISMUTH = registerItem("ores/raw_bismuth", new Item(new FabricItemSettings()
             .group(item_group.ORES)));
-    public static final Item SEED_BISMUTH = registerItem("vanilla/seed_bismuth", new Item(new FabricItemSettings()
+    public static final Item SEED_BISMUTH = registerItem("vanilla/seed_bismuth", new crafting(new FabricItemSettings()
             .group(item_group.SEEDS)));
-    public static final Item SEED_DRAGONSTONE_OVERWORLD = registerItem("vanilla/seed_dragonstone_overworld", new Item(new FabricItemSettings()
+    public static final Item SEED_DRAGONSTONE_OVERWORLD = registerItem("vanilla/seed_dragonstone_overworld", new crafting(new FabricItemSettings()
             .group(item_group.SEEDS)));
-    public static final Item SEED_DRAGONSTONE_NETHER = registerItem("vanilla/seed_dragonstone_nether", new Item(new FabricItemSettings()
+    public static final Item SEED_DRAGONSTONE_NETHER = registerItem("vanilla/seed_dragonstone_nether", new crafting(new FabricItemSettings()
             .group(item_group.SEEDS)));
-    public static final Item SEED_DRAGONSTONE_END = registerItem("vanilla/seed_dragonstone_end", new Item(new FabricItemSettings()
+    public static final Item SEED_DRAGONSTONE_END = registerItem("vanilla/seed_dragonstone_end", new crafting(new FabricItemSettings()
             .group(item_group.SEEDS)));
 
     private static Item registerItem(String name, Item item) {
