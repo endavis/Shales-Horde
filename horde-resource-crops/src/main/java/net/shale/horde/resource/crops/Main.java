@@ -9,9 +9,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.Identifier;
 import net.shale.horde.resource.crops.Recipe.RecipeManager;
+import net.shale.horde.resource.crops.block.modded.*;
 import net.shale.horde.resource.crops.block.ores.blocks_ores;
 import net.shale.horde.resource.crops.block.vanilla.*;
 import net.shale.horde.resource.crops.item.items_ores;
+import net.shale.horde.resource.crops.item.modded.*;
 import net.shale.horde.resource.crops.item.other.gemstones;
 import net.shale.horde.resource.crops.item.other.items;
 import net.shale.horde.resource.crops.item.other.shards;
@@ -71,6 +73,21 @@ public class Main implements ModInitializer {
         T6__crops.registerBlock();
         T6__seeds.registerModItems();
         T6__essence.registerModItems();
+        m_T2__crops.registerBlock();
+        m_T2__seeds.registerModItems();
+        m_T2__essence.registerModItems();
+        m_T3__crops.registerBlock();
+        m_T3__seeds.registerModItems();
+        m_T3__essence.registerModItems();
+        m_T4__crops.registerBlock();
+        m_T4__seeds.registerModItems();
+        m_T4__essence.registerModItems();
+        m_T5__crops.registerBlock();
+        m_T5__seeds.registerModItems();
+        m_T5__essence.registerModItems();
+        m_T6__crops.registerBlock();
+        m_T6__seeds.registerModItems();
+        m_T6__essence.registerModItems();
 
         // Register world gen items
         rhodonite_overworld_ore.registerWorldGeneration();
