@@ -2,6 +2,7 @@ package net.shale.horde.resource.crops.util;
 
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;
+import net.shale.horde.resource.crops.block.modded.*;
 import net.shale.horde.resource.crops.block.vanilla.*;
 
 public class crop_renderer {
@@ -58,6 +59,39 @@ public class crop_renderer {
         BlockRenderLayerMap.INSTANCE.putBlock(T6__crops.CROP_NETHER_STAR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(T6__crops.CROP_NETHERITE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(T6__crops.CROP_SHULKER, RenderLayer.getCutout());
-
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T1__crops.CROP_SKY_STONE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T2__crops.CROP_ALUMINUM, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T2__crops.CROP_LIGNITE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T2__crops.CROP_RUBBER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T2__crops.CROP_SILICON, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T2__crops.CROP_SULFUR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T2__crops.CROP_THALLASIUM, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T3__crops.CROP_BRASS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T3__crops.CROP_BRONZE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T3__crops.CROP_CERTUS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T3__crops.CROP_CINCINNASITE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T3__crops.CROP_LEAD, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T3__crops.CROP_NIKOLITE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T3__crops.CROP_REFINED_IRON, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T3__crops.CROP_SILVER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T3__crops.CROP_TIN, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T3__crops.CROP_ZINC, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T4__crops.CROP_CHROME, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T4__crops.CROP_ELECTRUM, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T4__crops.CROP_FLUIX, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T4__crops.CROP_INVAR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T4__crops.CROP_NICKEL, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T4__crops.CROP_PERIDOT, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T4__crops.CROP_RUBY, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T4__crops.CROP_SAPPHIRE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T4__crops.CROP_STEEL, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T4__crops.CROP_TITANIUM, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T4__crops.CROP_TUNGSTEN, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T5__crops.CROP_ANTIMONY, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T5__crops.CROP_IRIDIUM, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T5__crops.CROP_PLATINUM, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T5__crops.CROP_TERMINITE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T5__crops.CROP_URANIUM, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T6__crops.CROP_AETERNIUM, RenderLayer.getCutout());
     }
 }
