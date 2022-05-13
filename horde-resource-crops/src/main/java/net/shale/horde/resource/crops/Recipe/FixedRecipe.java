@@ -90,6 +90,7 @@ public class FixedRecipe extends DamageableRecipe {
             int i = astring[0].length();
             int j = astring.length;
             DefaultedList<Ingredient> nonnulllist = ShapedRecipeMix.invokeCreatePatternMatrix(astring, map, i, j);
+            System.out.println("LOOKHEEEERRREEEE3: " + JsonHelper.getObject(jsonObject, "result"));
             ItemStack itemstack = ShapedRecipe.getItem(JsonHelper.getObject(jsonObject, "result")).getDefaultStack();
             return new FixedRecipe(identifier, s, i, j, nonnulllist, itemstack);
         }
@@ -106,8 +107,10 @@ public class FixedRecipe extends DamageableRecipe {
             }
 
             ItemStack output = packetByteBuf.readItemStack();
+            System.out.println("LOOKHEEEERRREEEE: " + output);
             return new FixedRecipe(identifier, s, i, j, inputs, output);
         }
+
 
         @Override
         public void write(PacketByteBuf packetByteBuf, ShapedRecipe shapedRecipe) {

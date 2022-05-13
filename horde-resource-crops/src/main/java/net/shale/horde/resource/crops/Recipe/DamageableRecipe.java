@@ -12,6 +12,7 @@ import net.shale.horde.resource.crops.item.RemainderItem;
 public class DamageableRecipe extends ShapedRecipe {
     public DamageableRecipe(Identifier id, String group, int width, int height, DefaultedList<Ingredient> input, ItemStack output) {
         super(id, group, width, height, input, output);
+        System.out.println("LOOKHEEEERRREEEE2: " + output);
     }
 
     @Override
