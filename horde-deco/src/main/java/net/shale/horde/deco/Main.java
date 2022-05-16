@@ -1,3 +1,5 @@
+package net.shale.horde.deco;
+
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 
