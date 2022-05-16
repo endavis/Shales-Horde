@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "horde-deco",
+  "version": "${version}",
+  "name": "Shale's deco",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/horde-deco/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.shale.horde.deco.Main"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}

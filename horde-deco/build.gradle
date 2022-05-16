@@ -1,0 +1,5 @@
+archivesBaseName = "horde-deco"
+
+repositories {}
+
+dependencies {}
