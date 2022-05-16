@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "horde-extras",
+  "version": "${version}",
+  "name": "Shale's Extras",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/horde-extras/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.shale.horde.extras.Main"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}

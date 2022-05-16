@@ -1,0 +1,5 @@
+archivesBaseName = "horde-extras"
+
+repositories {}
+
+dependencies {}
