@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "horde-deco:block/slabs/log_stripped_crimson"
+    },
+    "type=double": {
+      "model": "minecraft:block/stripped_crimson_stem"
+    },
+    "type=top": {
+      "model": "horde-deco:block/slabs/log_stripped_crimson_top"
+    }
+  }
+}

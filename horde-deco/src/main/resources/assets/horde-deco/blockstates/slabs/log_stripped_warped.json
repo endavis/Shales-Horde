@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "horde-deco:block/slabs/log_stripped_warped"
+    },
+    "type=double": {
+      "model": "minecraft:block/stripped_warped_stem"
+    },
+    "type=top": {
+      "model": "horde-deco:block/slabs/log_stripped_warped_top"
+    }
+  }
+}

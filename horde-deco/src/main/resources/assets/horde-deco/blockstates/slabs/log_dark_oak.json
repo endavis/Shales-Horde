@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "horde-deco:block/slabs/log_dark_oak"
+    },
+    "type=double": {
+      "model": "minecraft:block/dark_oak_log"
+    },
+    "type=top": {
+      "model": "horde-deco:block/slabs/log_dark_oak_top"
+    }
+  }
+}

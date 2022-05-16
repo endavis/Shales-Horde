@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "horde-deco:block/slabs/cake_slab"
+    },
+    "type=double": {
+      "model": "horde-deco:block/slabs/cake_block"
+    },
+    "type=top": {
+      "model": "horde-deco:block/slabs/cake_slab_top"
+    }
+  }
+}

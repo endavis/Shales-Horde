@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "horde-deco:block/slabs/melon_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/melon"
+    },
+    "type=top": {
+      "model": "horde-deco:block/slabs/melon_slab_top"
+    }
+  }
+}

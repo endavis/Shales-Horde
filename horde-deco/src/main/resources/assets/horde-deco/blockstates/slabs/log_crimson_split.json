@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "horde-deco:block/slabs/log_crimson_split"
+    },
+    "type=double": {
+      "model": "horde-deco:block/slabs/log_crimson_split_full"
+    },
+    "type=top": {
+      "model": "horde-deco:block/slabs/log_crimson_split_top"
+    }
+  }
+}

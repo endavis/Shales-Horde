@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "horde-deco:block/slabs/log_jungle"
+    },
+    "type=double": {
+      "model": "minecraft:block/jungle_log"
+    },
+    "type=top": {
+      "model": "horde-deco:block/slabs/log_jungle_top"
+    }
+  }
+}

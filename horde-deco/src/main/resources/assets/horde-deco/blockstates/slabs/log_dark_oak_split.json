@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "horde-deco:block/slabs/log_dark_oak_split"
+    },
+    "type=double": {
+      "model": "horde-deco:block/slabs/log_dark_oak_split_full"
+    },
+    "type=top": {
+      "model": "horde-deco:block/slabs/log_dark_oak_split_top"
+    }
+  }
+}

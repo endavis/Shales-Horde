@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "horde-deco:block/slabs/cake_bottom",
+    "top": "horde-deco:block/slabs/cake_top",
+    "side": "horde-deco:block/slabs/cake_side"
+  }
+}

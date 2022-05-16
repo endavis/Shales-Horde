@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "horde-deco:block/slabs/log_stripped_acacia"
+    },
+    "type=double": {
+      "model": "minecraft:block/stripped_acacia_log"
+    },
+    "type=top": {
+      "model": "horde-deco:block/slabs/log_stripped_acacia_top"
+    }
+  }
+}

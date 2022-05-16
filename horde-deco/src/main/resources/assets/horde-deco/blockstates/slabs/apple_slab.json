@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "horde-deco:block/slabs/apple_slab"
+    },
+    "type=double": {
+      "model": "horde-deco:block/slabs/apple_block"
+    },
+    "type=top": {
+      "model": "horde-deco:block/slabs/apple_slab_top"
+    }
+  }
+}

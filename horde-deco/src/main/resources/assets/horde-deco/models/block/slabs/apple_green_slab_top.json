@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "horde-deco:block/slabs/apple_green_inside",
+    "top": "horde-deco:block/slabs/apple_green_top",
+    "side": "horde-deco:block/slabs/apple_green_side"
+  }
+}

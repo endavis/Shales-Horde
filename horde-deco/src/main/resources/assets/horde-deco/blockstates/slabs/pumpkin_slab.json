@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "horde-deco:block/slabs/pumpkin_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/pumpkin"
+    },
+    "type=top": {
+      "model": "horde-deco:block/slabs/pumpkin_slab_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "horde-deco:block/slabs/log_spruce"
+    },
+    "type=double": {
+      "model": "minecraft:block/spruce_log"
+    },
+    "type=top": {
+      "model": "horde-deco:block/slabs/log_spruce_top"
+    }
+  }
+}
