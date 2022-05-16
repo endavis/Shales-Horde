@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "horde-deco:block/pride/flag_pansexual"
+    },
+    "facing=east": {
+      "model": "horde-deco:block/pride/flag_pansexual",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "horde-deco:block/pride/flag_pansexual",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "horde-deco:block/pride/flag_pansexual",
+      "y": 270
+    }
+  }
+}
