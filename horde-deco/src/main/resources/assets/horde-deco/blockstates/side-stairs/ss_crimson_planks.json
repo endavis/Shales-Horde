@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "horde-deco:block/side-stairs/ss_crimson_planks"
+    },
+    "facing=east": {
+      "model": "horde-deco:block/side-stairs/ss_crimson_planks",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "horde-deco:block/side-stairs/ss_crimson_planks",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "horde-deco:block/side-stairs/ss_crimson_planks",
+      "y": 270
+    }
+  }
+}

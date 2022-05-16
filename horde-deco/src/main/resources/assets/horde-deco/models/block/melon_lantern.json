@@ -2,7 +2,7 @@
   "credit": "Made with Blockbench",
   "textures": {
     "0": "horde-deco:block/melon_full",
-    "particle": "horde-deco:block/melon_full"
+    "particle": "minecraft:block/melon_side"
   },
   "elements": [
     {
