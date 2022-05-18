@@ -13,6 +13,7 @@ import net.shale.horde.deco.Main;
 import net.shale.horde.deco.block.custom.SideStairsBlock;
 
 public class blocks_side_stairs {
+    // Planks
     public static final Block SS_OAK_PLANKS = registerBlock("side-stairs/ss_oak_planks",
             new SideStairsBlock(FabricBlockSettings.of(Material.WOOD).strength(4.0f).requiresTool().nonOpaque()));
     public static final Block SS_SPRUCE_PLANKS = registerBlock("side-stairs/ss_spruce_planks",
@@ -29,7 +30,9 @@ public class blocks_side_stairs {
             new SideStairsBlock(FabricBlockSettings.of(Material.WOOD).strength(4.0f).requiresTool().nonOpaque()));
     public static final Block SS_WARPED_PLANKS = registerBlock("side-stairs/ss_warped_planks",
             new SideStairsBlock(FabricBlockSettings.of(Material.WOOD).strength(4.0f).requiresTool().nonOpaque()));
-
+    // Stones
+    public static final Block SS_STONE = registerBlock("side-stairs/ss_stone",
+            new SideStairsBlock(FabricBlockSettings.of(Material.WOOD).strength(4.0f).requiresTool().nonOpaque()));
 
     private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registry.BLOCK, new Identifier(Main.ID, name), block);
