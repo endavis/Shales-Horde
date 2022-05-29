@@ -42,6 +42,12 @@
     },
     {
       "item": "minecraft:chainmail_boots"
+    },
+    {
+      "item": "minecraft:minecart"
+    },
+    {
+      "item": "minecraft:flint_and_steel"
     }
   ],
   "result": "minecraft:iron_ingot",
