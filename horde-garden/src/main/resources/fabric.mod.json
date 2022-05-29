@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "horde-garden",
+  "version": "${version}",
+  "name": "Shale's Resource Crops",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/horde-garden/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.shale.horde.garden.Client"
+    ],
+    "main": [
+      "net.shale.horde.garden.Main"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}

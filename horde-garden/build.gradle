@@ -1,0 +1,5 @@
+archivesBaseName = "horde-garden"
+
+repositories {}
+
+dependencies {}
