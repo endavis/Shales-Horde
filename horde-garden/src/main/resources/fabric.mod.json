@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "horde-garden",
+  "id": "garden",
   "version": "${version}",
   "name": "Shale's Resource Crops",
   "description": "",
@@ -11,7 +11,7 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "net.shale.horde.garden.Client"
+
     ],
     "main": [
       "net.shale.horde.garden.Main"
