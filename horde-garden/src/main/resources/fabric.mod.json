@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "garden",
+  "id": "horde-garden",
   "version": "${version}",
-  "name": "Shale's Resource Crops",
+  "name": "Shale's Garden",
   "description": "",
   "authors": [],
   "contact": {},
