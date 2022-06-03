@@ -3,8 +3,8 @@
     "icon": {
       "item": "horde-backpack:diamond_backpack"
     },
-    "title": "",
-    "description": "",
+    "title": "Shiny-er?!",
+    "description": "Got that offbrand Gucci",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

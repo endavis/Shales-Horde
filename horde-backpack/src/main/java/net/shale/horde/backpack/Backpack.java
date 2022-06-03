@@ -7,10 +7,11 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.backpack.api.KeybindEntrypoint;
 import net.shale.horde.backpack.block.blocks_bag;
-import net.shale.horde.backpack.item.BackpackItem;
+import net.shale.horde.backpack.item.*;
 
 public class Backpack implements ModInitializer {
     public static final String ID = "horde-backpack";
@@ -25,12 +26,14 @@ public class Backpack implements ModInitializer {
     public void onInitialize() {
         Item.Settings ItemSettings = new Item.Settings().group(BAG).maxCount(1);
         blocks_bag.registerBlock();
+        Tokens.registerModItems();
 
-        Registry.register(Registry.ITEM, id("leather_backpack"), new BackpackItem(ItemSettings, 27));
-        Registry.register(Registry.ITEM, id("iron_backpack"), new BackpackItem(ItemSettings, 54));
-        Registry.register(Registry.ITEM, id("gold_backpack"), new BackpackItem(ItemSettings, 81));
-        Registry.register(Registry.ITEM, id("diamond_backpack"), new BackpackItem(ItemSettings, 108));
-        Registry.register(Registry.ITEM, id("netherite_backpack"), new BackpackItem(ItemSettings, 162));
+        Registry.register(Registry.ITEM, id("leather_backpack"), new Leather(ItemSettings, 27));
+        Registry.register(Registry.ITEM, id("copper_backpack"), new Copper(ItemSettings, 54));
+        Registry.register(Registry.ITEM, id("iron_backpack"), new Iron(ItemSettings, 81));
+        Registry.register(Registry.ITEM, id("gold_backpack"), new Gold(ItemSettings.rarity(Rarity.UNCOMMON), 108));
+        Registry.register(Registry.ITEM, id("diamond_backpack"), new Diamond(ItemSettings.rarity(Rarity.RARE), 135));
+        Registry.register(Registry.ITEM, id("netherite_backpack"), new Netherite(ItemSettings.rarity(Rarity.EPIC).fireproof(), 162));
 
         KeybindEntrypoint.onInitialize();
     }

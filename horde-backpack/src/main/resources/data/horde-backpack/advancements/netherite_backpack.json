@@ -3,8 +3,8 @@
     "icon": {
       "item": "horde-backpack:netherite_backpack"
     },
-    "title": "",
-    "description": "",
+    "title": "Born of Fire",
+    "description": "Lava Fondue",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true
