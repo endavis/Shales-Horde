@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "horde-backpack:leather_backpack",
+    "horde-backpack:copper_backpack",
     "horde-backpack:iron_backpack",
     "horde-backpack:gold_backpack",
     "horde-backpack:diamond_backpack",

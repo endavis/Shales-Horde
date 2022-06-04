@@ -2,16 +2,23 @@ package net.shale.horde.backpack;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+import net.minecraft.client.network.AbstractClientPlayerEntity;
+import net.minecraft.client.render.entity.model.EntityModel;
+import net.minecraft.client.render.entity.model.PlayerEntityModel;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
+import net.minecraft.util.math.Vec3f;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.backpack.api.KeybindEntrypoint;
-import net.shale.horde.backpack.block.blocks_bag;
 import net.shale.horde.backpack.item.*;
+
+import static dev.emi.trinkets.api.client.TrinketRenderer.MAGIC_ROTATION;
 
 public class Backpack implements ModInitializer {
     public static final String ID = "horde-backpack";
@@ -25,7 +32,6 @@ public class Backpack implements ModInitializer {
     @Override
     public void onInitialize() {
         Item.Settings ItemSettings = new Item.Settings().group(BAG).maxCount(1);
-        blocks_bag.registerBlock();
         Tokens.registerModItems();
 
         Registry.register(Registry.ITEM, id("leather_backpack"), new Leather(ItemSettings, 27));
@@ -36,5 +42,15 @@ public class Backpack implements ModInitializer {
         Registry.register(Registry.ITEM, id("netherite_backpack"), new Netherite(ItemSettings.rarity(Rarity.EPIC).fireproof(), 162));
 
         KeybindEntrypoint.onInitialize();
+    }
+    static void translateToChest(MatrixStack matrices, PlayerEntityModel<AbstractClientPlayerEntity> model,
+                                 AbstractClientPlayerEntity player) {
+
+        if (player.isInSneakingPose() && !model.riding && !player.isSwimming()) {
+            matrices.translate(0.0F, 0.2F, 0.0F);
+            matrices.multiply(Vec3f.POSITIVE_X.getDegreesQuaternion(model.body.pitch * MAGIC_ROTATION));
+        }
+        matrices.multiply(Vec3f.POSITIVE_Y.getDegreesQuaternion(model.body.yaw * MAGIC_ROTATION));
+        matrices.translate(0.0F, 0.4F, -0.16F);
     }
 }
