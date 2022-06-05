@@ -15,6 +15,12 @@ public class m_T6__crops {
     public static final Block CROP_AETERNIUM = registerBlockWithoutBlockItem("modded/crop_aeternium",
             new m_T6_aeternium_crop(FabricBlockSettings.copy(Blocks.WHEAT)
             ));
+    public static final Block CROP_REFINED_RADIANCE = registerBlockWithoutBlockItem("modded/crop_refined_radiance",
+            new m_T6_refined_radiance_crop(FabricBlockSettings.copy(Blocks.WHEAT)
+            ));
+    public static final Block CROP_SHADOW_STEEL = registerBlockWithoutBlockItem("modded/crop_shadow_steel",
+            new m_T6_shadow_steel_crop(FabricBlockSettings.copy(Blocks.WHEAT)
+            ));
 
     private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registry.BLOCK, new Identifier(Main.ID, name), block);

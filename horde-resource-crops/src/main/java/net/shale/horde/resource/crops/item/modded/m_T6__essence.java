@@ -10,6 +10,10 @@ import net.shale.horde.resource.crops.item.item_group;
 public class m_T6__essence {
     public static final Item ESSENCE_AETERNIUM = registerItem("modded/essence_aeternium", new Item(new FabricItemSettings()
             .group(item_group.ESSENCE)));
+    public static final Item ESSENCE_REFINED_RADIANCE = registerItem("modded/essence_refined_radiance", new Item(new FabricItemSettings()
+            .group(item_group.ESSENCE)));
+    public static final Item ESSENCE_SHADOW_STEEL = registerItem("modded/essence_shadow_steel", new Item(new FabricItemSettings()
+            .group(item_group.ESSENCE)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), item);
