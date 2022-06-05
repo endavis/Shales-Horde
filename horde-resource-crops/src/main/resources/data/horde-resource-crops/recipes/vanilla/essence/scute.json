@@ -1,5 +1,5 @@
 {
-  "type": "horde-resource-crops:fixed",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
     "# #",
@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "item": "horde-resource-crops:vanilla/essence_scute"
+      "item": "horde-resource-crops:vanilla/essence_turtle"
     }
   },
   "result": {

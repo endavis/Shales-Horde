@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TIT",
+    "ICI",
+    "TIT"
+  ],
+  "key": {
+    "C": {
+      "item": "horde-resource-crops:vanilla/seed_dragonstone_overworld"
+    },
+    "T": {
+      "tag": "horde-resource-crops:ct0"
+    },
+    "I": {
+      "item": "ae2:sky_stone_block"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:modded/seed_sky_stone",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TIT",
+    "ICI",
+    "TIT"
+  ],
+  "key": {
+    "C": {
+      "item": "horde-resource-crops:vanilla/seed_dragonstone_end"
+    },
+    "T": {
+      "item": "horde-resource-crops:gemstones/aventurine"
+    },
+    "I": {
+      "item": "betterend:thallasium_ingot"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:modded/seed_thallasium",
+    "count": 1
+  }
+}

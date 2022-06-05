@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TIT",
+    "ICI",
+    "TIT"
+  ],
+  "key": {
+    "C": {
+      "item": "horde-resource-crops:vanilla/seed_dragonstone_overworld"
+    },
+    "T": {
+      "item": "horde-resource-crops:gemstones/aragonite"
+    },
+    "I":
+      {
+        "item": "indrev:nikolite_dust"
+      }
+  },
+  "result": {
+    "item": "horde-resource-crops:modded/seed_nikolite",
+    "count": 1
+  }
+}

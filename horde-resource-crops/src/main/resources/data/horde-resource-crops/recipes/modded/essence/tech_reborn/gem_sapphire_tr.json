@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:modded/essence_sapphire"
+    }
+  },
+  "result": {
+    "item": "techreborn:sapphire_gem",
+    "count": 6
+  }
+}

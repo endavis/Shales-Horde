@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:modded/essence_titanium"
+    }
+  },
+  "result": {
+    "item": "modern_industrialization:titanium_ingot",
+    "count": 6
+  }
+}

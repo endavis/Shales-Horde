@@ -1,9 +1,9 @@
 {
-  "type": "horde-resource-crops:fixed",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
+    "  #",
     " # ",
-    " # ",
-    " # "
+    "#  "
   ],
   "key": {
     "#": {

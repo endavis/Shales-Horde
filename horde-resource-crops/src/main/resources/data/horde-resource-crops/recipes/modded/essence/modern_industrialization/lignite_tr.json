@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:modded/essence_lignite"
+    }
+  },
+  "result": {
+    "item": "modern_industrialization:lignite_coal",
+    "count": 12
+  }
+}

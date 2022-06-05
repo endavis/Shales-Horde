@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:modded/essence_chrome"
+    }
+  },
+  "result": {
+    "item": "techreborn:chromium_ingot",
+    "count": 6
+  }
+}

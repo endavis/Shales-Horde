@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:modded/essence_silicon"
+    }
+  },
+  "result": {
+    "item": "ae2:silicon",
+    "count": 3
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:modded/essence_invar"
+    }
+  },
+  "result": {
+    "item": "modern_industrialization:invar_ingot",
+    "count": 6
+  }
+}

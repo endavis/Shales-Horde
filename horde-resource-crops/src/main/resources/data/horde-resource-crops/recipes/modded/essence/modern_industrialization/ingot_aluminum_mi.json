@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:modded/essence_aluminum"
+    }
+  },
+  "result": {
+    "item": "modern_industrialization:aluminum_ingot",
+    "count": 6
+  }
+}
