@@ -1,5 +1,12 @@
 archivesBaseName = "horde-deco"
 
-repositories {}
+repositories {
+    maven {
+        name = "BuildCraft"
+        url = "https://mod-buildcraft.com/maven"
+    }
+}
 
-dependencies {}
+dependencies {
+    modImplementation include("alexiil.mc.lib:libmultipart-all:0.7.2")
+}
