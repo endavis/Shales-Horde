@@ -34,6 +34,12 @@ public class Backpack implements ModInitializer {
         Item.Settings ItemSettings = new Item.Settings().group(BAG).maxCount(1);
         Tokens.registerModItems();
         BackpackRegistery.registerModItems();
+        BackpackItem.registerTrinketRenderer((BackpackItem) ShaleBackpackRegistery.SHALE_LEATHER_BACKPACK);
+        BackpackItem.registerTrinketRenderer((BackpackItem) ShaleBackpackRegistery.SHALE_COPPER_BACKPACK);
+        BackpackItem.registerTrinketRenderer((BackpackItem) ShaleBackpackRegistery.SHALE_IRON_BACKPACK);
+        BackpackItem.registerTrinketRenderer((BackpackItem) ShaleBackpackRegistery.SHALE_GOLD_BACKPACK);
+        BackpackItem.registerTrinketRenderer((BackpackItem) ShaleBackpackRegistery.SHALE_DIAMOND_BACKPACK);
+        BackpackItem.registerTrinketRenderer((BackpackItem) ShaleBackpackRegistery.SHALE_NETHERITE_BACKPACK);
         BackpackItem.registerTrinketRenderer((BackpackItem) BackpackRegistery.LEATHER_BACKPACK);
         BackpackItem.registerTrinketRenderer((BackpackItem) BackpackRegistery.COPPER_BACKPACK);
         BackpackItem.registerTrinketRenderer((BackpackItem) BackpackRegistery.IRON_BACKPACK);
