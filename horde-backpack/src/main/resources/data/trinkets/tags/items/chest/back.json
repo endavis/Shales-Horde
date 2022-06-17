@@ -1,17 +1,6 @@
 {
   "replace": false,
   "values": [
-    "horde-backpack:shale_leather_backpack",
-    "horde-backpack:shale_copper_backpack",
-    "horde-backpack:shale_iron_backpack",
-    "horde-backpack:shale_gold_backpack",
-    "horde-backpack:shale_diamond_backpack",
-    "horde-backpack:shale_netherite_backpack",
-    "horde-backpack:leather_backpack",
-    "horde-backpack:copper_backpack",
-    "horde-backpack:iron_backpack",
-    "horde-backpack:gold_backpack",
-    "horde-backpack:diamond_backpack",
-    "horde-backpack:netherite_backpack"
+
   ]
 }

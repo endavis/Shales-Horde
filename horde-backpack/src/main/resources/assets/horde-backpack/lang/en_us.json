@@ -1,22 +1,3 @@
 {
-  "itemGroup.horde-backpack.bag": "Bold Hold",
 
-  "item.horde-backpack.leather_backpack": "Leather Backpack",
-  "item.horde-backpack.copper_backpack": "Copper Backpack",
-  "item.horde-backpack.iron_backpack": "Iron Backpack",
-  "item.horde-backpack.gold_backpack": "Gold Backpack",
-  "item.horde-backpack.diamond_backpack": "Diamond Backpack",
-  "item.horde-backpack.netherite_backpack": "Netherite Backpack",
-  "item.horde-backpack.shale_leather_backpack": "Leather Backpack",
-  "item.horde-backpack.shale_copper_backpack": "Copper Backpack",
-  "item.horde-backpack.shale_iron_backpack": "Iron Backpack",
-  "item.horde-backpack.shale_gold_backpack": "Gold Backpack",
-  "item.horde-backpack.shale_diamond_backpack": "Diamond Backpack",
-  "item.horde-backpack.shale_netherite_backpack": "Netherite Backpack",
-
-  "item.horde-backpack.token_copper": "Copper Upgrade Token",
-  "item.horde-backpack.token_iron": "Iron Upgrade Token",
-  "item.horde-backpack.token_gold": "Gold Upgrade Token",
-  "item.horde-backpack.token_diamond": "Diamond Upgrade Token",
-  "item.horde-backpack.token_netherite": "Netherite Upgrade Token"
 }

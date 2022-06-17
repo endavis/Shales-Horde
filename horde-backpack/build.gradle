@@ -40,11 +40,11 @@ repositories {
 }
 
 dependencies {
+    // Trinkets Start
     modImplementation include("io.github.onyxstudios.Cardinal-Components-API:cardinal-components-base:${cca_version}")
     modImplementation include("io.github.onyxstudios.Cardinal-Components-API:cardinal-components-entity:${cca_version}")
-    modImplementation "maven.modrinth:ninjaphenix-container-library:${project.container_version}"
-    include "maven.modrinth:ninjaphenix-container-library:${project.container_version}"
     modImplementation("dev.emi:trinkets:${project.trinkets_version}") {
         transitive = false
     }
+    //Trinkets End
 }
