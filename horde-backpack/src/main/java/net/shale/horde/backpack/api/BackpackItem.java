@@ -19,7 +19,7 @@ import net.shale.horde.backpack.registery.BackpackBlockRegistry;
 
 public class BackpackItem extends TrinketItem {
     public BackpackItem(Settings settings) {
-        super(settings);
+        super(settings.maxCount(1));
     }
 
     //Trinket Render
