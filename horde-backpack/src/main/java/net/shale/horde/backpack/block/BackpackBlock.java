@@ -1,22 +1,16 @@
-package net.shale.horde.backpack.api;
+package net.shale.horde.backpack.block;
 
 import net.minecraft.block.*;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemPlacementContext;
-import net.minecraft.item.ItemStack;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.DirectionProperty;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.*;
 import net.minecraft.util.function.BooleanBiFunction;
-import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
-import net.minecraft.world.World;
-import net.shale.horde.backpack.registery.BackpackBlockRegistry;
-import net.shale.horde.backpack.registery.BackpackItemRegistry;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.stream.Stream;
@@ -162,17 +156,4 @@ public class BackpackBlock extends Block {
         builder.add(FACING);
     }
 
-    @Override
-    @SuppressWarnings("deprecation")
-    public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
-                if (player.isInSneakingPose()) {
-                    if (player.getStackInHand(hand).isEmpty()) {
-                        world.setBlockState((pos),Blocks.AIR.getDefaultState());
-                        player.giveItemStack(BackpackItemRegistry.LEATHER_BACKPACK_ITEM.getDefaultStack());
-                    }
-                } else {
-
-                }
-                return ActionResult.FAIL;
-    }
 }

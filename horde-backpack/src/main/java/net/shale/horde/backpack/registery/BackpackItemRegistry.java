@@ -5,11 +5,11 @@ import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.backpack.Main;
-import net.shale.horde.backpack.api.BackpackItem;
+import net.shale.horde.backpack.item.BackpackItemLeather;
 
 public class BackpackItemRegistry {
     public static final Item LEATHER_BACKPACK_ITEM = registerItem("leather_backpack_item", new
-            BackpackItem(new FabricItemSettings()
+            BackpackItemLeather(new FabricItemSettings()
             .maxCount(1)
             .group(Main.BAG)
     ));

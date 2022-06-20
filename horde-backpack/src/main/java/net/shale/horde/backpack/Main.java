@@ -6,7 +6,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
-import net.shale.horde.backpack.api.BackpackItem;
+import net.shale.horde.backpack.render.BackpackRenderer;
 import net.shale.horde.backpack.registery.BackpackBlockRegistry;
 import net.shale.horde.backpack.registery.BackpackItemRegistry;
 
@@ -21,6 +21,6 @@ public class Main implements ModInitializer {
     public void onInitialize() {
         BackpackItemRegistry.registerModItems();
         BackpackBlockRegistry.registerBlock();
-        BackpackItem.registerTrinketRenderer((BackpackItem) BackpackItemRegistry.LEATHER_BACKPACK_ITEM);
+        BackpackRenderer.registerTrinketRenderer((BackpackRenderer) BackpackItemRegistry.LEATHER_BACKPACK_ITEM);
     }
 }

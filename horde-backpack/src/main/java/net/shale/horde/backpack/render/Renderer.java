@@ -1,4 +1,4 @@
-package net.shale.horde.backpack.api;
+package net.shale.horde.backpack.render;
 
 import dev.emi.trinkets.api.SlotReference;
 import dev.emi.trinkets.api.client.TrinketRenderer;

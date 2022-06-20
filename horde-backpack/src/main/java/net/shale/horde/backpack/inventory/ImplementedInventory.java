@@ -1,4 +1,4 @@
-package net.shale.horde.backpack.api;
+package net.shale.horde.backpack.inventory;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.Inventories;
