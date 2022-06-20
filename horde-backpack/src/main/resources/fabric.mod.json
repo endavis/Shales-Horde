@@ -11,10 +11,10 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "net.shale.horde.backpack.BackpackClient"
+      "net.shale.horde.backpack.Client"
     ],
     "main": [
-      "net.shale.horde.backpack.Backpack"
+      "net.shale.horde.backpack.Main"
     ]
   },
   "mixins": [

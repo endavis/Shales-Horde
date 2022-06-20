@@ -20,12 +20,12 @@ public class Renderer implements TrinketRenderer {
 
         // Initial transformation
         matrices.multiply(Vec3f.POSITIVE_X.getDegreesQuaternion(180));
-        matrices.translate(0, -0.4, -0.25);
+        matrices.translate(0, -0.45, -0.15);
 
         // Shifting
         if(player.isSneaking()) {
             matrices.multiply(Vec3f.POSITIVE_X.getDegreesQuaternion(25));
-            matrices.translate(0, -0.2, -0.1);
+            matrices.translate(0, -0.1, -0.1);
         }
 
         MinecraftClient.getInstance().getItemRenderer().renderItem(stack, ModelTransformation.Mode.FIXED, light, OverlayTexture.DEFAULT_UV, matrices, vertexConsumers, 0);
