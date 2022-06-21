@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
-    "horde-backpack:leather_backpack_item"
+    "horde-backpack:leather_backpack_item",
+    "horde-backpack:copper_backpack_item",
+    "horde-backpack:iron_backpack_item",
+    "horde-backpack:gold_backpack_item",
+    "horde-backpack:diamond_backpack_item",
+    "horde-backpack:netherite_backpack_item"
   ]
 }

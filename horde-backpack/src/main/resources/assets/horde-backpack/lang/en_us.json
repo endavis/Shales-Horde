@@ -1,5 +1,15 @@
 {
   "itemGroup.horde-backpack.bag": "Bold Holding",
   "item.horde-backpack.leather_backpack_item": "Leather Backpack",
-  "block.horde-backpack.leather_backpack_block": "Leather Backpack"
+  "block.horde-backpack.leather_backpack_block": "Leather Backpack",
+  "item.horde-backpack.copper_backpack_item": "Copper Backpack",
+  "block.horde-backpack.copper_backpack_block": "Copper Backpack",
+  "item.horde-backpack.iron_backpack_item": "Iron Backpack",
+  "block.horde-backpack.iron_backpack_block": "Iron Backpack",
+  "item.horde-backpack.gold_backpack_item": "Gold Backpack",
+  "block.horde-backpack.gold_backpack_block": "Gold Backpack",
+  "item.horde-backpack.diamond_backpack_item": "Diamond Backpack",
+  "block.horde-backpack.diamond_backpack_block": "Diamond Backpack",
+  "item.horde-backpack.netherite_backpack_item": "Netherite Backpack",
+  "block.horde-backpack.netherite_backpack_block": "Netherite Backpack"
 }

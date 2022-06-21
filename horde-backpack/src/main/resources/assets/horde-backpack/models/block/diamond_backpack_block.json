@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [34, 34],
 	"textures": {
-		"0": "horde-backpack:item/leather/backpack_leather",
-		"particle": "horde-backpack:item/leather/backpack_leather"
+		"0": "horde-backpack:item/backpack_diamond",
+		"particle": "horde-backpack:item/backpack_diamond"
 	},
 	"elements": [
 		{

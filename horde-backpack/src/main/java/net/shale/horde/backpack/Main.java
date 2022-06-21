@@ -22,5 +22,10 @@ public class Main implements ModInitializer {
         BackpackItemRegistry.registerModItems();
         BackpackBlockRegistry.registerBlock();
         BackpackRenderer.registerTrinketRenderer((BackpackRenderer) BackpackItemRegistry.LEATHER_BACKPACK_ITEM);
+        BackpackRenderer.registerTrinketRenderer((BackpackRenderer) BackpackItemRegistry.COPPER_BACKPACK_ITEM);
+        BackpackRenderer.registerTrinketRenderer((BackpackRenderer) BackpackItemRegistry.IRON_BACKPACK_ITEM);
+        BackpackRenderer.registerTrinketRenderer((BackpackRenderer) BackpackItemRegistry.GOLD_BACKPACK_ITEM);
+        BackpackRenderer.registerTrinketRenderer((BackpackRenderer) BackpackItemRegistry.DIAMOND_BACKPACK_ITEM);
+        BackpackRenderer.registerTrinketRenderer((BackpackRenderer) BackpackItemRegistry.NETHERITE_BACKPACK_ITEM);
     }
 }
