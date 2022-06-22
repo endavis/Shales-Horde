@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "horde-backpack:block/gold_white_block"
+    },
+    "facing=east": {
+      "model": "horde-backpack:block/gold_white_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "horde-backpack:block/gold_white_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "horde-backpack:block/gold_white_block",
+      "y": 270
+    }
+  }
+}

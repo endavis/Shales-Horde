@@ -8,9 +8,10 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.shale.horde.backpack.block.BackpackBlock;
 import net.shale.horde.backpack.registery.BB_LeatherItemRegistry;
 
-public class BackpackBlockCopper extends BackpackBlock{
+public class BackpackBlockCopper extends BackpackBlock {
     public BackpackBlockCopper(Settings settings) {
         super(settings);
     }

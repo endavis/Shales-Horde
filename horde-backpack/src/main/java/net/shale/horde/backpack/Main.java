@@ -6,9 +6,8 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
-import net.shale.horde.backpack.registery.BB_LeatherBlockRegistry;
+import net.shale.horde.backpack.registery.*;
 import net.shale.horde.backpack.render.BackpackRenderer;
-import net.shale.horde.backpack.registery.BB_LeatherItemRegistry;
 
 public class Main implements ModInitializer {
     public static final String ID = "horde-backpack";
@@ -21,6 +20,16 @@ public class Main implements ModInitializer {
     public void onInitialize() {
         BB_LeatherItemRegistry.registerModItems();
         BB_LeatherBlockRegistry.registerBlock();
+        BB_CopperItemRegistry.registerModItems();
+        BB_CopperBlockRegistry.registerBlock();
+        BB_IronItemRegistry.registerModItems();
+        BB_IronBlockRegistry.registerBlock();
+        BB_GoldItemRegistry.registerModItems();
+        BB_GoldBlockRegistry.registerBlock();
+        BB_DiamondItemRegistry.registerModItems();
+        BB_DiamondBlockRegistry.registerBlock();
+        BB_NetheriteItemRegistry.registerModItems();
+        BB_NetheriteBlockRegistry.registerBlock();
 //        BackpackRenderer.registerTrinketRenderer((BackpackRenderer) BB_LeatherItemRegistry.LEATHER_BACKPACK_ITEM);
 //        BackpackRenderer.registerTrinketRenderer((BackpackRenderer) BB_LeatherItemRegistry.COPPER_BACKPACK_ITEM);
 //        BackpackRenderer.registerTrinketRenderer((BackpackRenderer) BB_LeatherItemRegistry.IRON_BACKPACK_ITEM);
