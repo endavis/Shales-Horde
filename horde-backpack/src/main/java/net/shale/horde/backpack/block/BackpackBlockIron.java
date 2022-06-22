@@ -8,7 +8,7 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.shale.horde.backpack.registery.BackpackItemRegistry;
+import net.shale.horde.backpack.registery.BB_LeatherItemRegistry;
 
 public class BackpackBlockIron extends BackpackBlock{
     public BackpackBlockIron(Settings settings) {
@@ -20,7 +20,7 @@ public class BackpackBlockIron extends BackpackBlock{
         if (player.isInSneakingPose()) {
             if (player.getStackInHand(hand).isEmpty()) {
                 world.setBlockState((pos), Blocks.AIR.getDefaultState());
-                player.giveItemStack(BackpackItemRegistry.IRON_BACKPACK_ITEM.getDefaultStack());
+                //player.giveItemStack(BB_LeatherItemRegistry.IRON_BACKPACK_ITEM.getDefaultStack());
             }
         } else {
 

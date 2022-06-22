@@ -8,12 +8,15 @@ import net.minecraft.state.property.Properties;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.shale.horde.backpack.Main;
+import net.shale.horde.backpack.registery.BB_LeatherBlockRegistry;
 import net.shale.horde.backpack.render.BackpackRenderer;
-import net.shale.horde.backpack.registery.BackpackBlockRegistry;
 
 public class BackpackItemLeather extends BackpackRenderer {
     public BackpackItemLeather(Settings settings) {
-        super(settings);
+        super(settings
+                .maxCount(1)
+                .group(Main.BAG));
     }
     @Override
     public ActionResult useOnBlock(ItemUsageContext context) {
@@ -22,9 +25,9 @@ public class BackpackItemLeather extends BackpackRenderer {
             ItemPlacementContext convertedPlacementContext = new ItemPlacementContext(context);
             World world = convertedPlacementContext.getWorld();
             BlockPos blockPos = convertedPlacementContext.getBlockPos();
-            world.setBlockState((blockPos),
-                    BackpackBlockRegistry.LEATHER_BACKPACK_BLOCK.getDefaultState()
-                            .with(Properties.HORIZONTAL_FACING, context.getPlayerFacing().getOpposite()));
+//            world.setBlockState((blockPos),
+//                    BB_LeatherBlockRegistry.LEATHER_BACKPACK_BLOCK.getDefaultState()
+//                            .with(Properties.HORIZONTAL_FACING, context.getPlayerFacing().getOpposite()));
             ItemStack stack = player.getStackInHand(context.getHand());
             int count = stack.getCount();
             stack.decrement(count);

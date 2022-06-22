@@ -8,7 +8,7 @@ import net.minecraft.state.property.Properties;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.shale.horde.backpack.registery.BackpackBlockRegistry;
+import net.shale.horde.backpack.registery.BB_LeatherBlockRegistry;
 import net.shale.horde.backpack.render.BackpackRenderer;
 
 public class BackpackItemCopper extends BackpackRenderer {
@@ -22,9 +22,9 @@ public class BackpackItemCopper extends BackpackRenderer {
             ItemPlacementContext convertedPlacementContext = new ItemPlacementContext(context);
             World world = convertedPlacementContext.getWorld();
             BlockPos blockPos = convertedPlacementContext.getBlockPos();
-            world.setBlockState((blockPos),
-                    BackpackBlockRegistry.COPPER_BACKPACK_BLOCK.getDefaultState()
-                            .with(Properties.HORIZONTAL_FACING, context.getPlayerFacing().getOpposite()));
+//            world.setBlockState((blockPos),
+//                    BB_LeatherBlockRegistry.COPPER_BACKPACK_BLOCK.getDefaultState()
+//                            .with(Properties.HORIZONTAL_FACING, context.getPlayerFacing().getOpposite()));
             ItemStack stack = player.getStackInHand(context.getHand());
             int count = stack.getCount();
             stack.decrement(count);
