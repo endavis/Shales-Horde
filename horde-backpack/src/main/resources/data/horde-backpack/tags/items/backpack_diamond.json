@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "horde-backpack:diamond_black_item",
+    "horde-backpack:diamond_blue_item",
+    "horde-backpack:diamond_brown_item",
+    "horde-backpack:diamond_cyan_item",
+    "horde-backpack:diamond_gray_item",
+    "horde-backpack:diamond_green_item",
+    "horde-backpack:diamond_light_blue_item",
+    "horde-backpack:diamond_light_gray_item",
+    "horde-backpack:diamond_lime_item",
+    "horde-backpack:diamond_magenta_item",
+    "horde-backpack:diamond_orange_item",
+    "horde-backpack:diamond_pink_item",
+    "horde-backpack:diamond_purple_item",
+    "horde-backpack:diamond_red_item",
+    "horde-backpack:diamond_white_item",
+    "horde-backpack:diamond_yellow_item"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "horde-backpack:backpack_gold"
+  },
+  "addition": {
+    "item": "minecraft:red_dye"
+  },
+  "result": {
+    "item": "horde-backpack:gold_red_item"
+  }
+}

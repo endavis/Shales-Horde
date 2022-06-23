@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "horde-backpack:backpack_netherite"
+  },
+  "addition": {
+    "item": "minecraft:lime_dye"
+  },
+  "result": {
+    "item": "horde-backpack:netherite_lime_item"
+  }
+}

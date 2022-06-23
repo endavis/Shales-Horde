@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "horde-backpack:iron_black_item",
+    "horde-backpack:iron_blue_item",
+    "horde-backpack:iron_brown_item",
+    "horde-backpack:iron_cyan_item",
+    "horde-backpack:iron_gray_item",
+    "horde-backpack:iron_green_item",
+    "horde-backpack:iron_light_blue_item",
+    "horde-backpack:iron_light_gray_item",
+    "horde-backpack:iron_lime_item",
+    "horde-backpack:iron_magenta_item",
+    "horde-backpack:iron_orange_item",
+    "horde-backpack:iron_pink_item",
+    "horde-backpack:iron_purple_item",
+    "horde-backpack:iron_red_item",
+    "horde-backpack:iron_white_item",
+    "horde-backpack:iron_yellow_item"
+  ]
+}

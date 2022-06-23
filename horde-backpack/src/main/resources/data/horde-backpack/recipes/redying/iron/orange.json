@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "horde-backpack:backpack_iron"
+  },
+  "addition": {
+    "item": "minecraft:orange_dye"
+  },
+  "result": {
+    "item": "horde-backpack:iron_orange_item"
+  }
+}

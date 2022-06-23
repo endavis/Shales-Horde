@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "horde-backpack:backpack_netherite"
+  },
+  "addition": {
+    "item": "minecraft:gray_dye"
+  },
+  "result": {
+    "item": "horde-backpack:netherite_gray_item"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "horde-backpack:netherite_black_item",
+    "horde-backpack:netherite_blue_item",
+    "horde-backpack:netherite_brown_item",
+    "horde-backpack:netherite_cyan_item",
+    "horde-backpack:netherite_gray_item",
+    "horde-backpack:netherite_green_item",
+    "horde-backpack:netherite_light_blue_item",
+    "horde-backpack:netherite_light_gray_item",
+    "horde-backpack:netherite_lime_item",
+    "horde-backpack:netherite_magenta_item",
+    "horde-backpack:netherite_orange_item",
+    "horde-backpack:netherite_pink_item",
+    "horde-backpack:netherite_purple_item",
+    "horde-backpack:netherite_red_item",
+    "horde-backpack:netherite_white_item",
+    "horde-backpack:netherite_yellow_item"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "horde-backpack:backpack_leather"
+  },
+  "addition": {
+    "item": "minecraft:magenta_dye"
+  },
+  "result": {
+    "item": "horde-backpack:leather_magenta_item"
+  }
+}

@@ -10,52 +10,52 @@ import net.shale.horde.backpack.item.leather.*;
 
 public class BB_LeatherItemRegistry {
     public static final Item LEATHER_BLACK_ITEM = registerItem("leather_black_item", new
-            BlackItemLeather(new FabricItemSettings().group(Main.BAG)
+            BlackItemLeather(new FabricItemSettings()
     ));
     public static final Item LEATHER_BLUE_ITEM = registerItem("leather_blue_item", new
-            BlueItemLeather(new FabricItemSettings().group(Main.BAG)
+            BlueItemLeather(new FabricItemSettings()
     ));
     public static final Item LEATHER_BROWN_ITEM = registerItem("leather_brown_item", new
             BrownItemLeather(new FabricItemSettings().group(Main.BAG)
     ));
     public static final Item LEATHER_CYAN_ITEM = registerItem("leather_cyan_item", new
-            CyanItemLeather(new FabricItemSettings().group(Main.BAG)
+            CyanItemLeather(new FabricItemSettings()
     ));
     public static final Item LEATHER_GRAY_ITEM = registerItem("leather_gray_item", new
-            GrayItemLeather(new FabricItemSettings().group(Main.BAG)
+            GrayItemLeather(new FabricItemSettings()
     ));
     public static final Item LEATHER_GREEN_ITEM = registerItem("leather_green_item", new
-            GreenItemLeather(new FabricItemSettings().group(Main.BAG)
+            GreenItemLeather(new FabricItemSettings()
     ));
     public static final Item LEATHER_LIGHT_BLUE_ITEM = registerItem("leather_light_blue_item", new
-            Light_BlueItemLeather(new FabricItemSettings().group(Main.BAG)
+            Light_BlueItemLeather(new FabricItemSettings()
     ));
     public static final Item LEATHER_LIGHT_GRAY_ITEM = registerItem("leather_light_gray_item", new
-            Light_GrayItemLeather(new FabricItemSettings().group(Main.BAG)
+            Light_GrayItemLeather(new FabricItemSettings()
     ));
     public static final Item LEATHER_LIME_ITEM = registerItem("leather_lime_item", new
-            LimeItemLeather(new FabricItemSettings().group(Main.BAG)
+            LimeItemLeather(new FabricItemSettings()
     ));
     public static final Item LEATHER_MAGENTA_ITEM = registerItem("leather_magenta_item", new
-            MagentaItemLeather(new FabricItemSettings().group(Main.BAG)
+            MagentaItemLeather(new FabricItemSettings()
     ));
     public static final Item LEATHER_ORANGE_ITEM = registerItem("leather_orange_item", new
-            OrangeItemLeather(new FabricItemSettings().group(Main.BAG)
+            OrangeItemLeather(new FabricItemSettings()
     ));
     public static final Item LEATHER_PINK_ITEM = registerItem("leather_pink_item", new
-            PinkItemLeather(new FabricItemSettings().group(Main.BAG)
+            PinkItemLeather(new FabricItemSettings()
     ));
     public static final Item LEATHER_PURPLE_ITEM = registerItem("leather_purple_item", new
-            PurpleItemLeather(new FabricItemSettings().group(Main.BAG)
+            PurpleItemLeather(new FabricItemSettings()
     ));
     public static final Item LEATHER_RED_ITEM = registerItem("leather_red_item", new
-            RedItemLeather(new FabricItemSettings().group(Main.BAG)
+            RedItemLeather(new FabricItemSettings()
     ));
     public static final Item LEATHER_WHITE_ITEM = registerItem("leather_white_item", new
-            WhiteItemLeather(new FabricItemSettings().group(Main.BAG)
+            WhiteItemLeather(new FabricItemSettings()
     ));
     public static final Item LEATHER_YELLOW_ITEM = registerItem("leather_yellow_item", new
-            YellowItemLeather(new FabricItemSettings().group(Main.BAG)
+            YellowItemLeather(new FabricItemSettings()
     ));
 
     private static Item registerItem(String name, Item item) {

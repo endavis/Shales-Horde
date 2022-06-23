@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "horde-backpack:backpack_diamond"
+  },
+  "addition": {
+    "item": "minecraft:yellow_dye"
+  },
+  "result": {
+    "item": "horde-backpack:diamond_yellow_item"
+  }
+}

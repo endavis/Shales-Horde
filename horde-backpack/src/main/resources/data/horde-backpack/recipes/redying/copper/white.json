@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "horde-backpack:backpack_copper"
+  },
+  "addition": {
+    "item": "minecraft:white_dye"
+  },
+  "result": {
+    "item": "horde-backpack:copper_white_item"
+  }
+}

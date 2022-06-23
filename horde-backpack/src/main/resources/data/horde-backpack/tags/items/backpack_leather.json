@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "horde-backpack:leather_black_item",
+    "horde-backpack:leather_blue_item",
+    "horde-backpack:leather_brown_item",
+    "horde-backpack:leather_cyan_item",
+    "horde-backpack:leather_gray_item",
+    "horde-backpack:leather_green_item",
+    "horde-backpack:leather_light_blue_item",
+    "horde-backpack:leather_light_gray_item",
+    "horde-backpack:leather_lime_item",
+    "horde-backpack:leather_magenta_item",
+    "horde-backpack:leather_orange_item",
+    "horde-backpack:leather_pink_item",
+    "horde-backpack:leather_purple_item",
+    "horde-backpack:leather_red_item",
+    "horde-backpack:leather_white_item",
+    "horde-backpack:leather_yellow_item"
+  ]
+}

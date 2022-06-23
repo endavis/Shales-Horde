@@ -10,52 +10,52 @@ import net.shale.horde.backpack.item.netherite.*;
 
 public class BB_NetheriteItemRegistry {
     public static final Item NETHERITE_BLACK_ITEM = registerItem("netherite_black_item", new
-            BlackItemNetherite(new FabricItemSettings().group(Main.BAG)
+            BlackItemNetherite(new FabricItemSettings()
     ));
     public static final Item NETHERITE_BLUE_ITEM = registerItem("netherite_blue_item", new
-            BlueItemNetherite(new FabricItemSettings().group(Main.BAG)
+            BlueItemNetherite(new FabricItemSettings()
     ));
     public static final Item NETHERITE_BROWN_ITEM = registerItem("netherite_brown_item", new
             BrownItemNetherite(new FabricItemSettings().group(Main.BAG)
     ));
     public static final Item NETHERITE_CYAN_ITEM = registerItem("netherite_cyan_item", new
-            CyanItemNetherite(new FabricItemSettings().group(Main.BAG)
+            CyanItemNetherite(new FabricItemSettings()
     ));
     public static final Item NETHERITE_GRAY_ITEM = registerItem("netherite_gray_item", new
-            GrayItemNetherite(new FabricItemSettings().group(Main.BAG)
+            GrayItemNetherite(new FabricItemSettings()
     ));
     public static final Item NETHERITE_GREEN_ITEM = registerItem("netherite_green_item", new
-            GreenItemNetherite(new FabricItemSettings().group(Main.BAG)
+            GreenItemNetherite(new FabricItemSettings()
     ));
     public static final Item NETHERITE_LIGHT_BLUE_ITEM = registerItem("netherite_light_blue_item", new
-            Light_BlueItemNetherite(new FabricItemSettings().group(Main.BAG)
+            Light_BlueItemNetherite(new FabricItemSettings()
     ));
     public static final Item NETHERITE_LIGHT_GRAY_ITEM = registerItem("netherite_light_gray_item", new
-            Light_GrayItemNetherite(new FabricItemSettings().group(Main.BAG)
+            Light_GrayItemNetherite(new FabricItemSettings()
     ));
     public static final Item NETHERITE_LIME_ITEM = registerItem("netherite_lime_item", new
-            LimeItemNetherite(new FabricItemSettings().group(Main.BAG)
+            LimeItemNetherite(new FabricItemSettings()
     ));
     public static final Item NETHERITE_MAGENTA_ITEM = registerItem("netherite_magenta_item", new
-            MagentaItemNetherite(new FabricItemSettings().group(Main.BAG)
+            MagentaItemNetherite(new FabricItemSettings()
     ));
     public static final Item NETHERITE_ORANGE_ITEM = registerItem("netherite_orange_item", new
-            OrangeItemNetherite(new FabricItemSettings().group(Main.BAG)
+            OrangeItemNetherite(new FabricItemSettings()
     ));
     public static final Item NETHERITE_PINK_ITEM = registerItem("netherite_pink_item", new
-            PinkItemNetherite(new FabricItemSettings().group(Main.BAG)
+            PinkItemNetherite(new FabricItemSettings()
     ));
     public static final Item NETHERITE_PURPLE_ITEM = registerItem("netherite_purple_item", new
-            PurpleItemNetherite(new FabricItemSettings().group(Main.BAG)
+            PurpleItemNetherite(new FabricItemSettings()
     ));
     public static final Item NETHERITE_RED_ITEM = registerItem("netherite_red_item", new
-            RedItemNetherite(new FabricItemSettings().group(Main.BAG)
+            RedItemNetherite(new FabricItemSettings()
     ));
     public static final Item NETHERITE_WHITE_ITEM = registerItem("netherite_white_item", new
-            WhiteItemNetherite(new FabricItemSettings().group(Main.BAG)
+            WhiteItemNetherite(new FabricItemSettings()
     ));
     public static final Item NETHERITE_YELLOW_ITEM = registerItem("netherite_yellow_item", new
-            YellowItemNetherite(new FabricItemSettings().group(Main.BAG)
+            YellowItemNetherite(new FabricItemSettings()
     ));
 
     private static Item registerItem(String name, Item item) {
