@@ -9,8 +9,7 @@ import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.shale.horde.backpack.block.BackpackBlock;
-import net.shale.horde.backpack.registery.BB_IronItemRegistry;
-import net.shale.horde.backpack.registery.BB_LeatherItemRegistry;
+import net.shale.horde.backpack.registry.BB_LeatherItemRegistry;
 
 public class CyanBlockLeather extends BackpackBlock {
     public CyanBlockLeather(Settings settings) {

@@ -8,8 +8,7 @@ import net.minecraft.state.property.Properties;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.shale.horde.backpack.registery.BB_DiamondBlockRegistry;
-import net.shale.horde.backpack.registery.BB_GoldBlockRegistry;
+import net.shale.horde.backpack.registry.BB_GoldBlockRegistry;
 import net.shale.horde.backpack.render.BackpackRenderer;
 
 public class YellowItemGold extends BackpackRenderer {

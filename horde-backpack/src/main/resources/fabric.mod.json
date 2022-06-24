@@ -14,7 +14,8 @@
       "net.shale.horde.backpack.Client"
     ],
     "main": [
-      "net.shale.horde.backpack.Main"
+      "net.shale.horde.backpack.Main",
+      "net.shale.horde.backpack.registry.RenderRegistry"
     ]
   },
   "mixins": [

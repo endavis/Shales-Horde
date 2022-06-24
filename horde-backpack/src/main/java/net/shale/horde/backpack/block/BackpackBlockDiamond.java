@@ -8,7 +8,6 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.shale.horde.backpack.registery.BB_LeatherItemRegistry;
 
 public class BackpackBlockDiamond extends BackpackBlock{
     public BackpackBlockDiamond(Settings settings) {

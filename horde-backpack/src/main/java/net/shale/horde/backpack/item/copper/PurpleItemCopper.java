@@ -8,7 +8,7 @@ import net.minecraft.state.property.Properties;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.shale.horde.backpack.registery.BB_CopperBlockRegistry;
+import net.shale.horde.backpack.registry.BB_CopperBlockRegistry;
 import net.shale.horde.backpack.render.BackpackRenderer;
 
 public class PurpleItemCopper extends BackpackRenderer {
