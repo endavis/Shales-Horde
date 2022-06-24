@@ -1,5 +1,6 @@
 package net.shale.horde.backpack.item.copper;
 
+import net.minecraft.block.Blocks;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.item.ItemStack;
@@ -22,12 +23,14 @@ public class Light_GrayItemCopper extends BackpackRenderer {
             ItemPlacementContext convertedPlacementContext = new ItemPlacementContext(context);
             World world = convertedPlacementContext.getWorld();
             BlockPos blockPos = convertedPlacementContext.getBlockPos();
-            world.setBlockState((blockPos),
-                    BB_CopperBlockRegistry.COPPER_LIGHT_GRAY_BLOCK.getDefaultState()
-                            .with(Properties.HORIZONTAL_FACING, context.getPlayerFacing().getOpposite()));
-            ItemStack stack = player.getStackInHand(context.getHand());
-            int count = stack.getCount();
-            stack.decrement(count);
+            if (world.getBlockState(blockPos).equals(Blocks.AIR.getDefaultState())) {
+                world.setBlockState((blockPos),
+                        BB_CopperBlockRegistry.COPPER_LIGHT_GRAY_BLOCK.getDefaultState()
+                                .with(Properties.HORIZONTAL_FACING, context.getPlayerFacing().getOpposite()));
+                ItemStack stack = player.getStackInHand(context.getHand());
+                int count = stack.getCount();
+                stack.decrement(count);
+            }
         } else {
 
         }
