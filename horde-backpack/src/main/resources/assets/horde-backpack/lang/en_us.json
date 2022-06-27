@@ -1,5 +1,6 @@
 {
   "itemGroup.horde-backpack.bag": "Bold Holding",
+  "tooltip.backpack.leather": "Placeholder",
   "item.horde-backpack.leather_backpack_item": "Leather Backpack",
   "item.horde-backpack.leather_black_item": "Leather Backpack",
   "item.horde-backpack.leather_blue_item": "Leather Backpack",
@@ -34,7 +35,7 @@
   "block.horde-backpack.leather_red_block": "Leather Backpack",
   "block.horde-backpack.leather_white_block": "Leather Backpack",
   "block.horde-backpack.leather_yellow_block": "Leather Backpack",
-
+  "tooltip.backpack.copper": "Placeholder",
   "item.horde-backpack.copper_backpack_item": "Copper Backpack",
   "item.horde-backpack.copper_black_item": "Copper Backpack",
   "item.horde-backpack.copper_blue_item": "Copper Backpack",
@@ -69,7 +70,7 @@
   "block.horde-backpack.copper_red_block": "Copper Backpack",
   "block.horde-backpack.copper_white_block": "Copper Backpack",
   "block.horde-backpack.copper_yellow_block": "Copper Backpack",
-
+  "tooltip.backpack.iron": "Placeholder",
   "item.horde-backpack.iron_backpack_item": "Iron Backpack",
   "item.horde-backpack.iron_black_item": "Iron Backpack",
   "item.horde-backpack.iron_blue_item": "Iron Backpack",
@@ -104,7 +105,7 @@
   "block.horde-backpack.iron_red_block": "Iron Backpack",
   "block.horde-backpack.iron_white_block": "Iron Backpack",
   "block.horde-backpack.iron_yellow_block": "Iron Backpack",
-
+  "tooltip.backpack.gold": "Placeholder",
   "item.horde-backpack.gold_backpack_item": "Gold Backpack",
   "item.horde-backpack.gold_black_item": "Gold Backpack",
   "item.horde-backpack.gold_blue_item": "Gold Backpack",
@@ -139,7 +140,7 @@
   "block.horde-backpack.gold_red_block": "Gold Backpack",
   "block.horde-backpack.gold_white_block": "Gold Backpack",
   "block.horde-backpack.gold_yellow_block": "Gold Backpack",
-
+  "tooltip.backpack.diamond": "Placeholder",
   "item.horde-backpack.diamond_backpack_item": "Diamond Backpack",
   "item.horde-backpack.diamond_black_item": "Diamond Backpack",
   "item.horde-backpack.diamond_blue_item": "Diamond Backpack",
@@ -174,7 +175,7 @@
   "block.horde-backpack.diamond_red_block": "Diamond Backpack",
   "block.horde-backpack.diamond_white_block": "Diamond Backpack",
   "block.horde-backpack.diamond_yellow_block": "Diamond Backpack",
-
+  "tooltip.backpack.netherite": "Placeholder",
   "item.horde-backpack.netherite_backpack_item": "Netherite Backpack",
   "item.horde-backpack.netherite_black_item": "Netherite Backpack",
   "item.horde-backpack.netherite_blue_item": "Netherite Backpack",
