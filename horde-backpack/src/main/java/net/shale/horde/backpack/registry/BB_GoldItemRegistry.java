@@ -3,13 +3,14 @@ package net.shale.horde.backpack.registry;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.backpack.Main;
 import net.shale.horde.backpack.item.gold.*;
 
 public class BB_GoldItemRegistry {
     public static final Item GOLD_BLACK_ITEM = registerItem("gold_black_item", new
-            BlackItemGold(new FabricItemSettings()
+            BlackItemGold(new FabricItemSettings().rarity(Rarity.UNCOMMON)
     ));
     public static final Item GOLD_BLUE_ITEM = registerItem("gold_blue_item", new
             BlueItemGold(new FabricItemSettings()

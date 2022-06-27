@@ -29,7 +29,5 @@ public class Main implements ModInitializer {
         BB_DiamondBlockRegistry.registerBlock();
         BB_NetheriteItemRegistry.registerModItems();
         BB_NetheriteBlockRegistry.registerBlock();
-
-
     }
 }

@@ -1,40 +1,30 @@
 package net.shale.horde.backpack.item.gold;
 
-import net.minecraft.block.Blocks;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.ItemPlacementContext;
+import net.minecraft.block.BlockState;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemUsageContext;
-import net.minecraft.state.property.Properties;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.math.BlockPos;
+import net.minecraft.text.Text;
+import net.minecraft.text.TranslatableText;
+import net.minecraft.util.Formatting;
 import net.minecraft.world.World;
+import net.shale.horde.backpack.item.Putdown;
 import net.shale.horde.backpack.registry.BB_GoldBlockRegistry;
-import net.shale.horde.backpack.render.BackpackRenderer;
+import org.jetbrains.annotations.Nullable;
 
-public class BlueItemGold extends BackpackRenderer {
+import java.util.List;
+
+public class BlueItemGold extends Putdown {
     public BlueItemGold(Settings settings) {
         super(settings);
     }
     @Override
-    public ActionResult useOnBlock(ItemUsageContext context) {
-        PlayerEntity player = context.getPlayer();
-        if (player.isInSneakingPose()) {
-            ItemPlacementContext convertedPlacementContext = new ItemPlacementContext(context);
-            World world = convertedPlacementContext.getWorld();
-            BlockPos blockPos = convertedPlacementContext.getBlockPos();
-            if (world.getBlockState(blockPos).equals(Blocks.AIR.getDefaultState())) {
-                world.setBlockState((blockPos),
-                        BB_GoldBlockRegistry.GOLD_BLUE_BLOCK.getDefaultState()
-                                .with(Properties.HORIZONTAL_FACING, context.getPlayerFacing().getOpposite()));
-                ItemStack stack = player.getStackInHand(context.getHand());
-                int count = stack.getCount();
-                stack.decrement(count);
-            }
-        } else {
-
-        }
-
-        return ActionResult.FAIL;
+    protected BlockState getBlock() {
+        return BB_GoldBlockRegistry.GOLD_BLUE_BLOCK.getDefaultState();
+    }
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+        super.appendTooltip(stack, world, tooltip, context);
+        int i = stack.getMaxDamage() - stack.getDamage();
+        tooltip.add(new TranslatableText("tooltip.backpack.gold").formatted(Formatting.YELLOW));
     }
 }

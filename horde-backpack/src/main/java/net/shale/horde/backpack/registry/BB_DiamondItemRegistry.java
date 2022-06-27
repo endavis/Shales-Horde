@@ -3,13 +3,14 @@ package net.shale.horde.backpack.registry;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.backpack.Main;
 import net.shale.horde.backpack.item.diamond.*;
 
 public class BB_DiamondItemRegistry {
     public static final Item DIAMOND_BLACK_ITEM = registerItem("diamond_black_item", new
-            BlackItemDiamond(new FabricItemSettings()
+            BlackItemDiamond(new FabricItemSettings().rarity(Rarity.RARE)
     ));
     public static final Item DIAMOND_BLUE_ITEM = registerItem("diamond_blue_item", new
             BlueItemDiamond(new FabricItemSettings()

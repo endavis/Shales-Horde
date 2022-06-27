@@ -3,13 +3,14 @@ package net.shale.horde.backpack.registry;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.backpack.Main;
 import net.shale.horde.backpack.item.netherite.*;
 
 public class BB_NetheriteItemRegistry {
     public static final Item NETHERITE_BLACK_ITEM = registerItem("netherite_black_item", new
-            BlackItemNetherite(new FabricItemSettings()
+            BlackItemNetherite(new FabricItemSettings().rarity(Rarity.EPIC)
     ));
     public static final Item NETHERITE_BLUE_ITEM = registerItem("netherite_blue_item", new
             BlueItemNetherite(new FabricItemSettings()

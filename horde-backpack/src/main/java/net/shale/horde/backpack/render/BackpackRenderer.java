@@ -5,7 +5,7 @@ import dev.emi.trinkets.api.client.TrinketRendererRegistry;
 
 public class BackpackRenderer extends TrinketItem {
     public BackpackRenderer(Settings settings) {
-        super(settings.maxCount(1));
+        super(settings);
     }
 
     //Trinket Render
