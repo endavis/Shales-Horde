@@ -19,13 +19,13 @@ public class items_ores {
     public static final Item RAW_BISMUTH = registerItem("ores/raw_bismuth", new Item(new FabricItemSettings()
             .group(item_group.ORES)));
     public static final Item SEED_BISMUTH = registerItem("vanilla/seed_bismuth", new crafting(new FabricItemSettings()
-            .group(item_group.SEEDS)));
+            .group(item_group.ESSENCE)));
     public static final Item SEED_DRAGONSTONE_OVERWORLD = registerItem("vanilla/seed_dragonstone_overworld", new crafting(new FabricItemSettings()
-            .group(item_group.SEEDS)));
+            .group(item_group.ESSENCE)));
     public static final Item SEED_DRAGONSTONE_NETHER = registerItem("vanilla/seed_dragonstone_nether", new crafting(new FabricItemSettings()
-            .group(item_group.SEEDS)));
+            .group(item_group.ESSENCE)));
     public static final Item SEED_DRAGONSTONE_END = registerItem("vanilla/seed_dragonstone_end", new crafting(new FabricItemSettings()
-            .group(item_group.SEEDS)));
+            .group(item_group.ESSENCE)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), item);

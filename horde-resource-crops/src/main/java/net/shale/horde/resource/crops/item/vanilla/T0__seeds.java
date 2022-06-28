@@ -13,23 +13,23 @@ public class T0__seeds {
     public static final Item SEED_RHODONITE = registerItem("vanilla/seed_rhodonite", new
             T0_block(T0__crops.CROP_RHODONITE,
             new FabricItemSettings()
-                    .group(item_group.SEEDS)));
+                    .group(item_group.ESSENCE)));
     public static final Item SEED_AIR = registerItem("vanilla/seed_air", new
             T0_block(T0__crops.CROP_AIR,
             new FabricItemSettings()
-                    .group(item_group.SEEDS)));
+                    .group(item_group.ESSENCE)));
     public static final Item SEED_EARTH = registerItem("vanilla/seed_earth", new
             T0_block(T0__crops.CROP_EARTH,
             new FabricItemSettings()
-                    .group(item_group.SEEDS)));
+                    .group(item_group.ESSENCE)));
     public static final Item SEED_FIRE = registerItem("vanilla/seed_fire", new
             T0_block(T0__crops.CROP_FIRE,
             new FabricItemSettings()
-                    .group(item_group.SEEDS)));
+                    .group(item_group.ESSENCE)));
     public static final Item SEED_WATER = registerItem("vanilla/seed_water", new
             T0_block(T0__crops.CROP_WATER,
             new FabricItemSettings()
-                    .group(item_group.SEEDS)));
+                    .group(item_group.ESSENCE)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), item);

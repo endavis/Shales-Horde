@@ -13,23 +13,23 @@ public class m_T5__seeds {
     public static final Item SEED_ANTIMONY = registerItem("modded/seed_antimony", new
             T5_block(m_T5__crops.CROP_ANTIMONY,
             new FabricItemSettings()
-                    .group(item_group.SEEDS)));
+                    .group(item_group.ESSENCE)));
     public static final Item SEED_IRIDIUM = registerItem("modded/seed_iridium", new
             T5_block(m_T5__crops.CROP_IRIDIUM,
             new FabricItemSettings()
-                    .group(item_group.SEEDS)));
+                    .group(item_group.ESSENCE)));
     public static final Item SEED_PLATINUM = registerItem("modded/seed_platinum", new
             T5_block(m_T5__crops.CROP_PLATINUM,
             new FabricItemSettings()
-                    .group(item_group.SEEDS)));
+                    .group(item_group.ESSENCE)));
     public static final Item SEED_TERMINITE = registerItem("modded/seed_terminite", new
             T5_block(m_T5__crops.CROP_TERMINITE,
             new FabricItemSettings()
-                    .group(item_group.SEEDS)));
+                    .group(item_group.ESSENCE)));
     public static final Item SEED_URANIUM = registerItem("modded/seed_uranium", new
             T5_block(m_T5__crops.CROP_URANIUM,
             new FabricItemSettings()
-                    .group(item_group.SEEDS)));
+                    .group(item_group.ESSENCE)));
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), item);
     }

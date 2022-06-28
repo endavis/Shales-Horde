@@ -15,8 +15,4 @@ public class item_group {
             () -> new ItemStack(blocks_ores.DRAGONSTONE_DEEPSLATE_ORE));
     public static final ItemGroup ESSENCE = FabricItemGroupBuilder.build(new Identifier(Main.ID, "essence"),
             () -> new ItemStack(T2__essence.ESSENCE_AMETHYST));
-    public static final ItemGroup SEEDS = FabricItemGroupBuilder.build(new Identifier(Main.ID, "seed"),
-            () -> new ItemStack(T2__seeds.SEED_AMETHYST.asItem()));
-    public static final ItemGroup MISC = FabricItemGroupBuilder.build(new Identifier(Main.ID, "misc"),
-            () -> new ItemStack(gemstones.TIER1));
 }

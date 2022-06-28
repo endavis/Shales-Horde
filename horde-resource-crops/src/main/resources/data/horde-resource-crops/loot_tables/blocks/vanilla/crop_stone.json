@@ -67,7 +67,7 @@
       "conditions": [
         {
           "condition": "minecraft:block_state_property",
-          "block": "horde-resource-crops:vanilla/crop_stonestone",
+          "block": "horde-resource-crops:vanilla/crop_stone",
           "properties": {
             "age": "7"
           }

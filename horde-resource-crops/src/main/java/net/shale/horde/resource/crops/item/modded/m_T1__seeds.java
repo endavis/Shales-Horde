@@ -13,7 +13,7 @@ public class m_T1__seeds {
     public static final Item SEED_SKY_STONE = registerItem("modded/seed_sky_stone", new
             T1_block(m_T1__crops.CROP_SKY_STONE,
             new FabricItemSettings()
-                    .group(item_group.SEEDS)));
+                    .group(item_group.ESSENCE)));
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), item);
     }

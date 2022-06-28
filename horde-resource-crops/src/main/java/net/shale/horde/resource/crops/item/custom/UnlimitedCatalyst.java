@@ -15,7 +15,7 @@ import java.util.List;
 
 public class UnlimitedCatalyst extends RemainderItem {
     public UnlimitedCatalyst() {
-        super(new FabricItemSettings().group(item_group.MISC).maxDamage(1000), false);
+        super(new FabricItemSettings().group(item_group.ORES).maxDamage(1000), false);
     }
 
     public boolean hasGlint(ItemStack stack) {

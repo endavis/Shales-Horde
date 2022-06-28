@@ -15,7 +15,7 @@ import java.util.List;
 
 public class LimitedCatalyst extends RemainderItem {
     public LimitedCatalyst() {
-        super(new FabricItemSettings().group(item_group.MISC).maxDamage(1000), true);
+        super(new FabricItemSettings().group(item_group.ORES).maxDamage(1000), true);
     }
 
     @Override

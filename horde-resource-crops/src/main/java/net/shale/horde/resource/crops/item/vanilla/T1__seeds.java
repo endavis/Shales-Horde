@@ -13,23 +13,23 @@ public class T1__seeds {
     public static final Item SEED_DEEPSLATE = registerItem("vanilla/seed_deepslate", new
             T1_block(T1__crops.CROP_DEEPSLATE,
             new FabricItemSettings()
-                    .group(item_group.SEEDS)));
+                    .group(item_group.ESSENCE)));
     public static final Item SEED_DIRT = registerItem("vanilla/seed_dirt", new
             T1_block(T1__crops.CROP_DIRT,
             new FabricItemSettings()
-                    .group(item_group.SEEDS)));
+                    .group(item_group.ESSENCE)));
     public static final Item SEED_ICE = registerItem("vanilla/seed_ice", new
             T1_block(T1__crops.CROP_ICE,
             new FabricItemSettings()
-                    .group(item_group.SEEDS)));
+                    .group(item_group.ESSENCE)));
     public static final Item SEED_STONE = registerItem("vanilla/seed_stone", new
             T1_block(T1__crops.CROP_STONE,
             new FabricItemSettings()
-                    .group(item_group.SEEDS)));
+                    .group(item_group.ESSENCE)));
     public static final Item SEED_WOOD = registerItem("vanilla/seed_wood", new
             T1_block(T1__crops.CROP_WOOD,
             new FabricItemSettings()
-                    .group(item_group.SEEDS)));
+                    .group(item_group.ESSENCE)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), item);
