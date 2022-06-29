@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TIT",
+    "ICI",
+    "TIT"
+  ],
+  "key": {
+    "C": {
+      "item": "horde-resource-crops:vanilla/seed_bismuth"
+    },
+    "T": {
+      "item": "horde-resource-crops:gemstones/chaorite"
+    },
+    "I": {
+      "item": "minecraft:dragon_egg"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:vanilla/seed_dragon_egg",
+    "count": 1
+  }
+}

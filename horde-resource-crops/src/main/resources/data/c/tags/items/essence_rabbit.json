@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:rabbit",
+    "minecraft:rabbit_hide",
+    "minecraft:rabbit_foot"
+  ]
+}

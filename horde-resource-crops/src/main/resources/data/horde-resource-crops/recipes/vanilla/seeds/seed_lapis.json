@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TIT",
+    "ICI",
+    "TIT"
+  ],
+  "key": {
+    "C": {
+      "item": "horde-resource-crops:vanilla/seed_dragonstone_overworld"
+    },
+    "T": {
+      "item": "horde-resource-crops:gemstones/aragonite"
+    },
+    "I": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:vanilla/seed_lapis",
+    "count": 1
+  }
+}

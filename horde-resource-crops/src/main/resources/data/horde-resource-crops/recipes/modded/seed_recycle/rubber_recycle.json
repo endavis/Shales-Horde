@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "horde-resource-crops:modded/seed_rubber"
+  },
+  "result": "horde-resource-crops:modded/essence_rubber",
+  "experience": 0.1,
+  "cookingtime": 200
+}

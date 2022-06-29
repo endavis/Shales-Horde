@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "horde-resource-crops:vanilla/seed_coral",
+    "horde-resource-crops:vanilla/seed_creeper",
+    "horde-resource-crops:vanilla/seed_honey",
+    "horde-resource-crops:vanilla/seed_lapis",
+    "horde-resource-crops:vanilla/seed_rabbit",
+    "horde-resource-crops:vanilla/seed_sheep",
+    "horde-resource-crops:vanilla/seed_skeleton",
+    "horde-resource-crops:vanilla/seed_slime",
+    "horde-resource-crops:vanilla/seed_spider",
+    "horde-resource-crops:vanilla/seed_squid",
+    "horde-resource-crops:vanilla/seed_turtle",
+    "horde-resource-crops:vanilla/seed_zombie"
+  ]
+}

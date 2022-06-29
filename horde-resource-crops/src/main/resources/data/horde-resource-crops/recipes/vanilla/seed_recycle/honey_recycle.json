@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "horde-resource-crops:vanilla/seed_honey"
+  },
+  "result": "horde-resource-crops:vanilla/essence_honey",
+  "experience": 0.1,
+  "cookingtime": 200
+}

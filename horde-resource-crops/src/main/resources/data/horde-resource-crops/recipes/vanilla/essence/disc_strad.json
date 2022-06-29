@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BC ",
+    "SD ",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "horde-resource-crops:other/blank_disc"
+    },
+    "C": {
+      "item": "horde-resource-crops:vanilla/essence_creeper"
+    },
+    "S": {
+      "item": "horde-resource-crops:vanilla/essence_skeleton"
+    },
+    "D": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "result": {
+    "item": "minecraft:music_disc_strad",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "net.shale.horde.resource.crops.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ItemMix",
+    "ShapedRecipeMix"
+  ]
+}

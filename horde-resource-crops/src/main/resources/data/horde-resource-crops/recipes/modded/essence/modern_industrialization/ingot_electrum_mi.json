@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:modded/essence_electrum"
+    }
+  },
+  "result": {
+    "item": "modern_industrialization:electrum_ingot",
+    "count": 6
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "horde-resource-crops:ores/raw_rhodonite",
+    "horde-resource-crops:ores/rhodonite_overworld_ore",
+    "horde-resource-crops:ores/rhodonite_deepslate_ore",
+    "horde-resource-crops:ores/rhodonite_nether_ore",
+    "horde-resource-crops:ores/rhodonite_end_ore"
+  ]
+}

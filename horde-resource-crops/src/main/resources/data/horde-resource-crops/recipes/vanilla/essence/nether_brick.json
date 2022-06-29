@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "# #",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:vanilla/essence_stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:nether_brick",
+    "count": 8
+  }
+}

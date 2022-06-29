@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "horde-resource-crops:dragonstone_overworld"
+  },
+  "result": "horde-resource-crops:ores/dragonstone_overworld",
+  "experience": 0.1,
+  "cookingtime": 100
+}

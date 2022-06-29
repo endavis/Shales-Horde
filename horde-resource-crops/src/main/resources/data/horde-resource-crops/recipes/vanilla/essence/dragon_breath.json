@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "horde-resource-crops:vanilla/essence_dragon_egg"
+    }
+  ],
+  "result": {
+    "item": "minecraft:dragon_breath",
+    "count": 1
+  }
+}

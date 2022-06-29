@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:modded/essence_lead"
+    }
+  },
+  "result": {
+    "item": "indrev:lead_ingot",
+    "count": 6
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "horde-resource-crops:gemstones/aventurine"
+    }
+  ],
+  "result": {
+    "item": "horde-resource-crops:gemstones/rhodonite",
+    "count": 4
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TIT",
+    "ICI",
+    "TIT"
+  ],
+  "key": {
+    "C": {
+      "item": "horde-resource-crops:vanilla/seed_bismuth"
+    },
+    "T": {
+      "item": "horde-resource-crops:gemstones/chaorite"
+    },
+    "I": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:vanilla/seed_nether_star",
+    "count": 1
+  }
+}

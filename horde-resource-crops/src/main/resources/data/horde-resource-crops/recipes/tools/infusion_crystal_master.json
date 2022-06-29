@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#A#",
+    "ADA",
+    "#A#"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:gemstones/larimar"
+    },
+    "A": {
+      "tag": "c:dragonstone"
+    },
+    "D": {
+      "item": "horde-resource-crops:gemstones/larimar_diamond"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:gemstones/larimar_catalyst",
+    "count": 1
+  }
+}

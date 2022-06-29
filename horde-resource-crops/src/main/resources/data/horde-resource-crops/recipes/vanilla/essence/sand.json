@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C",
+    "C#"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:vanilla/essence_fire"
+    },
+    "C": {
+      "item": "horde-resource-crops:vanilla/essence_dirt"
+    }
+  },
+  "result": {
+    "item": "minecraft:sand",
+    "count": 16
+  }
+}

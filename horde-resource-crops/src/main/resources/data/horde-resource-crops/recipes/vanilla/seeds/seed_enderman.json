@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TIT",
+    "ICI",
+    "TIT"
+  ],
+  "key": {
+    "C": {
+      "item": "horde-resource-crops:vanilla/seed_dragonstone_bismuth"
+    },
+    "T": {
+      "item": "horde-resource-crops:gemstones/spinel"
+    },
+    "I": {
+      "item": "horde-resource-crops:vanilla/mix_enderman"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:vanilla/seed_enderman",
+    "count": 1
+  }
+}

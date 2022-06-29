@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TIT",
+    "ICI",
+    "TIT"
+  ],
+  "key": {
+    "C": {
+      "item": "horde-resource-crops:vanilla/seed_dragonstone_overworld"
+    },
+    "T": {
+      "item": "horde-resource-crops:gemstones/spinel"
+    },
+    "I": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:vanilla/seed_obsidian",
+    "count": 1
+  }
+}

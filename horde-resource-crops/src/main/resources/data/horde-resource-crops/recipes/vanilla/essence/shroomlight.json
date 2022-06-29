@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:vanilla/essence_nature"
+    },
+    "C": {
+      "item": "horde-resource-crops:vanilla/essence_glowstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:shroomlight",
+    "count": 12
+  }
+}

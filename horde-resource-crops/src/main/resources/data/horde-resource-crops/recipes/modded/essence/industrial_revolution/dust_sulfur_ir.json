@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:modded/essence_sulfur"
+    }
+  },
+  "result": {
+    "item": "indrev:sulfur_dust",
+    "count": 6
+  }
+}

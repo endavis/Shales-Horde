@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TIT",
+    "ICI",
+    "TIT"
+  ],
+  "key": {
+    "C": {
+      "item": "horde-resource-crops:vanilla/seed_bismuth"
+    },
+    "T": {
+      "item": "horde-resource-crops:gemstones/aventurine"
+    },
+    "I": {
+      "item": "horde-resource-crops:vanilla/mix_fish"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:vanilla/seed_fish",
+    "count": 1
+  }
+}

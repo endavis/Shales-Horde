@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:modded/essence_brass"
+    }
+  },
+  "result": {
+    "item": "techreborn:brass_ingot",
+    "count": 6
+  }
+}

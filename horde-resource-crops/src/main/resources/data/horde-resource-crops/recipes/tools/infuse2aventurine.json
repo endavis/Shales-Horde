@@ -1,0 +1,20 @@
+{
+  "type": "horde-resource-crops:fixed",
+  "pattern": [
+    " # ",
+    "#W#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "tag": "horde-resource-crops:ct0"
+    },
+    "W": {
+      "tag": "c:catalysts"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:gemstones/aventurine",
+    "count": 1
+  }
+}

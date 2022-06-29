@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "horde-resource-crops:gemstones/bloodstone",
+    "horde-resource-crops:gemstones/rhodonite",
+    "horde-resource-crops:gemstones/aventurine",
+    "horde-resource-crops:gemstones/aragonite",
+    "horde-resource-crops:gemstones/spinel",
+    "horde-resource-crops:gemstones/larimar",
+    "horde-resource-crops:gemstones/chaorite"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TIT",
+    "ICI",
+    "TIT"
+  ],
+  "key": {
+    "C": {
+      "item": "horde-resource-crops:vanilla/seed_dragonstone_nether"
+    },
+    "T": {
+      "item": "horde-resource-crops:gemstones/larimar"
+    },
+    "I": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:vanilla/seed_nether_quartz",
+    "count": 1
+  }
+}

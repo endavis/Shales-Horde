@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TIT",
+    "ICI",
+    "TIT"
+  ],
+  "key": {
+    "C": {
+      "item": "horde-resource-crops:vanilla/seed_dragonstone_overworld"
+    },
+    "T": {
+      "item": "horde-resource-crops:gemstones/spinel"
+    },
+    "I":[{
+      "tag": "c:rubies"
+    },{
+      "item": "betternether:nether_ruby"
+    }]
+
+  },
+  "result": {
+    "item": "horde-resource-crops:modded/seed_ruby",
+    "count": 1
+  }
+}

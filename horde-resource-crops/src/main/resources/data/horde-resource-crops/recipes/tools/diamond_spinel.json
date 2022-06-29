@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#W#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:gemstones/spinel"
+    },
+    "W": {
+      "item": "horde-resource-crops:gemstones/aragonite_diamond"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:gemstones/spinel_diamond",
+    "count": 1
+  }
+}

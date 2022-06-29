@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "horde-resource-crops:ores/dragonstone_overworld_ore",
+    "horde-resource-crops:ores/raw_dragonstone_overworld"
+  ]
+}

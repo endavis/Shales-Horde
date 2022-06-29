@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#W#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:gemstones/rhodonite"
+    },
+    "W": {
+      "tag": "c:seeds"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:vanilla/seed_rhodonite",
+    "count": 1
+  }
+}

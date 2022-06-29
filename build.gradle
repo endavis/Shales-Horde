@@ -1,7 +1,7 @@
 plugins {
-	id 'java'
-	id 'fabric-loom' version '0.11-SNAPSHOT' apply false
-	id 'maven-publish'
+    id 'java'
+    id 'fabric-loom' version '0.11-SNAPSHOT' apply false
+    id 'maven-publish'
 }
 
 version = project.mod_version
@@ -10,110 +10,110 @@ sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
 
 allprojects { project ->
-	apply plugin: 'fabric-loom'
+    apply plugin: 'fabric-loom'
 
-	sourceCompatibility = JavaVersion.VERSION_17
-	targetCompatibility = JavaVersion.VERSION_17
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 
-	project.version = rootProject.version
-	project.group = rootProject.group
-	project.setBuildDir(rootProject.getBuildDir())
+    project.version = rootProject.version
+    project.group = rootProject.group
+    project.setBuildDir(rootProject.getBuildDir())
 
-	configurations {
-		dev
-	}
+    configurations {
+        dev
+    }
 
-	dependencies {
-		// To change the versions see the gradle.properties file
-		minecraft "com.mojang:minecraft:${project.minecraft_version}"
-		mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
-		modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    dependencies {
+        // To change the versions see the gradle.properties file
+        minecraft "com.mojang:minecraft:${project.minecraft_version}"
+        mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+        modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-		// Fabric API. This is technically optional, but you probably want it anyway.
-		modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	}
+        // Fabric API. This is technically optional, but you probably want it anyway.
+        modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    }
 
-	repositories {
-		mavenCentral()
+    repositories {
+        mavenCentral()
 
-		//Curse
-		maven {
-			url = uri("https://cursemaven.com")
-			content {
-				includeGroup("curse.maven")
-			}
-		}
-	}
+        //Curse
+        maven {
+            url = uri("https://cursemaven.com")
+            content {
+                includeGroup("curse.maven")
+            }
+        }
+    }
 
-	jar {
-		// enabled = false
-	}
+    jar {
+        // enabled = false
+    }
 
-	prepareRemapJar {
-		// enabled = false
-	}
+    prepareRemapJar {
+        // enabled = false
+    }
 
-	remapJar {
-		// enabled = false
-	}
+    remapJar {
+        // enabled = false
+    }
 
-	remapSourcesJar{
-		// enabled = false
-	}
+    remapSourcesJar {
+        // enabled = false
+    }
 
-	task sourcesJar(type: Jar, dependsOn: classes) {
-		classifier = 'sources'
-		// java.withSourcesJar()
-		from project.sourceSets.main.allSource.srcDirs
-	}
+    task sourcesJar(type: Jar, dependsOn: classes) {
+        classifier = 'sources'
+        // java.withSourcesJar()
+        from project.sourceSets.main.allSource.srcDirs
+    }
 
 
-	processResources {
-		inputs.property "version", project.version
+    processResources {
+        inputs.property "version", project.version
 
-		filesMatching("fabric.mod.json") {
-			expand "version": project.version
-		}
-	}
+        filesMatching("fabric.mod.json") {
+            expand "version": project.version
+        }
+    }
 
-	build.dependsOn(sourcesJar, remapSourcesJar)
+    build.dependsOn(sourcesJar, remapSourcesJar)
 }
 
 processResources {
-	inputs.property "version", project.version
+    inputs.property "version", project.version
 
-	filesMatching("fabric.mod.json") {
-		expand "version": project.version
-	}
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version
+    }
 }
 
 subprojects {
 //	runClient {
 //		enabled = false
 //	}
-	runServer {
-		enabled = false
-	}
+    runServer {
+        enabled = false
+    }
 }
 
 jar {
-	enabled = false
+    enabled = false
 }
 
 sourcesJar {
-	enabled = false
+    enabled = false
 }
 
-prepareRemapJar{
-	enabled = false
+prepareRemapJar {
+    enabled = false
 }
 
 remapJar {
-	enabled = false
+    enabled = false
 }
 
 remapSourcesJar {
-	enabled = false
+    enabled = false
 }
 
 dependencies {
@@ -121,7 +121,7 @@ dependencies {
 //		shade project(path: ":${it.name}", configuration: 'shadow')
 //	}
 
-	// Runtime Only Dependencies
-	//modRuntime libs.fabric_language_kotlin
-	//modRuntime libs.hermes
+    // Runtime Only Dependencies
+    //modRuntime libs.fabric_language_kotlin
+    //modRuntime libs.hermes
 }

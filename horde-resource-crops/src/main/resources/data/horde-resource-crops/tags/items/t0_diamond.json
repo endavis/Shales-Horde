@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "horde-resource-crops:gemstones/bloodstone_diamond",
+    "horde-resource-crops:gemstones/rhodonite_diamond"
+  ]
+}

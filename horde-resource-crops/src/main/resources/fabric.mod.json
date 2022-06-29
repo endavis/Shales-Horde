@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "horde-resource-crops",
   "version": "${version}",
-  "name": "Shale's Resource Crops",
+  "name": "Shale's Horde: Crystal Garden",
   "description": "",
   "authors": [],
   "contact": {},
@@ -11,12 +11,15 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "net.shale.horde.resourcecrops.Client"
+      "net.shale.horde.resource.crops.Client"
     ],
     "main": [
-      "net.shale.horde.resourcecrops.Main"
+      "net.shale.horde.resource.crops.Main"
     ]
   },
+  "mixins": [
+    "horde-resource-crops.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "horde-resource-crops:vanilla/seed_dye",
+    "horde-resource-crops:vanilla/seed_emerald",
+    "horde-resource-crops:vanilla/seed_enderman",
+    "horde-resource-crops:vanilla/seed_experience",
+    "horde-resource-crops:vanilla/seed_gold",
+    "horde-resource-crops:vanilla/seed_nature",
+    "horde-resource-crops:vanilla/seed_obsidian",
+    "horde-resource-crops:vanilla/seed_prismarine",
+    "horde-resource-crops:vanilla/seed_redstone"
+  ]
+}

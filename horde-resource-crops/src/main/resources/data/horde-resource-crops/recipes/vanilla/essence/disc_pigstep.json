@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BC ",
+    "SD ",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "horde-resource-crops:other/blank_disc"
+    },
+    "C": {
+      "item": "horde-resource-crops:vanilla/essence_nether"
+    },
+    "S": {
+      "item": "horde-resource-crops:vanilla/essence_netherite"
+    },
+    "D": {
+      "item": "horde-resource-crops:vanilla/essence_gold"
+    }
+  },
+  "result": {
+    "item": "minecraft:music_disc_pigstep",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#G#",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:vanilla/essence_squid"
+    },
+    "G": {
+      "item": "horde-resource-crops:vanilla/essence_glowstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:glow_ink_sac",
+    "count": 6
+  }
+}

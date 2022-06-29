@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:modded/essence_sky_stone"
+    },
+    "C": {
+      "item": "horde-resource-crops:vanilla/essence_coal"
+    }
+  },
+  "result": {
+    "item": "ae2:sky_stone_block",
+    "count": 20
+  }
+}
