@@ -16,7 +16,7 @@ import net.shale.horde.backpack.render.BackpackRenderer;
 
 public abstract class Putdown extends BackpackRenderer {
     public Putdown(Settings settings) {
-        super(settings);
+        super(settings.maxCount(1));
     }
     protected abstract BlockState getBlock();
 

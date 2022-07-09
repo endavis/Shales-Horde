@@ -1,12 +1,16 @@
 package net.shale.horde.backpack.block;
 
-import net.minecraft.block.*;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.ShapeContext;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.DirectionProperty;
 import net.minecraft.state.property.Properties;
-import net.minecraft.util.*;
+import net.minecraft.util.ActionResult;
+import net.minecraft.util.BlockMirror;
+import net.minecraft.util.BlockRotation;
 import net.minecraft.util.function.BooleanBiFunction;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
@@ -16,7 +20,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.stream.Stream;
 
-public abstract class BackpackBlock extends test{
+public abstract class BackpackBlock extends Block {
     public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
 
     private static final VoxelShape SHAPE_N = Stream.of(
@@ -186,4 +190,7 @@ public abstract class BackpackBlock extends test{
     }
 
     public abstract ActionResult useOnBlock(ItemUsageContext context);
+
+    // ↓ ENTITY BULLSHIT ↓ //
+    // ↑ ENTITY BULLSHIT ↑ //
 }
