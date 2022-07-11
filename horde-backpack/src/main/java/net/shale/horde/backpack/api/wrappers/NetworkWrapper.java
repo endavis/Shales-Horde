@@ -10,7 +10,6 @@ import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
 import net.minecraft.util.math.BlockPos;
 import net.shale.horde.backpack.api.inventory.AbstractHandler;
 import ninjaphenix.container_library.api.v2.OpenableBlockEntityV2;
