@@ -1,20 +1,21 @@
 package net.shale.horde.origins;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import net.minecraft.block.Material;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class items {
     public static final Item GOGGLES =
             registerItem("goggles",
-                    new Item(new FabricItemSettings()
-                            .group(ItemGroup.COMBAT)));
+                    new ArmorItem(ArmorMaterials.IRON, EquipmentSlot.HEAD,
+                            new Item.Settings().group(ItemGroup.TOOLS)));
     public static final Item GOGGLES_TRINKET = 
             registerItem("goggles_trinket",
-                    new Item(new FabricItemSettings()
-            .group(ItemGroup.COMBAT)));
+                    new ArmorItem(ArmorMaterials.IRON, EquipmentSlot.HEAD,
+                            new Item.Settings().group(ItemGroup.TOOLS)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), item);
