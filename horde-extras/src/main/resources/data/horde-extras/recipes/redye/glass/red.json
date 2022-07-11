@@ -6,15 +6,20 @@
     "###"
   ],
   "key": {
-    "#": {
-      "tag": "c:glass_blocks"
-    },
+    "#": [
+      {
+        "item": "minecraft:glass"
+      },
+      {
+        "tag": "c:stained_glass_blocks"
+      }
+    ],
     "W": {
       "item": "minecraft:red_dye"
+    },
+    "result": {
+      "item": "minecraft:red_stained_glass",
+      "count": 8
     }
-  },
-  "result": {
-    "item": "minecraft:red_stained_glass",
-    "count": 8
   }
 }

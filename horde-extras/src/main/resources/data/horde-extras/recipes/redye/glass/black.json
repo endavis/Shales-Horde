@@ -6,9 +6,12 @@
     "###"
   ],
   "key": {
-    "#": {
-      "tag": "c:glass_blocks"
+    "#": [{
+      "item": "minecraft:glass"
     },
+      {
+        "tag": "c:stained_glass_blocks"
+      }],
     "W": {
       "item": "minecraft:black_dye"
     }
