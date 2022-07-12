@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "horde-resource-crops:ores/raw_bismuth"
+  },
+  "result": "horde-resource-crops:ores/bismuth",
+  "experience": 0.1,
+  "cookingtime": 100
+}
