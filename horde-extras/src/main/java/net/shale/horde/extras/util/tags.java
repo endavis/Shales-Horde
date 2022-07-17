@@ -1,11 +1,11 @@
-package net.shale.horde.extras.util;
+package net.shale.horde.armoury.util;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.tag.TagKey;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import net.shale.horde.extras.Main;
+import net.shale.horde.armoury.Main;
 
 public class tags {
     public static class Blocks {

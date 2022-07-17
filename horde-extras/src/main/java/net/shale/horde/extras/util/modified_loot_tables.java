@@ -1,4 +1,4 @@
-package net.shale.horde.extras.util;
+package net.shale.horde.armoury.util;
 
 import net.fabricmc.fabric.api.loot.v1.FabricLootPoolBuilder;
 import net.fabricmc.fabric.api.loot.v1.event.LootTableLoadingCallback;
