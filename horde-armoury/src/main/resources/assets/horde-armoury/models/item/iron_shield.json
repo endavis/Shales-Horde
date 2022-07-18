@@ -5,6 +5,14 @@
 	"textures": {
 		"0": "horde-armoury:item/iron_shield"
 	},
+	"overrides": [
+		{
+			"predicate": {
+				"blocking": 1
+			},
+			"model": "horde-armoury:item/iron_shield_blocking"
+		}
+	],
 	"elements": [
 		{
 			"name": "up",

@@ -1,18 +1,10 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "fabricshieldlib:item/fabric_shield",
+	"parent": "fabricshieldlib:item/fabric_shield_blocking",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "horde-armoury:item/gold_shield"
+		"0": "horde-armoury:item/netherite_shield"
 	},
-	"overrides": [
-		{
-			"predicate": {
-				"blocking": 1
-			},
-			"model": "horde-armoury:item/gold_shield_blocking"
-		}
-	],
 	"elements": [
 		{
 			"name": "up",
