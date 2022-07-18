@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:copper_ingot"
+      "item": "minecraft:netherite_ingot"
     }
   ],
   "result": {
-    "item": "horde_extras:copper_nugget",
+    "item": "horde-extras:netherite_nugget",
     "count": 9
   }
 }

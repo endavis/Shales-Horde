@@ -75,6 +75,18 @@
     },
     {
       "item": "minecraft:shears"
+    },
+    {
+      "item": "minecraft:chain"
+    },
+    {
+      "item": "minecraft:hopper"
+    },
+    {
+      "item": "minecraft:iron_door"
+    },
+    {
+      "item": "minecraft:cauldron"
     }
   ],
   "result": "minecraft:iron_ingot",

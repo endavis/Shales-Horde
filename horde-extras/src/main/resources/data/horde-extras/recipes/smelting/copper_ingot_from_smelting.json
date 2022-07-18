@@ -3,6 +3,9 @@
   "ingredient": [
     {
       "item": "minecraft:spyglass"
+    },
+    {
+      "item": "minecraft:lightning_rod"
     }
   ],
   "result": "minecraft:copper_ingot",
