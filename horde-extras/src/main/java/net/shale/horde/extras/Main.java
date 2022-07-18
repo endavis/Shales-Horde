@@ -2,6 +2,7 @@ package net.shale.horde.extras;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
+import net.shale.horde.extras.items.nuggets;
 import net.shale.horde.extras.util.modified_loot_tables;
 
 public class Main implements ModInitializer {
@@ -14,5 +15,6 @@ public class Main implements ModInitializer {
     @Override
     public void onInitialize() {
         modified_loot_tables.modifyLootTables();
+        nuggets.registerModItems();
     }
 }

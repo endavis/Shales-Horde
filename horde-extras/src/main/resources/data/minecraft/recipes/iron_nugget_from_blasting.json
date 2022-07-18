@@ -48,6 +48,33 @@
     },
     {
       "item": "minecraft:flint_and_steel"
+    },
+    {
+      "item": "minecraft:iron_bars"
+    },
+    {
+      "item": "minecraft:iron_trapdoor"
+    },
+    {
+      "item": "minecraft:iron_horse_armor"
+    },
+    {
+      "item": "minecraft:activator_rail"
+    },
+    {
+      "item": "minecraft:detector_rail"
+    },
+    {
+      "item": "minecraft:rail"
+    },
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "minecraft:compass"
+    },
+    {
+      "item": "minecraft:shears"
     }
   ],
   "result": "minecraft:iron_ingot",
