@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "horde-extras",
-  "version": "1.0.1",
+  "version": "${version}",
   "name": "Shale's Horde - Extras",
   "description": "",
   "authors": [],
