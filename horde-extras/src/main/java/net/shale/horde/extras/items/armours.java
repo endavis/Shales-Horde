@@ -10,7 +10,7 @@ import net.shale.horde.extras.Main;
 
 public class armours {
     public static final Item NETHERITE_HORSE_ARMOR = registerItem("netherite_horse_armor",
-            new HorseArmorItem(15, "netherite", new FabricItemSettings().maxCount(1)
+            new HorseArmorItem(15, "netherite", new FabricItemSettings().fireproof().maxCount(1)
             .group(ItemGroup.MATERIALS)));
 
     private static Item registerItem(String name, Item item) {
