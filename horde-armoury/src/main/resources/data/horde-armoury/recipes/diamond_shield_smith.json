@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "horde-armoury:gold_shield"
+  },
+  "addition": {
+    "item": "minecraft:diamond_ingot"
+  },
+  "result": {
+    "item": "horde-armoury:diamond_shield"
+  }
+}
