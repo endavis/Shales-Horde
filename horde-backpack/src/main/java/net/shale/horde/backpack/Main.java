@@ -6,6 +6,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
+import net.shale.horde.backpack.block.Blocks;
 import net.shale.horde.backpack.registry.*;
 
 public class Main implements ModInitializer {
@@ -29,5 +30,6 @@ public class Main implements ModInitializer {
         BB_DiamondBlockRegistry.registerBlock();
         BB_NetheriteItemRegistry.registerModItems();
         BB_NetheriteBlockRegistry.registerBlock();
+        Blocks.registerBlock();
     }
 }
