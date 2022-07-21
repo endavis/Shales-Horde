@@ -13,7 +13,7 @@ import net.shale.horde.backpack.Main;
 
 public class Blocks {
     public static final Block TEST = registerBlock("test",
-            new Block(FabricBlockSettings.of(Material.STONE)));
+            new TestBlock(FabricBlockSettings.of(Material.STONE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

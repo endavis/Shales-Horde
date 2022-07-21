@@ -31,5 +31,6 @@ public class Main implements ModInitializer {
         BB_NetheriteItemRegistry.registerModItems();
         BB_NetheriteBlockRegistry.registerBlock();
         Blocks.registerBlock();
+        EntityRegistry.registerAllEntities();
     }
 }
