@@ -5,47 +5,24 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.Inventory;
 import net.minecraft.inventory.SimpleInventory;
 import net.minecraft.item.ItemStack;
-import net.minecraft.nbt.NbtCompound;
 import net.minecraft.screen.ScreenHandler;
 import net.minecraft.screen.slot.Slot;
 import net.minecraft.world.World;
 import net.shale.horde.backpack.registry.HordeScreenHandlerRegistry;
-import net.shale.horde.backpack.screen.slots.FuelSlot;
-import net.shale.horde.backpack.screen.slots.ResultSlot;
 
-public class TestBlockScreenHandler extends ScreenHandler{
+public class BackpackScreenHandler extends ScreenHandler {
     private final Inventory inventory;
     private final World world;
-
-    public TestBlockScreenHandler(int syncId, PlayerInventory playerInventory) {
+    public BackpackScreenHandler(int syncId, PlayerInventory playerInventory) {
         this(syncId, playerInventory, new SimpleInventory(54));
     }
-
-    public TestBlockScreenHandler(int syncId, PlayerInventory playerInventory, Inventory inventory) {
-        super(HordeScreenHandlerRegistry.TESTBLOCK_SCREEN_HANDLER, syncId);
-        //checkSize(inventory, 4);
+    public BackpackScreenHandler(int syncId, PlayerInventory playerInventory, Inventory inventory) {
+        super(HordeScreenHandlerRegistry.BACKPACK_SCREEN_HANDLER, syncId);
+        checkSize(inventory, 54);
         this.inventory = inventory;
         this.world = playerInventory.player.world;
         inventory.onOpen(playerInventory.player);
-        int i;
-        int j;
-
-        // Chest Inventory
-        for (i = 0; i < 6; i++) {
-            for (j = 0; j < 9; j++) {
-                this.addSlot(new Slot(inventory, i * 9 + j, 8 + j * 18, -10 + i * 18));
-            }
-        }
-        // Our Slots
-//        this.addSlot(new FuelSlot(inventory, 0, 18, 50));
-//        this.addSlot(new Slot(inventory, 1, 66, 16));
-//        this.addSlot(new Slot(inventory, 2, 66, 50));
-//        this.addSlot(new ResultSlot(inventory, 3, 114, 33));
-
-        addPlayerInventory(playerInventory);
-        addPlayerHotbar(playerInventory);
     }
-
     @Override
     public boolean canUse(PlayerEntity player) {
         return this.inventory.canPlayerUse(player);
@@ -79,14 +56,14 @@ public class TestBlockScreenHandler extends ScreenHandler{
     private void addPlayerInventory(PlayerInventory playerInventory) {
         for (int i = 0; i < 3; ++i) {
             for (int l = 0; l < 9; ++l) {
-                this.addSlot(new Slot(playerInventory, l + i * 9 + 9, 8 + l * 18, 112 + i * 18));
+                this.addSlot(new Slot(playerInventory, l + i * 9 + 9, 8 + l * 18, 86 + i * 18));
             }
         }
     }
 
     private void addPlayerHotbar(PlayerInventory playerInventory) {
         for (int i = 0; i < 9; ++i) {
-            this.addSlot(new Slot(playerInventory, i, 8 + i * 18, 170));
+            this.addSlot(new Slot(playerInventory, i, 8 + i * 18, 144));
         }
     }
 }

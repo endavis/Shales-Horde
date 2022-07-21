@@ -1,26 +1,32 @@
 package net.shale.horde.backpack.block;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.ShapeContext;
+import net.minecraft.block.*;
+import net.minecraft.block.entity.BlockEntity;
+import net.minecraft.block.entity.BlockEntityTicker;
+import net.minecraft.block.entity.BlockEntityType;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemPlacementContext;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
+import net.minecraft.screen.NamedScreenHandlerFactory;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.DirectionProperty;
 import net.minecraft.state.property.Properties;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.BlockMirror;
-import net.minecraft.util.BlockRotation;
+import net.minecraft.util.*;
 import net.minecraft.util.function.BooleanBiFunction;
+import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
+import net.minecraft.world.World;
+import net.shale.horde.backpack.registry.EntityRegistry;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.stream.Stream;
 
-public abstract class BackpackBlock extends Block {
+public abstract class BackpackBlock extends BlockWithEntity implements BlockEntityProvider{
     public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
 
     private static final VoxelShape SHAPE_N = Stream.of(
@@ -192,5 +198,43 @@ public abstract class BackpackBlock extends Block {
     public abstract ActionResult useOnBlock(ItemUsageContext context);
 
     // ↓ ENTITY BULLSHIT ↓ //
+    @Override
+    public BlockRenderType getRenderType(BlockState state) {
+        return BlockRenderType.MODEL;
+    }
+
+    @Nullable
+    @Override
+    public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+        return new BackpackEntity(pos,state);
+    }
+
+    // Drop items after breaking
+//    @Override
+//    public void onStateReplaced(BlockState state, World world, BlockPos pos, BlockState newState, boolean moved) {
+//        if (state.getBlock() != newState.getBlock()) {
+//            BlockEntity blockEntity = world.getBlockEntity(pos);
+//            if (blockEntity instanceof TestBlockEntity) {
+//                ItemScatterer.spawn(world, pos, (TestBlockEntity)blockEntity);
+//                world.updateComparators(pos,this);
+//            }
+//            super.onStateReplaced(state, world, pos, newState, moved);
+//        }
+//    }
+
+    // Open screen handler
+    @Override
+    public ActionResult onUse(BlockState state, World world, BlockPos pos,
+                              PlayerEntity player, Hand hand, BlockHitResult hit) {
+        if (!world.isClient) {
+            NamedScreenHandlerFactory screenHandlerFactory = state.createScreenHandlerFactory(world, pos);
+
+            if (screenHandlerFactory != null) {
+                player.openHandledScreen(screenHandlerFactory);
+            }
+        }
+
+        return ActionResult.SUCCESS;
+    }
     // ↑ ENTITY BULLSHIT ↑ //
 }

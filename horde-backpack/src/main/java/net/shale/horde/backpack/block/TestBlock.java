@@ -1,9 +1,10 @@
 package net.shale.horde.backpack.block;
 
-import net.minecraft.block.*;
+import net.minecraft.block.BlockEntityProvider;
+import net.minecraft.block.BlockRenderType;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.BlockWithEntity;
 import net.minecraft.block.entity.BlockEntity;
-import net.minecraft.block.entity.BlockEntityTicker;
-import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.screen.NamedScreenHandlerFactory;
 import net.minecraft.util.ActionResult;
@@ -12,7 +13,6 @@ import net.minecraft.util.ItemScatterer;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.shale.horde.backpack.registry.EntityRegistry;
 import org.jetbrains.annotations.Nullable;
 
 public class TestBlock extends BlockWithEntity implements BlockEntityProvider {
@@ -60,9 +60,5 @@ public class TestBlock extends BlockWithEntity implements BlockEntityProvider {
     }
 
     // Tickable
-    @Nullable
-    @Override
-    public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
-        return checkType(type, EntityRegistry.TESTBLOCKENTITY, TestBlockEntity::tick);
-    }
+
 }
