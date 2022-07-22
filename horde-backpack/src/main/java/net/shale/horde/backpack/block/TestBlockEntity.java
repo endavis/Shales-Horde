@@ -20,7 +20,7 @@ import org.jetbrains.annotations.Nullable;
 
 public class TestBlockEntity extends BlockEntity implements NamedScreenHandlerFactory, ImplementedInventory {
     private final DefaultedList<ItemStack> inventory =
-            DefaultedList.ofSize(59, ItemStack.EMPTY);
+            DefaultedList.ofSize(54, ItemStack.EMPTY);
 
     public TestBlockEntity(BlockPos pos, BlockState state) {
         super(EntityRegistry.TESTBLOCKENTITY, pos, state);
@@ -29,6 +29,7 @@ public class TestBlockEntity extends BlockEntity implements NamedScreenHandlerFa
     public DefaultedList<ItemStack> getItems() {
         return inventory;
     }
+
 
     @Override
     public Text getDisplayName() {

@@ -13,7 +13,7 @@ import net.shale.horde.backpack.Main;
 
 public class TestBlockScreen extends HandledScreen<TestBlockScreenHandler> {
     private static final Identifier TEXTURE =
-            new Identifier("minecraft", "textures/gui/container/generic_54.png");
+            new Identifier(Main.ID, "textures/gui/generic_54_alt.png");
     private final int backgroundWidth = 176;
     private final int backgroundHeight = 222;
 
@@ -26,9 +26,10 @@ public class TestBlockScreen extends HandledScreen<TestBlockScreenHandler> {
         super.init();
         //titleX = (backgroundWidth - textRenderer.getWidth(title)) / 2;
         titleX = 7;
-        titleY = (int) -22.5;
+        titleY = (int) -12.5;
         playerInventoryTitleX = 7;
-        playerInventoryTitleY = 100;
+        playerInventoryTitleY = 110;
+
     }
 
     @Override
@@ -37,7 +38,7 @@ public class TestBlockScreen extends HandledScreen<TestBlockScreenHandler> {
         RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
         RenderSystem.setShaderTexture(0, TEXTURE);
         int x = (width - backgroundWidth) / 2;
-        int y = (height - backgroundHeight) / 2;
+        int y = (height - backgroundHeight) / 2+10;
         drawTexture(matrices, x, y, 0, 0, backgroundWidth, backgroundHeight);
     }
 

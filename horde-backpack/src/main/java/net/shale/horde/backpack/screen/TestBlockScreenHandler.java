@@ -23,28 +23,53 @@ public class TestBlockScreenHandler extends ScreenHandler{
 
     public TestBlockScreenHandler(int syncId, PlayerInventory playerInventory, Inventory inventory) {
         super(HordeScreenHandlerRegistry.TESTBLOCK_SCREEN_HANDLER, syncId);
-        //checkSize(inventory, 4);
+        checkSize(inventory, 54);
         this.inventory = inventory;
         this.world = playerInventory.player.world;
         inventory.onOpen(playerInventory.player);
         int i;
         int j;
+//        addPlayerHotbar(playerInventory);
+//        addPlayerInventory(playerInventory);
 
         // Chest Inventory
         for (i = 0; i < 6; i++) {
             for (j = 0; j < 9; j++) {
-                this.addSlot(new Slot(inventory, i * 9 + j, 8 + j * 18, -10 + i * 18));
+                this.addSlot(new Slot(inventory, i * 9 + j, 8 + j * 18, 0 + i * 18));
             }
         }
-        // Our Slots
-//        this.addSlot(new FuelSlot(inventory, 0, 18, 50));
-//        this.addSlot(new Slot(inventory, 1, 66, 16));
-//        this.addSlot(new Slot(inventory, 2, 66, 50));
-//        this.addSlot(new ResultSlot(inventory, 3, 114, 33));
-
-        addPlayerInventory(playerInventory);
-        addPlayerHotbar(playerInventory);
+        int m;
+        int l;
+//        //Our inventory
+//        for (m = 0; m < 6; ++m) {
+//            for (l = 0; l < 9; ++l) {
+//                this.addSlot(new Slot(inventory, l + m * 9, 62 + l * 18, -10 + m * 18));
+//            }
+//        }
+        //The player inventory
+        for (m = 0; m < 3; ++m) {
+            for (l = 0; l < 9; ++l) {
+                this.addSlot(new Slot(playerInventory, l + m * 9 + 9, 8 + l * 18, 122 + m * 18));
+            }
+        }
+//        //The player Hotbar
+//        for (m = 0; m < 9; ++m) {
+//            this.addSlot(new Slot(playerInventory, m, 8 + m * 18, 180));
+//        }
     }
+//    private void addPlayerHotbar(PlayerInventory playerInventory) {
+//        for (int i = 0; i < 9; ++i) {
+//            this.addSlot(new Slot(playerInventory, i, 8 + i * 18, 170));
+//        }
+//    }
+//
+//    private void addPlayerInventory(PlayerInventory playerInventory) {
+//        for (int i = 0; i < 3; ++i) {
+//            for (int l = 0; l < 9; ++l) {
+//                this.addSlot(new Slot(playerInventory, l + i * 9 + 9, 8 + l * 18, 112 + i * 18));
+//            }
+//        }
+//    }
 
     @Override
     public boolean canUse(PlayerEntity player) {
@@ -74,19 +99,5 @@ public class TestBlockScreenHandler extends ScreenHandler{
         }
 
         return newStack;
-    }
-
-    private void addPlayerInventory(PlayerInventory playerInventory) {
-        for (int i = 0; i < 3; ++i) {
-            for (int l = 0; l < 9; ++l) {
-                this.addSlot(new Slot(playerInventory, l + i * 9 + 9, 8 + l * 18, 112 + i * 18));
-            }
-        }
-    }
-
-    private void addPlayerHotbar(PlayerInventory playerInventory) {
-        for (int i = 0; i < 9; ++i) {
-            this.addSlot(new Slot(playerInventory, i, 8 + i * 18, 170));
-        }
     }
 }
