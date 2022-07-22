@@ -33,29 +33,29 @@ public class TestBlockScreenHandler extends ScreenHandler{
 //        addPlayerInventory(playerInventory);
 
         // Chest Inventory
-        for (i = 0; i < 6; i++) {
-            for (j = 0; j < 9; j++) {
-                this.addSlot(new Slot(inventory, i * 9 + j, 8 + j * 18, 0 + i * 18));
-            }
-        }
+//        for (i = 0; i < 6; i++) {
+//            for (j = 0; j < 9; j++) {
+//                this.addSlot(new Slot(inventory, i * 9 + j, 8 + j * 18, 0 + i * 18));
+//            }
+//        }
         int m;
         int l;
 //        //Our inventory
-//        for (m = 0; m < 6; ++m) {
-//            for (l = 0; l < 9; ++l) {
-//                this.addSlot(new Slot(inventory, l + m * 9, 62 + l * 18, -10 + m * 18));
-//            }
-//        }
+        for (m = 0; m < 6; ++m) {
+            for (l = 0; l < 9; ++l) {
+                this.addSlot(new Slot(inventory, l + m * 9, 8 + l * 18, -10 + m * 18));
+            }
+        }
         //The player inventory
         for (m = 0; m < 3; ++m) {
             for (l = 0; l < 9; ++l) {
                 this.addSlot(new Slot(playerInventory, l + m * 9 + 9, 8 + l * 18, 122 + m * 18));
             }
         }
-//        //The player Hotbar
-//        for (m = 0; m < 9; ++m) {
-//            this.addSlot(new Slot(playerInventory, m, 8 + m * 18, 180));
-//        }
+        //The player Hotbar
+        for (m = 0; m < 9; ++m) {
+            this.addSlot(new Slot(playerInventory, m, 8 + m * 18, 180));
+        }
     }
 //    private void addPlayerHotbar(PlayerInventory playerInventory) {
 //        for (int i = 0; i < 9; ++i) {
@@ -76,28 +76,28 @@ public class TestBlockScreenHandler extends ScreenHandler{
         return this.inventory.canPlayerUse(player);
     }
 
-    @Override
-    public ItemStack transferSlot(PlayerEntity player, int invSlot) {
-        ItemStack newStack = ItemStack.EMPTY;
-        Slot slot = this.slots.get(invSlot);
-        if (slot != null && slot.hasStack()) {
-            ItemStack originalStack = slot.getStack();
-            newStack = originalStack.copy();
-            if (invSlot < this.inventory.size()) {
-                if (!this.insertItem(originalStack, this.inventory.size(), this.slots.size(), true)) {
-                    return ItemStack.EMPTY;
-                }
-            } else if (!this.insertItem(originalStack, 0, this.inventory.size(), false)) {
-                return ItemStack.EMPTY;
-            }
-
-            if (originalStack.isEmpty()) {
-                slot.setStack(ItemStack.EMPTY);
-            } else {
-                slot.markDirty();
-            }
-        }
-
-        return newStack;
-    }
+//    @Override
+//    public ItemStack transferSlot(PlayerEntity player, int invSlot) {
+//        ItemStack newStack = ItemStack.EMPTY;
+//        Slot slot = this.slots.get(invSlot);
+//        if (slot != null && slot.hasStack()) {
+//            ItemStack originalStack = slot.getStack();
+//            newStack = originalStack.copy();
+//            if (invSlot < this.inventory.size()) {
+//                if (!this.insertItem(originalStack, this.inventory.size(), this.slots.size(), true)) {
+//                    return ItemStack.EMPTY;
+//                }
+//            } else if (!this.insertItem(originalStack, 0, this.inventory.size(), false)) {
+//                return ItemStack.EMPTY;
+//            }
+//
+//            if (originalStack.isEmpty()) {
+//                slot.setStack(ItemStack.EMPTY);
+//            } else {
+//                slot.markDirty();
+//            }
+//        }
+//
+//        return newStack;
+//    }
 }

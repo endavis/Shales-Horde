@@ -13,7 +13,7 @@ import net.shale.horde.backpack.Main;
 
 public class TestBlockScreen extends HandledScreen<TestBlockScreenHandler> {
     private static final Identifier TEXTURE =
-            new Identifier(Main.ID, "textures/gui/generic_54_alt.png");
+            new Identifier(Main.ID, "textures/gui/generic_54.png");
     private final int backgroundWidth = 176;
     private final int backgroundHeight = 222;
 
@@ -38,7 +38,7 @@ public class TestBlockScreen extends HandledScreen<TestBlockScreenHandler> {
         RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
         RenderSystem.setShaderTexture(0, TEXTURE);
         int x = (width - backgroundWidth) / 2;
-        int y = (height - backgroundHeight) / 2+10;
+        int y = (height - backgroundHeight) / 2;
         drawTexture(matrices, x, y, 0, 0, backgroundWidth, backgroundHeight);
     }
 
