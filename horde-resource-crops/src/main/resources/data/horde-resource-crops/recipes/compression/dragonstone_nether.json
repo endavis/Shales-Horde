@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iii",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "horde-resource-crops:ores/dragonstone_nether"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:compressed/dragonstone_nether_block",
+    "count": 1
+  }
+}

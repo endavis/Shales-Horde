@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iii",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "horde-resource-crops:gemstones/larimar"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:compressed/larimar_block",
+    "count": 1
+  }
+}

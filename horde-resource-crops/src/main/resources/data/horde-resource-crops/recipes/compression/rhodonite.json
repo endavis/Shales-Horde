@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iii",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "horde-resource-crops:gemstones/rhodonite"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:compressed/rhodonite_block",
+    "count": 1
+  }
+}

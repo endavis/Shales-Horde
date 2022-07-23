@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iii",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "horde-resource-crops:ores/dragonstone_overworld"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:compressed/dragonstone_overworld_block",
+    "count": 1
+  }
+}

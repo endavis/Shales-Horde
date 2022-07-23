@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iii",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "horde-resource-crops:ores/dragonstone_end"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:compressed/dragonstone_end_block",
+    "count": 1
+  }
+}

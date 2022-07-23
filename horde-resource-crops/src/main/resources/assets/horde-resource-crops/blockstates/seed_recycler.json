@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "horde-resource-crops:block/seed_recycler"
+    }
+  }
+}

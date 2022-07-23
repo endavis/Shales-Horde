@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iii",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "horde-resource-crops:gemstones/aventurine"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:compressed/aventurine_block",
+    "count": 1
+  }
+}

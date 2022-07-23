@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iii",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "horde-resource-crops:gemstones/aragonite"
+    }
+  },
+  "result": {
+    "item": "horde-resource-crops:compressed/aragonite_block",
+    "count": 1
+  }
+}

@@ -10,6 +10,17 @@
     "horde-resource-crops:ores/dragonstone_nether_ore",
     "horde-resource-crops:ores/dragonstone_end_ore",
     "horde-resource-crops:ores/bismuth_blackstone",
-    "horde-resource-crops:ores/bismuth_basalt"
+    "horde-resource-crops:ores/bismuth_basalt",
+    "horde-resource-crops:compressed/dragonstone_overworld_block",
+    "horde-resource-crops:compressed/dragonstone_nether_block",
+    "horde-resource-crops:compressed/dragonstone_end_block",
+    "horde-resource-crops:compressed/bloodstone_block",
+    "horde-resource-crops:compressed/rhodonite_block",
+    "horde-resource-crops:compressed/aventurine_block",
+    "horde-resource-crops:compressed/aragonite_block",
+    "horde-resource-crops:compressed/spinel_block",
+    "horde-resource-crops:compressed/larimar_block",
+    "horde-resource-crops:compressed/charoite_block",
+    "horde-resource-crops:compressed/bismuth_block"
   ]
 }
