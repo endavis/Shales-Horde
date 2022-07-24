@@ -16,6 +16,8 @@ public class tags {
         private static TagKey<Block> createCommonTag(String name) {
             return TagKey.of(Registry.BLOCK_KEY, new Identifier("c", name));
         }
+        public static final TagKey<Block> FERTILE_BLOCKS =
+                createTag("fertile_blocks");
 
     }
 
