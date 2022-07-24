@@ -8,12 +8,12 @@ import net.shale.horde.resource.crops.Main;
 import net.shale.horde.resource.crops.block.entities;
 
 public class EntityRegister {
-    public static BlockEntityType<seed_recycler_entity> SEED_RECYCLER;
+    public static BlockEntityType<recycler_entity> SEED_RECYCLER;
 
     public static void registerAllEntities() {
         SEED_RECYCLER = Registry.register(Registry.BLOCK_ENTITY_TYPE,
-                new Identifier(Main.ID, "seed_recycler"),
-                FabricBlockEntityTypeBuilder.create(seed_recycler_entity::new,
-                        entities.SEED_RECYCLER).build(null));
+                new Identifier(Main.ID, "recycler"),
+                FabricBlockEntityTypeBuilder.create(recycler_entity::new,
+                        entities.RECYCLER).build(null));
     }
 }

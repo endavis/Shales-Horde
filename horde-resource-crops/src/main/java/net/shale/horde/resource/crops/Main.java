@@ -22,6 +22,7 @@ import net.shale.horde.resource.crops.item.other.shards;
 import net.shale.horde.resource.crops.item.vanilla.*;
 import net.shale.horde.resource.crops.util.modified_loot_tables;
 import net.shale.horde.resource.crops.worldgen.*;
+import software.bernie.geckolib3.GeckoLib;
 
 public class Main implements ModInitializer {
     public static final String ID = "horde-resource-crops";
@@ -45,6 +46,7 @@ public class Main implements ModInitializer {
                 Item item = player.getMainHandStack().getItem();
             }
         });
+        GeckoLib.initialize();
         modified_loot_tables.modifyLootTables();
         RecipeManager.registerRecipeSerializers();
         items.registerModItems();

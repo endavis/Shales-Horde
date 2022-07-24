@@ -8,29 +8,29 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.screen.ScreenHandler;
 import net.minecraft.screen.slot.Slot;
 import net.minecraft.world.World;
-import net.shale.horde.resource.crops.screen.slot.fuelslot;
+import net.shale.horde.resource.crops.screen.slot.foodslot;
 import net.shale.horde.resource.crops.screen.slot.resultslot;
 
-public class seed_recycler_screenhandler extends ScreenHandler {
+public class recycler_screenhandler extends ScreenHandler {
     private final Inventory inventory;
     private final World world;
 
-    public seed_recycler_screenhandler(int syncId, PlayerInventory playerInventory) {
+    public recycler_screenhandler(int syncId, PlayerInventory playerInventory) {
         this(syncId, playerInventory, new SimpleInventory(4));
     }
 
-    public seed_recycler_screenhandler(int syncId, PlayerInventory playerInventory, Inventory inventory) {
-        super(ScreenHandlerRegister.SEED_RECYCLER_SCREEN_HANDLER, syncId);
+    public recycler_screenhandler(int syncId, PlayerInventory playerInventory, Inventory inventory) {
+        super(ScreenHandlerRegister.RECYCLER_SCREEN_HANDLER, syncId);
         checkSize(inventory, 4);
         this.inventory = inventory;
         this.world = playerInventory.player.world;
         inventory.onOpen(playerInventory.player);
 
         // Our Slots
-        this.addSlot(new fuelslot(inventory, 0, 18, 50));
-        this.addSlot(new Slot(inventory, 1, 66, 16));
-        this.addSlot(new Slot(inventory, 2, 66, 50));
-        this.addSlot(new resultslot(inventory, 3, 114, 33));
+        this.addSlot(new Slot(inventory, 0, 27, 23));
+        this.addSlot(new foodslot(inventory, 1, 27, 47));
+        this.addSlot(new Slot(inventory, 2, 76, 47));
+        this.addSlot(new resultslot(inventory, 3, 134, 47));
 
         addPlayerInventory(playerInventory);
         addPlayerHotbar(playerInventory);
@@ -69,14 +69,14 @@ public class seed_recycler_screenhandler extends ScreenHandler {
     private void addPlayerInventory(PlayerInventory playerInventory) {
         for (int i = 0; i < 3; ++i) {
             for (int l = 0; l < 9; ++l) {
-                this.addSlot(new Slot(playerInventory, l + i * 9 + 9, 8 + l * 18, 86 + i * 18));
+                this.addSlot(new Slot(playerInventory, l + i * 9 + 9, 8 + l * 18, 84 + i * 18));
             }
         }
     }
 
     private void addPlayerHotbar(PlayerInventory playerInventory) {
         for (int i = 0; i < 9; ++i) {
-            this.addSlot(new Slot(playerInventory, i, 8 + i * 18, 144));
+            this.addSlot(new Slot(playerInventory, i, 8 + i * 18, 142));
         }
     }
 }

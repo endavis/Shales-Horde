@@ -9,12 +9,12 @@ import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.resource.crops.Main;
-import net.shale.horde.resource.crops.block.custom.seed_recycler_block;
+import net.shale.horde.resource.crops.block.custom.recycler_block;
 import net.shale.horde.resource.crops.item.item_group;
 
 public class entities {
-    public static final Block SEED_RECYCLER = registerBlock("seed_recycler",
-            new seed_recycler_block(FabricBlockSettings.of(Material.STONE)
+    public static final Block RECYCLER = registerBlock("recycler",
+            new recycler_block(FabricBlockSettings.of(Material.STONE)
                     .strength(4.0f)
             ));
 

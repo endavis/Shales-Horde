@@ -13,16 +13,15 @@ import net.minecraft.text.LiteralText;
 import net.minecraft.text.Text;
 import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.util.math.BlockPos;
-import net.shale.horde.resource.crops.block.entities;
 import net.shale.horde.resource.crops.inventory.ImplementedInventory;
-import net.shale.horde.resource.crops.screen.seed_recycler_screenhandler;
+import net.shale.horde.resource.crops.screen.recycler_screenhandler;
 import org.jetbrains.annotations.Nullable;
 
-public class seed_recycler_entity extends BlockEntity implements NamedScreenHandlerFactory, ImplementedInventory {
+public class recycler_entity extends BlockEntity implements NamedScreenHandlerFactory, ImplementedInventory {
     private final DefaultedList<ItemStack> inventory =
             DefaultedList.ofSize(4, ItemStack.EMPTY);
 
-    public seed_recycler_entity(BlockPos pos, BlockState state) {
+    public recycler_entity(BlockPos pos, BlockState state) {
         super(EntityRegister.SEED_RECYCLER, pos, state);
     }
 
@@ -33,13 +32,13 @@ public class seed_recycler_entity extends BlockEntity implements NamedScreenHand
 
     @Override
     public Text getDisplayName() {
-        return new LiteralText("Orichalcum Blaster");
+        return new LiteralText("Recycler");
     }
 
     @Nullable
     @Override
     public ScreenHandler createMenu(int syncId, PlayerInventory inv, PlayerEntity player) {
-        return new seed_recycler_screenhandler(syncId, inv, this);
+        return new recycler_screenhandler(syncId, inv, this);
     }
 
     @Override

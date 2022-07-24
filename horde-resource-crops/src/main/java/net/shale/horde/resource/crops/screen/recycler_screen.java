@@ -9,11 +9,11 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.shale.horde.resource.crops.Main;
 
-public class seed_recycler_screen extends HandledScreen<seed_recycler_screenhandler> {
+public class recycler_screen extends HandledScreen<recycler_screenhandler> {
     private static final Identifier TEXTURE =
-            new Identifier(Main.ID, "textures/gui/orichalcum_blaster_gui.png");
+            new Identifier(Main.ID, "textures/gui/recycler.png");
 
-    public seed_recycler_screen(seed_recycler_screenhandler handler, PlayerInventory inventory, Text title) {
+    public recycler_screen(recycler_screenhandler handler, PlayerInventory inventory, Text title) {
         super(handler, inventory, title);
     }
 
