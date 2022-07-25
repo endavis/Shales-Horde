@@ -10,7 +10,8 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.screen.NamedScreenHandlerFactory;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
+//import net.minecraft.text.TranslatableText;
+import net.minecraft.text.TranslatableTextContent;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.Hand;
@@ -67,7 +68,8 @@ public class recycler_block extends BlockWithEntity implements BlockEntityProvid
     }
     @Override
     public void appendTooltip(ItemStack itemStack, BlockView world, List<Text> tooltip, TooltipContext tooltipContext) {
-        tooltip.add(new TranslatableText("tooltip.wip").formatted(Formatting.RED));
+        //tooltip.add(new TranslatableText("tooltip.wip").formatted(Formatting.RED));
+        tooltip.add(Text.translatable("tooltip.wip").formatted(Formatting.RED));
     }
 
 //    @Nullable

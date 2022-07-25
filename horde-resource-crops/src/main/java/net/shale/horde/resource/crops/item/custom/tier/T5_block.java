@@ -4,7 +4,8 @@ import net.minecraft.block.Block;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.text.LiteralText;
+//import net.minecraft.text.LiteralText;
+import net.minecraft.text.LiteralTextContent;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import net.minecraft.world.World;
@@ -21,6 +22,7 @@ public class T5_block extends AliasedBlockItem {
 
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         super.appendTooltip(stack, world, tooltip, context);
-        tooltip.add(new LiteralText("Tier: 5").formatted(Formatting.AQUA));
+        //tooltip.add(new LiteralText("Tier: 5").formatted(Formatting.AQUA));
+        tooltip.add(Text.literal("Tier: 5").formatted(Formatting.AQUA));
     }
 }

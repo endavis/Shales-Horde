@@ -2,4 +2,5 @@ archivesBaseName = "horde-resource-crops"
 
 repositories {maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }}
 
-dependencies {modImplementation 'software.bernie.geckolib:geckolib-fabric-1.18:3.0.51'}
+//dependencies {modImplementation 'software.bernie.geckolib:geckolib-fabric-1.18:3.0.51'}
+dependencies {modImplementation 'software.bernie.geckolib:geckolib-fabric-1.19:3.1.6'}

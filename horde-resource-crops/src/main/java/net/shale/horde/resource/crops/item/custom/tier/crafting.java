@@ -3,8 +3,10 @@ package net.shale.horde.resource.crops.item.custom.tier;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.text.LiteralText;
+//import net.minecraft.text.LiteralText;
+import net.minecraft.text.LiteralTextContent;
 import net.minecraft.text.Text;
+import net.minecraft.text.TranslatableTextContent;
 import net.minecraft.util.Formatting;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
@@ -18,6 +20,7 @@ public class crafting extends Item {
 
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         super.appendTooltip(stack, world, tooltip, context);
-        tooltip.add(new LiteralText("Crafting Material").formatted(Formatting.YELLOW));
+        //tooltip.add(new LiteralText("Crafting Material").formatted(Formatting.YELLOW));
+        tooltip.add(Text.literal("Crafting Material").formatted(Formatting.YELLOW));
     }
 }

@@ -46,12 +46,12 @@ public abstract class crop_block extends CropBlock implements Fertilizable {
     @Override
     protected abstract ItemConvertible getSeedsItem();
 
-    @Override
-    public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
-        if (random.nextInt(3) != 0) {
-            super.randomTick(state, world, pos, random);
-        }
-    }
+//    @Override
+//    public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
+//        if (random.nextInt(3) != 0) {
+//            super.randomTick(state, world, pos, random);
+//        }
+//    }
     @Override
     protected int getGrowthAmount(World world) {
         int i = super.getGrowthAmount(world) / 7;

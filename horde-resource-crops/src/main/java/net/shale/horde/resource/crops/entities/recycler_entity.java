@@ -9,8 +9,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.screen.NamedScreenHandlerFactory;
 import net.minecraft.screen.ScreenHandler;
-import net.minecraft.text.LiteralText;
+//import net.minecraft.text.LiteralText;
+import net.minecraft.text.LiteralTextContent;
 import net.minecraft.text.Text;
+import net.minecraft.text.TranslatableTextContent;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.util.math.BlockPos;
 import net.shale.horde.resource.crops.inventory.ImplementedInventory;
@@ -32,7 +35,8 @@ public class recycler_entity extends BlockEntity implements NamedScreenHandlerFa
 
     @Override
     public Text getDisplayName() {
-        return new LiteralText("Recycler");
+        //return new LiteralText("Recycler");
+        return Text.literal("Recycler");
     }
 
     @Nullable
