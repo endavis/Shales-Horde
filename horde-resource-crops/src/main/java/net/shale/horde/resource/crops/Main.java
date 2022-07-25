@@ -47,7 +47,7 @@ public class Main implements ModInitializer {
                 Item item = player.getMainHandStack().getItem();
             }
         });
-        GeckoLib.initialize();
+        //GeckoLib.initialize();
         modified_loot_tables.modifyLootTables();
         RecipeManager.registerRecipeSerializers();
         items.registerModItems();

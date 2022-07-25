@@ -31,21 +31,21 @@ public abstract class CropBlockMixin extends Block {
         cir.setReturnValue(cir.getReturnValue() || floor.getBlock() instanceof FarmlandBlock);
     }
 
-    private boolean repeat = true;
-
-    @Shadow
-    public abstract void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random);
-
-    @Inject(method = "randomTick", at = @At("HEAD"))
-    public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random, CallbackInfo ci) {
-        if (world.getBlockState(pos.down()).getBlock() == farmlands.RHODONITE_FARMLAND && repeat) {
-            repeat = false;
-            randomTick(state, world, pos, random);
-        }
-    }
-
-    @Inject(method = "randomTick", at = @At("TAIL"))
-    public void cancelRandomTick(BlockState state, ServerWorld world, BlockPos pos, Random random, CallbackInfo ci) {
-        repeat = true;
-    }
+//    private boolean repeat = true;
+//
+//    @Shadow
+//    public abstract void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random);
+//
+//    @Inject(method = "randomTick", at = @At("HEAD"))
+//    public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random, CallbackInfo ci) {
+//        if (world.getBlockState(pos.down()).getBlock() == farmlands.RHODONITE_FARMLAND && repeat) {
+//            repeat = false;
+//            randomTick(state, world, pos, random);
+//        }
+//    }
+//
+//    @Inject(method = "randomTick", at = @At("TAIL"))
+//    public void cancelRandomTick(BlockState state, ServerWorld world, BlockPos pos, Random random, CallbackInfo ci) {
+//        repeat = true;
+//    }
 }
