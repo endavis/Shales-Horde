@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_farmland",
+  "textures": {
+    "dirt": "horde-resource-crops:block/farmland/aragonite_dirt",
+    "top": "horde-resource-crops:block/farmland/aragonite_moist"
+  }
+}

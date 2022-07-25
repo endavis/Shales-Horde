@@ -5,16 +5,24 @@ import net.minecraft.block.BlockRenderType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.BlockWithEntity;
 import net.minecraft.block.entity.BlockEntity;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ItemStack;
 import net.minecraft.screen.NamedScreenHandlerFactory;
+import net.minecraft.text.Text;
+import net.minecraft.text.TranslatableText;
 import net.minecraft.util.ActionResult;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.Hand;
 import net.minecraft.util.ItemScatterer;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.shale.horde.resource.crops.entities.recycler_entity;
 import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class recycler_block extends BlockWithEntity implements BlockEntityProvider {
     public recycler_block(Settings settings) {
@@ -56,6 +64,10 @@ public class recycler_block extends BlockWithEntity implements BlockEntityProvid
     @Override
     public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
         return new recycler_entity(pos, state);
+    }
+    @Override
+    public void appendTooltip(ItemStack itemStack, BlockView world, List<Text> tooltip, TooltipContext tooltipContext) {
+        tooltip.add(new TranslatableText("tooltip.wip").formatted(Formatting.RED));
     }
 
 //    @Nullable

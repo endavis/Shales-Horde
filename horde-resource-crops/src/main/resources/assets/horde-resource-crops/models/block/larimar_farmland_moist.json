@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_farmland",
+  "textures": {
+    "dirt": "horde-resource-crops:block/farmland/larimar_dirt",
+    "top": "horde-resource-crops:block/farmland/larimar_moist"
+  }
+}

@@ -13,10 +13,30 @@ import net.shale.horde.resource.crops.block.custom.Farmland_Test;
 import net.shale.horde.resource.crops.block.custom.recycler_block;
 import net.shale.horde.resource.crops.item.item_group;
 
-public class entities {
-    public static final Block RECYCLER = registerBlock("recycler",
-            new recycler_block(FabricBlockSettings.of(Material.STONE)
-                    .strength(4.0f)
+public class farmlands {
+    public static final Block RHODONITE_FARMLAND = registerBlock("rhodonite_farmland",
+            new Farmland_Test(FabricBlockSettings.of(Material.SOIL)
+                    .strength(4.0f).nonOpaque()
+            ));
+    public static final Block AVENTURINE_FARMLAND = registerBlock("aventurine_farmland",
+            new Farmland_Test(FabricBlockSettings.of(Material.SOIL)
+                    .strength(4.0f).nonOpaque()
+            ));
+    public static final Block ARAGONITE_FARMLAND = registerBlock("aragonite_farmland",
+            new Farmland_Test(FabricBlockSettings.of(Material.SOIL)
+                    .strength(4.0f).nonOpaque()
+            ));
+    public static final Block SPINEL_FARMLAND = registerBlock("spinel_farmland",
+            new Farmland_Test(FabricBlockSettings.of(Material.SOIL)
+                    .strength(4.0f).nonOpaque()
+            ));
+    public static final Block LARIMAR_FARMLAND = registerBlock("larimar_farmland",
+            new Farmland_Test(FabricBlockSettings.of(Material.SOIL)
+                    .strength(4.0f).nonOpaque()
+            ));
+    public static final Block CHAROITE_FARMLAND = registerBlock("charoite_farmland",
+            new Farmland_Test(FabricBlockSettings.of(Material.SOIL)
+                    .strength(4.0f).nonOpaque()
             ));
 
     private static Block registerBlockWithoutBlockItem(String name, Block block) {

@@ -5,6 +5,7 @@ import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.resource.crops.Main;
+import net.shale.horde.resource.crops.block.custom.placeholder_texture_item;
 import net.shale.horde.resource.crops.item.custom.LimitedCatalyst;
 import net.shale.horde.resource.crops.item.custom.UnlimitedCatalyst;
 import net.shale.horde.resource.crops.item.item_group;
@@ -25,9 +26,9 @@ public class gemstones {
             .group(item_group.ORES)));
     public static final Item DRAGONSTONE_END_GEM = registerItem("gemstones/dragonstone_end_diamond", new Item(new FabricItemSettings()
             .group(item_group.ORES)));
-    public static final Item BISMUTH = registerItem("ores/bismuth", new Item(new FabricItemSettings()
+    public static final Item BISMUTH = registerItem("ores/bismuth", new placeholder_texture_item(new FabricItemSettings()
             .group(item_group.ORES)));
-    public static final Item BISMUTH_GEM = registerItem("gemstones/bismuth_diamond", new Item(new FabricItemSettings()
+    public static final Item BISMUTH_GEM = registerItem("gemstones/bismuth_diamond", new placeholder_texture_item(new FabricItemSettings()
             .group(item_group.ORES)));
     public static final Item TIER0 = registerItem("gemstones/bloodstone", new Item(new FabricItemSettings()
             .group(item_group.ORES)));

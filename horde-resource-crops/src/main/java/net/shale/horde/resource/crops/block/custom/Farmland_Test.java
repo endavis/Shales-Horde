@@ -3,16 +3,22 @@ package net.shale.horde.resource.crops.block.custom;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.FarmlandBlock;
-import net.minecraft.server.world.ServerWorld;
+import net.minecraft.client.item.TooltipContext;
+import net.minecraft.item.ItemStack;
 import net.minecraft.state.property.IntProperty;
 import net.minecraft.state.property.Properties;
-import net.minecraft.tag.FluidTags;
+import net.minecraft.text.LiteralText;
+import net.minecraft.text.Text;
+import net.minecraft.text.TranslatableText;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
-import net.minecraft.world.WorldView;
+import net.minecraft.world.BlockView;
+import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
 
-import java.util.Iterator;
-import java.util.Random;
+import java.util.List;
+import java.util.logging.Level;
 
 public class Farmland_Test extends FarmlandBlock {
     public static final IntProperty MOISTURE = Properties.MOISTURE;
@@ -23,31 +29,8 @@ public class Farmland_Test extends FarmlandBlock {
         this.setDefaultState(this.getDefaultState().with(MOISTURE, 0));
     }
 
-    private static boolean isWaterNearby(WorldView world, BlockPos pos) {
-        Iterator var2 = BlockPos.iterate(pos.add(-4, 0, -4), pos.add(4, 1, 4)).iterator();
-
-        BlockPos blockPos;
-        do {
-            if (!var2.hasNext()) {
-                return false;
-            }
-
-            blockPos = (BlockPos)var2.next();
-        } while(!world.getFluidState(blockPos).isIn(FluidTags.WATER));
-
-        return true;
-    }
     @Override
-    public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
-        int moisture = state.get(MOISTURE);
-
-        if (!isWaterNearby(world, pos) && !world.hasRain(pos.up())) {
-            if (moisture > 0) {
-                world.setBlockState(pos, state.with(MOISTURE, moisture - 1), 2);
-            }
-        } else if (moisture < 7) {
-            world.setBlockState(pos, state.with(MOISTURE, 7), 2);
-        }
+    public void appendTooltip(ItemStack itemStack, BlockView world, List<Text> tooltip, TooltipContext tooltipContext) {
+        tooltip.add(new TranslatableText("tooltip.wip").formatted(Formatting.RED));
     }
-
 }

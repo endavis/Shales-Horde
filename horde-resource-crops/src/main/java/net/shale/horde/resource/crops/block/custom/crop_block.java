@@ -51,9 +51,7 @@ public abstract class crop_block extends CropBlock implements Fertilizable {
         if (random.nextInt(3) != 0) {
             super.randomTick(state, world, pos, random);
         }
-
     }
-
     @Override
     protected int getGrowthAmount(World world) {
         int i = super.getGrowthAmount(world) / 7;

@@ -10,6 +10,7 @@ import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.Identifier;
 import net.shale.horde.resource.crops.Recipe.RecipeManager;
 import net.shale.horde.resource.crops.block.entities;
+import net.shale.horde.resource.crops.block.farmlands;
 import net.shale.horde.resource.crops.block.modded.*;
 import net.shale.horde.resource.crops.block.ores.blocks_ores;
 import net.shale.horde.resource.crops.block.ores.compressed_blocks;
@@ -58,6 +59,7 @@ public class Main implements ModInitializer {
         //blocks_misc.registerBlock();
         compressed_blocks.registerBlock();
         entities.registerBlock();
+        farmlands.registerBlock();
         T0__crops.registerBlock();
         T0__seeds.registerModItems();
         T0__essence.registerModItems();

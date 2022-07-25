@@ -353,5 +353,16 @@
   "comment8:": "Extras",
   "item.horde-resource-crops.other.withered_bone": "Withered Bone",
   "item.horde-resource-crops.other.blank_disc": "Blank Disc",
-  "comment9:": "Tooltips"
+  "comment9:": "Farmlands",
+  "block.horde-resource-crops.rhodonite_farmland": "Rhodonite Farmland",
+  "block.horde-resource-crops.aventurine_farmland": "Aventurine Farmland",
+  "block.horde-resource-crops.aragonite_farmland": "Aragonite Farmland",
+  "block.horde-resource-crops.spinel_farmland": "Spinel Farmland",
+  "block.horde-resource-crops.larimar_farmland": "Larimar Farmland",
+  "block.horde-resource-crops.charoite_farmland": "Charoite Farmland",
+  "comment10:": "Tooltips",
+  "tooltip.wip": "Unimplemented",
+  "tooltip.texture": "Placeholder Texture",
+  "comment11:": "Machines",
+  "block.horde-resource-crops.recycler": "Recycler"
 }
