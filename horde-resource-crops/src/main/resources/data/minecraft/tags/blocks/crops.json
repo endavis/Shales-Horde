@@ -85,6 +85,9 @@
     "horde-resource-crops:modded/crop_uranium",
     "horde-resource-crops:modded/crop_aeternium",
     "horde-resource-crops:modded/crop_shadow_steel",
-    "horde-resource-crops:modded/crop_refined_radiance"
+    "horde-resource-crops:modded/crop_refined_radiance",
+    "horde-resource-crops:modded/crop_gobber",
+    "horde-resource-crops:modded/crop_gobber_nether",
+    "horde-resource-crops:modded/crop_gobber_end"
   ]
 }

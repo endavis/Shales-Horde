@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "horde-resource-crops:modded/essence_gobber_nether"
+    }
+  },
+  "result": {
+    "item": "gobber2:gobber2_globette_nether",
+    "count": 4
+  }
+}

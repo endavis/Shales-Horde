@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TIT",
+    "ICI",
+    "TIT"
+  ],
+  "key": {
+    "C": {
+      "item": "horde-resource-crops:vanilla/seed_dragonstone_end"
+    },
+    "T": {
+      "item": "horde-resource-crops:gemstones/chaorite"
+    },
+    "I":
+      {
+        "item": "gobber2:gobber2_ingot_end"
+      }
+  },
+  "result": {
+    "item": "horde-resource-crops:modded/seed_gobber_end",
+    "count": 1
+  }
+}

@@ -22,6 +22,18 @@ public class m_T6__seeds {
             T6_block(m_T6__crops.CROP_SHADOW_STEEL,
             new FabricItemSettings()
                     .group(item_group.ESSENCE)));
+    public static final Item SEED_GOBBER = registerItem("modded/seed_gobber", new
+            T6_block(m_T6__crops.CROP_GOBBER,
+            new FabricItemSettings()
+                    .group(item_group.ESSENCE)));
+    public static final Item SEED_GOBBER_NETHER = registerItem("modded/seed_gobber_nether", new
+            T6_block(m_T6__crops.CROP_GOBBER_NETHER,
+            new FabricItemSettings()
+                    .group(item_group.ESSENCE)));                    
+    public static final Item SEED_GOBBER_END = registerItem("modded/seed_gobber_end", new
+            T6_block(m_T6__crops.CROP_GOBBER_END,
+            new FabricItemSettings()
+                    .group(item_group.ESSENCE)));      
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), item);

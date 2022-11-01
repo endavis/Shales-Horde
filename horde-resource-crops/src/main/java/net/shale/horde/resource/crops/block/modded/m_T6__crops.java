@@ -21,6 +21,15 @@ public class m_T6__crops {
     public static final Block CROP_SHADOW_STEEL = registerBlockWithoutBlockItem("modded/crop_shadow_steel",
             new m_T6_shadow_steel_crop(FabricBlockSettings.copy(Blocks.WHEAT)
             ));
+    public static final Block CROP_GOBBER = registerBlockWithoutBlockItem("modded/crop_gobber",
+            new m_T6_gobber_crop(FabricBlockSettings.copy(Blocks.WHEAT)
+            ));
+    public static final Block CROP_GOBBER_NETHER = registerBlockWithoutBlockItem("modded/crop_gobber_nether",
+            new m_T6_gobber_nether_crop(FabricBlockSettings.copy(Blocks.WHEAT)
+            ));
+    public static final Block CROP_GOBBER_END = registerBlockWithoutBlockItem("modded/crop_gobber_end",
+            new m_T6_gobber_nether_crop(FabricBlockSettings.copy(Blocks.WHEAT)
+            ));
 
     private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registry.BLOCK, new Identifier(Main.ID, name), block);

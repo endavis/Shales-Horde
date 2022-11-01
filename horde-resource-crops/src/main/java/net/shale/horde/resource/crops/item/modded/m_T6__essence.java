@@ -14,6 +14,12 @@ public class m_T6__essence {
             .group(item_group.ESSENCE)));
     public static final Item ESSENCE_SHADOW_STEEL = registerItem("modded/essence_shadow_steel", new Item(new FabricItemSettings()
             .group(item_group.ESSENCE)));
+    public static final Item ESSENCE_GOBBER = registerItem("modded/essence_gobber", new Item(new FabricItemSettings()
+            .group(item_group.ESSENCE)));
+    public static final Item ESSENCE_GOBBER_NETHER = registerItem("modded/essence_gobber_nether", new Item(new FabricItemSettings()
+            .group(item_group.ESSENCE)));
+    public static final Item ESSENCE_GOBBER_END = registerItem("modded/essence_gobber_end", new Item(new FabricItemSettings()
+            .group(item_group.ESSENCE)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), item);

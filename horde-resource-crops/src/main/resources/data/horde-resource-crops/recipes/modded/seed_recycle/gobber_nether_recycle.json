@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "horde-resource-crops:modded/seed_gobber_nether"
+  },
+  "result": "horde-resource-crops:modded/essence_gobber_nether",
+  "experience": 0.1,
+  "cookingtime": 100
+}
