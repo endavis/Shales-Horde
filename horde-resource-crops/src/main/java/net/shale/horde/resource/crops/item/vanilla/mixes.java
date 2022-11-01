@@ -31,6 +31,8 @@ public class mixes {
             .group(item_group.ESSENCE)));
     public static final Item MIX_SPIDER = registerItem("vanilla/mix_spider", new crafting(new FabricItemSettings()
             .group(item_group.ESSENCE)));
+    public static final Item MIX_SQUID = registerItem("vanilla/mix_squid", new crafting(new FabricItemSettings()
+            .group(item_group.ESSENCE)));            
     public static final Item MIX_TURTLE = registerItem("vanilla/mix_turtle", new crafting(new FabricItemSettings()
             .group(item_group.ESSENCE)));
     public static final Item MIX_ZOMBIE = registerItem("vanilla/mix_zombie", new crafting(new FabricItemSettings()
