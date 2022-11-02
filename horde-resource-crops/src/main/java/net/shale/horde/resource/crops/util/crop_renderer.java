@@ -93,6 +93,9 @@ public class crop_renderer {
         BlockRenderLayerMap.INSTANCE.putBlock(m_T5__crops.CROP_TERMINITE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(m_T5__crops.CROP_URANIUM, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(m_T6__crops.CROP_AETERNIUM, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T6__crops.CROP_GOBBER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T6__crops.CROP_GOBBER_END, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(m_T6__crops.CROP_GOBBER_NETHER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(m_T6__crops.CROP_REFINED_RADIANCE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(m_T6__crops.CROP_SHADOW_STEEL, RenderLayer.getCutout());
     }
