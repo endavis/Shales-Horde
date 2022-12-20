@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "# #",
-    " # ",
-    "   "
+    "#  ",
+    "#  ",
+    "# #"
   ],
   "key": {
     "#": {
@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "minecraft:orange_dye",
-    "count": 6
+    "item": "minecraft:cyan_dye",
+    "count": 8
   }
 }
